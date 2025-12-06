@@ -1,6 +1,10 @@
-# 📱 Kids Learning - Application Android
-
-Une application Android éducative pour aider les enfants à apprendre les alphabets arabe et français.
+<div align="center">
+  <img src="app/src/main/res/drawable/ic_kids_logo.png" alt="Kids Learning Logo" width="200"/>
+  
+  # 📱 Kids Learning - Application Android
+  
+  Une application Android éducative pour aider les enfants à apprendre les alphabets arabe et français.
+</div>
 
 ## 🎯 Fonctionnalités
 
