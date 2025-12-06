@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Placeholder pour les polices personnalisées -->
+    <string name="font_family_comic_sans" translatable="false">sans-serif</string>
+</resources>

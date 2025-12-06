@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Padding & Margins -->
+    <dimen name="margin_small">8dp</dimen>
+    <dimen name="margin_medium">16dp</dimen>
+    <dimen name="margin_large">24dp</dimen>
+    <dimen name="margin_xlarge">32dp</dimen>
+    
+    <!-- Text Sizes -->
+    <dimen name="text_size_small">14sp</dimen>
+    <dimen name="text_size_medium">18sp</dimen>
+    <dimen name="text_size_large">24sp</dimen>
+    <dimen name="text_size_xlarge">32sp</dimen>
+    <dimen name="text_size_huge">48sp</dimen>
+    
+    <!-- Letter Sizes -->
+    <dimen name="letter_item_size">80dp</dimen>
+    <dimen name="letter_display_size">200dp</dimen>
+    
+    <!-- Button Sizes -->
+    <dimen name="button_height">56dp</dimen>
+    <dimen name="icon_button_size">64dp</dimen>
+    
+    <!-- Card -->
+    <dimen name="card_corner_radius">16dp</dimen>
+    <dimen name="card_elevation">4dp</dimen>
+    
+    <!-- Drawing -->
+    <dimen name="stroke_width">12dp</dimen>
+</resources>

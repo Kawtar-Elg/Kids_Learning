@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.KidsLearning" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/primary_blue</item>
+        <item name="colorPrimaryVariant">@color/primary_dark</item>
+        <item name="colorOnPrimary">@color/white</item>
+        
+        <item name="colorSecondary">@color/accent_yellow</item>
+        <item name="colorSecondaryVariant">@color/accent_orange</item>
+        <item name="colorOnSecondary">@color/text_primary</item>
+        
+        <item name="android:statusBarColor">@color/primary_blue</item>
+        <item name="android:windowBackground">@color/background_light</item>
+        
+        <item name="fontFamily">@font/comic_sans</item>
+    </style>
+
+    <!-- Button Styles -->
+    <style name="ButtonPrimary" parent="Widget.MaterialComponents.Button">
+        <item name="android:layout_height">@dimen/button_height</item>
+        <item name="android:textSize">@dimen/text_size_large</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="backgroundTint">@color/primary_blue</item>
+        <item name="cornerRadius">@dimen/card_corner_radius</item>
+        <item name="android:textAllCaps">false</item>
+    </style>
+
+    <style name="LetterCard" parent="Widget.MaterialComponents.CardView">
+        <item name="cardCornerRadius">@dimen/card_corner_radius</item>
+        <item name="cardElevation">@dimen/card_elevation</item>
+        <item name="cardBackgroundColor">@color/card_background</item>
+        <item name="android:layout_margin">@dimen/margin_small</item>
+    </style>
+
+    <style name="TitleText">
+        <item name="android:textSize">@dimen/text_size_xlarge</item>
+        <item name="android:textColor">@color/text_primary</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="LetterText">
+        <item name="android:textSize">@dimen/text_size_huge</item>
+        <item name="android:textColor">@color/primary_blue</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:gravity">center</item>
+    </style>
+</resources>

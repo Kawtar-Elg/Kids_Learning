@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Kids Learning</string>
+    <string name="welcome_title">Bienvenue!</string>
+    <string name="choose_language">Choisis ton alphabet</string>
+    <string name="arabic_alphabet">الحروف العربية</string>
+    <string name="french_alphabet">Alphabet Français</string>
+    <string name="start_learning">Commencer</string>
+    <string name="tap_letter">Touche une lettre!</string>
+    <string name="draw_letter">Trace la lettre</string>
+    <string name="clear">Effacer</string>
+    <string name="repeat_sound">Répéter</string>
+    <string name="back">Retour</string>
+    <string name="well_done">Bravo!</string>
+    <string name="try_again">Recommence</string>
+</resources>
