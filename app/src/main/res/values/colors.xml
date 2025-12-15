@@ -1,35 +1,70 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!-- Primary Colors -->
-    <color name="primary_blue">#4A90E2</color>
-    <color name="primary_light">#7BB3FF</color>
-    <color name="primary_dark">#2E5F8D</color>
-    
-    <!-- Accent Colors -->
-    <color name="accent_yellow">#FFD54F</color>
-    <color name="accent_green">#66BB6A</color>
-    <color name="accent_orange">#FFA726</color>
-    <color name="accent_red">#EF5350</color>
-    <color name="accent_purple">#AB47BC</color>
-    
-    <!-- Background Colors -->
-    <color name="background_light">#F5F9FF</color>
+    <!-- Candy Primary Colors - Bright and Fun! -->
+    <color name="primary_blue">#5B9BD5</color>
+    <color name="primary_light">#87CEEB</color>
+    <color name="primary_dark">#4169E1</color>
+
+    <!-- Rainbow Accent Colors - Super Playful! -->
+    <color name="accent_yellow">#FFE066</color>
+    <color name="accent_green">#7ED957</color>
+    <color name="accent_orange">#FF9A56</color>
+    <color name="accent_red">#FF6B6B</color>
+    <color name="accent_purple">#C77DFF</color>
+    <color name="accent_pink">#FF8FAB</color>
+    <color name="accent_cyan">#72DDF7</color>
+    <color name="accent_lime">#B8F83A</color>
+
+    <!-- Card Rainbow Colors for Letter Cards -->
+    <color name="card_red">#FF6B6B</color>
+    <color name="card_orange">#FFA94D</color>
+    <color name="card_yellow">#FFE066</color>
+    <color name="card_green">#69DB7C</color>
+    <color name="card_blue">#74C0FC</color>
+    <color name="card_purple">#DA77F2</color>
+    <color name="card_pink">#FAA2C1</color>
+    <color name="card_cyan">#66D9E8</color>
+
+    <!-- Gradient Start/End Colors -->
+    <color name="gradient_start_pink">#FFB6C1</color>
+    <color name="gradient_end_purple">#DDA0DD</color>
+    <color name="gradient_start_yellow">#FFFACD</color>
+    <color name="gradient_end_orange">#FFE4B5</color>
+    <color name="gradient_start_blue">#B0E0E6</color>
+    <color name="gradient_end_cyan">#E0FFFF</color>
+
+    <!-- Fun Background Colors - Soft and Cute -->
+    <color name="background_light">#FFF8F0</color>
     <color name="background_white">#FFFFFF</color>
+    <color name="background_cream">#FFFBF0</color>
+    <color name="background_soft_pink">#FFF0F5</color>
+    <color name="background_soft_blue">#F0F8FF</color>
     <color name="card_background">#FFFFFF</color>
-    
-    <!-- Text Colors -->
-    <color name="text_primary">#2C3E50</color>
+
+    <!-- Toolbar Fun Colors -->
+    <color name="toolbar_arabic">#7ED957</color>
+    <color name="toolbar_french">#74C0FC</color>
+
+    <!-- Text Colors - Kid-Friendly -->
+    <color name="text_primary">#4A4A4A</color>
     <color name="text_secondary">#7F8C8D</color>
-    
-    <!-- Drawing Colors -->
-    <color name="drawing_stroke">#2196F3</color>
-    <color name="letter_guide">#BDBDBD</color>
-    
-    <!-- Status -->
-    <color name="success">#4CAF50</color>
-    <color name="error">#F44336</color>
-    
+    <color name="text_fun">#FF6B9D</color>
+
+    <!-- Drawing Colors - Bright! -->
+    <color name="drawing_stroke">#FF6B9D</color>
+    <color name="letter_guide">#E0E0E0</color>
+
+    <!-- Status - Friendly -->
+    <color name="success">#7ED957</color>
+    <color name="error">#FF6B6B</color>
+
     <!-- Material defaults -->
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+
+    <!-- Bubble/Decoration Colors -->
+    <color name="bubble_yellow">#FFE066</color>
+    <color name="bubble_pink">#FFB6C1</color>
+    <color name="bubble_blue">#87CEEB</color>
+    <color name="star_gold">#FFD700</color>
 </resources>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android"
+    android:interpolator="@android:anim/accelerate_decelerate_interpolator">
+
+    <!-- Float up and down -->
+    <translate
+        android:fromYDelta="0%"
+        android:toYDelta="-5%"
+        android:duration="2500"
+        android:repeatCount="infinite"
+        android:repeatMode="reverse" />
+
+    <!-- Gentle sway -->
+    <rotate
+        android:fromDegrees="-5"
+        android:toDegrees="5"
+        android:pivotX="50%"
+        android:pivotY="0%"
+        android:duration="1500"
+        android:repeatCount="infinite"
+        android:repeatMode="reverse" />
+</set>

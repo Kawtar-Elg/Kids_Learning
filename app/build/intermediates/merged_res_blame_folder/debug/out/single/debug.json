@@ -1,0 +1,206 @@
+[
+    {
+        "merged": "com.kidslearning.app-merged_res-39:/anim_float_slow.xml.flat",
+        "source": "com.kidslearning.app-main-41:/anim/float_slow.xml"
+    },
+    {
+        "merged": "com.kidslearning.app-merged_res-39:/anim_float_sideways.xml.flat",
+        "source": "com.kidslearning.app-main-41:/anim/float_sideways.xml"
+    },
+    {
+        "merged": "com.kidslearning.app-merged_res-39:/drawable_bg_card_french.xml.flat",
+        "source": "com.kidslearning.app-main-41:/drawable/bg_card_french.xml"
+    },
+    {
+        "merged": "com.kidslearning.app-merged_res-39:/font_comic_sans.xml.flat",
+        "source": "com.kidslearning.app-main-41:/font/comic_sans.xml"
+    },
+    {
+        "merged": "com.kidslearning.app-merged_res-39:/layout_item_onboarding_page.xml.flat",
+        "source": "com.kidslearning.app-main-41:/layout/item_onboarding_page.xml"
+    },
+    {
+        "merged": "com.kidslearning.app-merged_res-39:/layout_activity_alphabet.xml.flat",
+        "source": "com.kidslearning.app-main-41:/layout/activity_alphabet.xml"
+    },
+    {
+        "merged": "com.kidslearning.app-merged_res-39:/anim_rotate_sun.xml.flat",
+        "source": "com.kidslearning.app-main-41:/anim/rotate_sun.xml"
+    },
+    {
+        "merged": "com.kidslearning.app-merged_res-39:/xml_backup_rules.xml.flat",
+        "source": "com.kidslearning.app-main-41:/xml/backup_rules.xml"
+    },
+    {
+        "merged": "com.kidslearning.app-merged_res-39:/drawable_ic_balloon.xml.flat",
+        "source": "com.kidslearning.app-main-41:/drawable/ic_balloon.xml"
+    },
+    {
+        "merged": "com.kidslearning.app-merged_res-39:/drawable_ic_sun.xml.flat",
+        "source": "com.kidslearning.app-main-41:/drawable/ic_sun.xml"
+    },
+    {
+        "merged": "com.kidslearning.app-merged_res-39:/drawable_ic_language.xml.flat",
+        "source": "com.kidslearning.app-main-41:/drawable/ic_language.xml"
+    },
+    {
+        "merged": "com.kidslearning.app-merged_res-39:/drawable_bg_letter_card.xml.flat",
+        "source": "com.kidslearning.app-main-41:/drawable/bg_letter_card.xml"
+    },
+    {
+        "merged": "com.kidslearning.app-merged_res-39:/drawable_bg_circle_french.xml.flat",
+        "source": "com.kidslearning.app-main-41:/drawable/bg_circle_french.xml"
+    },
+    {
+        "merged": "com.kidslearning.app-merged_res-39:/drawable_bg_toolbar_arabic.xml.flat",
+        "source": "com.kidslearning.app-main-41:/drawable/bg_toolbar_arabic.xml"
+    },
+    {
+        "merged": "com.kidslearning.app-merged_res-39:/drawable_bg_button_fun.xml.flat",
+        "source": "com.kidslearning.app-main-41:/drawable/bg_button_fun.xml"
+    },
+    {
+        "merged": "com.kidslearning.app-merged_res-39:/anim_bubble_rise.xml.flat",
+        "source": "com.kidslearning.app-main-41:/anim/bubble_rise.xml"
+    },
+    {
+        "merged": "com.kidslearning.app-merged_res-39:/anim_fade_slide_up.xml.flat",
+        "source": "com.kidslearning.app-main-41:/anim/fade_slide_up.xml"
+    },
+    {
+        "merged": "com.kidslearning.app-merged_res-39:/anim_heart_beat.xml.flat",
+        "source": "com.kidslearning.app-main-41:/anim/heart_beat.xml"
+    },
+    {
+        "merged": "com.kidslearning.app-merged_res-39:/drawable_indicator_inactive.xml.flat",
+        "source": "com.kidslearning.app-main-41:/drawable/indicator_inactive.xml"
+    },
+    {
+        "merged": "com.kidslearning.app-merged_res-39:/drawable_ic_star.xml.flat",
+        "source": "com.kidslearning.app-main-41:/drawable/ic_star.xml"
+    },
+    {
+        "merged": "com.kidslearning.app-merged_res-39:/drawable_ic_heart.xml.flat",
+        "source": "com.kidslearning.app-main-41:/drawable/ic_heart.xml"
+    },
+    {
+        "merged": "com.kidslearning.app-merged_res-39:/layout_activity_drawing.xml.flat",
+        "source": "com.kidslearning.app-main-41:/layout/activity_drawing.xml"
+    },
+    {
+        "merged": "com.kidslearning.app-merged_res-39:/drawable_ic_rainbow.xml.flat",
+        "source": "com.kidslearning.app-main-41:/drawable/ic_rainbow.xml"
+    },
+    {
+        "merged": "com.kidslearning.app-merged_res-39:/drawable_indicator_active.xml.flat",
+        "source": "com.kidslearning.app-main-41:/drawable/indicator_active.xml"
+    },
+    {
+        "merged": "com.kidslearning.app-merged_res-39:/drawable_ic_clear.xml.flat",
+        "source": "com.kidslearning.app-main-41:/drawable/ic_clear.xml"
+    },
+    {
+        "merged": "com.kidslearning.app-merged_res-39:/anim_sparkle.xml.flat",
+        "source": "com.kidslearning.app-main-41:/anim/sparkle.xml"
+    },
+    {
+        "merged": "com.kidslearning.app-merged_res-39:/layout_activity_onboarding.xml.flat",
+        "source": "com.kidslearning.app-main-41:/layout/activity_onboarding.xml"
+    },
+    {
+        "merged": "com.kidslearning.app-merged_res-39:/layout_item_letter.xml.flat",
+        "source": "com.kidslearning.app-main-41:/layout/item_letter.xml"
+    },
+    {
+        "merged": "com.kidslearning.app-merged_res-39:/drawable_ic_back.xml.flat",
+        "source": "com.kidslearning.app-main-41:/drawable/ic_back.xml"
+    },
+    {
+        "merged": "com.kidslearning.app-merged_res-39:/drawable_ic_sparkle.xml.flat",
+        "source": "com.kidslearning.app-main-41:/drawable/ic_sparkle.xml"
+    },
+    {
+        "merged": "com.kidslearning.app-merged_res-39:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "com.kidslearning.app-main-41:/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "com.kidslearning.app-merged_res-39:/drawable_ic_kids_logo.png.flat",
+        "source": "com.kidslearning.app-main-41:/drawable/ic_kids_logo.png"
+    },
+    {
+        "merged": "com.kidslearning.app-merged_res-39:/anim_scale_up.xml.flat",
+        "source": "com.kidslearning.app-main-41:/anim/scale_up.xml"
+    },
+    {
+        "merged": "com.kidslearning.app-merged_res-39:/anim_bounce_button.xml.flat",
+        "source": "com.kidslearning.app-main-41:/anim/bounce_button.xml"
+    },
+    {
+        "merged": "com.kidslearning.app-merged_res-39:/anim_pulse_star.xml.flat",
+        "source": "com.kidslearning.app-main-41:/anim/pulse_star.xml"
+    },
+    {
+        "merged": "com.kidslearning.app-merged_res-39:/drawable_bg_gradient_rainbow.xml.flat",
+        "source": "com.kidslearning.app-main-41:/drawable/bg_gradient_rainbow.xml"
+    },
+    {
+        "merged": "com.kidslearning.app-merged_res-39:/drawable_bg_bubble_blue.xml.flat",
+        "source": "com.kidslearning.app-main-41:/drawable/bg_bubble_blue.xml"
+    },
+    {
+        "merged": "com.kidslearning.app-merged_res-39:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "com.kidslearning.app-main-41:/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "com.kidslearning.app-merged_res-39:/anim_float_up_down.xml.flat",
+        "source": "com.kidslearning.app-main-41:/anim/float_up_down.xml"
+    },
+    {
+        "merged": "com.kidslearning.app-merged_res-39:/drawable_bg_bubble_pink.xml.flat",
+        "source": "com.kidslearning.app-main-41:/drawable/bg_bubble_pink.xml"
+    },
+    {
+        "merged": "com.kidslearning.app-merged_res-39:/drawable_bg_card_arabic.xml.flat",
+        "source": "com.kidslearning.app-main-41:/drawable/bg_card_arabic.xml"
+    },
+    {
+        "merged": "com.kidslearning.app-merged_res-39:/drawable_bg_bubble_yellow.xml.flat",
+        "source": "com.kidslearning.app-main-41:/drawable/bg_bubble_yellow.xml"
+    },
+    {
+        "merged": "com.kidslearning.app-merged_res-39:/anim_balloon_sway.xml.flat",
+        "source": "com.kidslearning.app-main-41:/anim/balloon_sway.xml"
+    },
+    {
+        "merged": "com.kidslearning.app-merged_res-39:/font_roboto_regular.xml.flat",
+        "source": "com.kidslearning.app-main-41:/font/roboto_regular.xml"
+    },
+    {
+        "merged": "com.kidslearning.app-merged_res-39:/drawable_ic_cloud.xml.flat",
+        "source": "com.kidslearning.app-main-41:/drawable/ic_cloud.xml"
+    },
+    {
+        "merged": "com.kidslearning.app-merged_res-39:/xml_data_extraction_rules.xml.flat",
+        "source": "com.kidslearning.app-main-41:/xml/data_extraction_rules.xml"
+    },
+    {
+        "merged": "com.kidslearning.app-merged_res-39:/drawable_bg_circle_arabic.xml.flat",
+        "source": "com.kidslearning.app-main-41:/drawable/bg_circle_arabic.xml"
+    },
+    {
+        "merged": "com.kidslearning.app-merged_res-39:/drawable_ic_sound.xml.flat",
+        "source": "com.kidslearning.app-main-41:/drawable/ic_sound.xml"
+    },
+    {
+        "merged": "com.kidslearning.app-merged_res-39:/layout_activity_main.xml.flat",
+        "source": "com.kidslearning.app-main-41:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.kidslearning.app-merged_res-39:/anim_slide_in_right.xml.flat",
+        "source": "com.kidslearning.app-main-41:/anim/slide_in_right.xml"
+    },
+    {
+        "merged": "com.kidslearning.app-merged_res-39:/drawable_bg_toolbar_fun.xml.flat",
+        "source": "com.kidslearning.app-main-41:/drawable/bg_toolbar_fun.xml"
+    }
+]

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="64dp"
+    android:height="64dp"
+    android:viewportWidth="64"
+    android:viewportHeight="64">
+    <!-- Sun center -->
+    <path
+        android:fillColor="#FFE066"
+        android:pathData="M32,32m-14,0a14,14 0,1 1,28 0a14,14 0,1 1,-28 0" />
+    <!-- Sun rays -->
+    <path
+        android:fillColor="#FFD93D"
+        android:pathData="M32,4 L34,14 L30,14 Z" />
+    <path
+        android:fillColor="#FFD93D"
+        android:pathData="M32,60 L34,50 L30,50 Z" />
+    <path
+        android:fillColor="#FFD93D"
+        android:pathData="M4,32 L14,30 L14,34 Z" />
+    <path
+        android:fillColor="#FFD93D"
+        android:pathData="M60,32 L50,30 L50,34 Z" />
+    <path
+        android:fillColor="#FFD93D"
+        android:pathData="M12,12 L20,18 L18,20 Z" />
+    <path
+        android:fillColor="#FFD93D"
+        android:pathData="M52,52 L44,46 L46,44 Z" />
+    <path
+        android:fillColor="#FFD93D"
+        android:pathData="M52,12 L46,20 L44,18 Z" />
+    <path
+        android:fillColor="#FFD93D"
+        android:pathData="M12,52 L18,44 L20,46 Z" />
+</vector>

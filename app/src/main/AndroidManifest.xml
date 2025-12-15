@@ -16,9 +16,10 @@
         android:theme="@style/Theme.KidsLearning"
         android:usesCleartextTraffic="true"
         tools:targetApi="31">
-        
+
+        <!-- Onboarding Activity - New Launcher -->
         <activity
-            android:name=".ui.main.MainActivity"
+            android:name=".ui.onboarding.OnboardingActivity"
             android:exported="true"
             android:screenOrientation="portrait">
             <intent-filter>
@@ -26,6 +27,11 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <activity
+            android:name=".ui.main.MainActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
 
         <activity
             android:name=".ui.arabic.ArabicAlphabetActivity"

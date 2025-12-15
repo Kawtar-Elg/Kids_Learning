@@ -1,47 +1,129 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+
     <style name="Theme.KidsLearning" parent="Theme.MaterialComponents.DayNight.NoActionBar">
         <item name="colorPrimary">@color/primary_blue</item>
         <item name="colorPrimaryVariant">@color/primary_dark</item>
         <item name="colorOnPrimary">@color/white</item>
-        
+
         <item name="colorSecondary">@color/accent_yellow</item>
         <item name="colorSecondaryVariant">@color/accent_orange</item>
         <item name="colorOnSecondary">@color/text_primary</item>
-        
-        <item name="android:statusBarColor">@color/primary_blue</item>
+
+        <item name="android:statusBarColor">@color/primary_light</item>
         <item name="android:windowBackground">@color/background_light</item>
-        
+        <item name="android:navigationBarColor">@color/background_light</item>
+
         <item name="fontFamily">@font/comic_sans</item>
+        <item name="android:fontFamily">@font/comic_sans</item>
+
+        <!-- Rounded corners everywhere for baby-friendly feel -->
+        <item name="shapeAppearanceSmallComponent">@style/ShapeAppearance.KidsLearning.Small</item>
+        <item name="shapeAppearanceMediumComponent">@style/ShapeAppearance.KidsLearning.Medium
+        </item>
+        <item name="shapeAppearanceLargeComponent">@style/ShapeAppearance.KidsLearning.Large</item>
     </style>
 
-    <!-- Button Styles -->
+    <!-- Rounded Shape Appearances -->
+    <style name="ShapeAppearance.KidsLearning.Small" parent="ShapeAppearance.MaterialComponents.SmallComponent">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">16dp</item>
+    </style>
+
+    <style name="ShapeAppearance.KidsLearning.Medium" parent="ShapeAppearance.MaterialComponents.MediumComponent">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">24dp</item>
+    </style>
+
+    <style name="ShapeAppearance.KidsLearning.Large" parent="ShapeAppearance.MaterialComponents.LargeComponent">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">28dp</item>
+    </style>
+
+    <!-- Button Styles - Fun and Bouncy -->
     <style name="ButtonPrimary" parent="Widget.MaterialComponents.Button">
-        <item name="android:layout_height">@dimen/button_height</item>
-        <item name="android:textSize">@dimen/text_size_large</item>
+        <item name="android:layout_height">60dp</item>
+        <item name="android:textSize">20sp</item>
         <item name="android:textColor">@color/white</item>
-        <item name="backgroundTint">@color/primary_blue</item>
-        <item name="cornerRadius">@dimen/card_corner_radius</item>
+        <item name="backgroundTint">@color/accent_pink</item>
+        <item name="cornerRadius">30dp</item>
         <item name="android:textAllCaps">false</item>
+        <item name="android:textStyle">bold</item>
+        <item name="elevation">8dp</item>
     </style>
 
+    <style name="ButtonSecondary" parent="Widget.MaterialComponents.Button.OutlinedButton">
+        <item name="android:layout_height">60dp</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@color/text_fun</item>
+        <item name="strokeColor">@color/accent_pink</item>
+        <item name="strokeWidth">3dp</item>
+        <item name="cornerRadius">30dp</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <!-- Card Styles - Playful -->
     <style name="LetterCard" parent="Widget.MaterialComponents.CardView">
-        <item name="cardCornerRadius">@dimen/card_corner_radius</item>
-        <item name="cardElevation">@dimen/card_elevation</item>
+        <item name="cardCornerRadius">20dp</item>
+        <item name="cardElevation">8dp</item>
         <item name="cardBackgroundColor">@color/card_background</item>
-        <item name="android:layout_margin">@dimen/margin_small</item>
+        <item name="strokeWidth">3dp</item>
+        <item name="strokeColor">@color/accent_yellow</item>
+        <item name="android:layout_margin">8dp</item>
     </style>
 
+    <style name="FunCard" parent="Widget.MaterialComponents.CardView">
+        <item name="cardCornerRadius">28dp</item>
+        <item name="cardElevation">12dp</item>
+        <item name="cardBackgroundColor">@color/white</item>
+    </style>
+
+    <!-- Text Styles - Kid-Friendly -->
     <style name="TitleText">
-        <item name="android:textSize">@dimen/text_size_xlarge</item>
-        <item name="android:textColor">@color/text_primary</item>
+        <item name="android:textSize">40sp</item>
+        <item name="android:textColor">@color/text_fun</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:shadowColor">#33000000</item>
+        <item name="android:shadowDx">2</item>
+        <item name="android:shadowDy">2</item>
+        <item name="android:shadowRadius">3</item>
+    </style>
+
+    <style name="SubtitleText">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@color/text_secondary</item>
         <item name="android:textStyle">bold</item>
     </style>
 
     <style name="LetterText">
-        <item name="android:textSize">@dimen/text_size_huge</item>
-        <item name="android:textColor">@color/primary_blue</item>
+        <item name="android:textSize">48sp</item>
+        <item name="android:textColor">@color/text_fun</item>
         <item name="android:textStyle">bold</item>
         <item name="android:gravity">center</item>
+        <item name="android:shadowColor">#22000000</item>
+        <item name="android:shadowDx">1</item>
+        <item name="android:shadowDy">1</item>
+        <item name="android:shadowRadius">2</item>
+    </style>
+
+    <style name="BigLetterText">
+        <item name="android:textSize">52sp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:gravity">center</item>
+        <item name="android:shadowColor">#33000000</item>
+        <item name="android:shadowDx">2</item>
+        <item name="android:shadowDy">2</item>
+        <item name="android:shadowRadius">4</item>
+    </style>
+
+    <!-- Toolbar Style -->
+    <style name="FunToolbar">
+        <item name="android:background">@drawable/bg_toolbar_fun</item>
+        <item name="android:paddingTop">16dp</item>
+        <item name="android:paddingBottom">24dp</item>
+        <item name="android:paddingStart">16dp</item>
+        <item name="android:paddingEnd">16dp</item>
     </style>
 </resources>

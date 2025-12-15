@@ -1,0 +1,47 @@
+=== Build 1765836696383 ===
+All Files
+  src\main\java\com\kidslearning\app\data\database\AppDatabase.kt
+  src\main\java\com\kidslearning\app\data\database\LetterDao.kt
+  src\main\java\com\kidslearning\app\data\database\ProgressDao.kt
+  src\main\java\com\kidslearning\app\data\model\AlphabetData.kt
+  src\main\java\com\kidslearning\app\data\model\Letter.kt
+  src\main\java\com\kidslearning\app\data\repository\LetterRepository.kt
+  src\main\java\com\kidslearning\app\ui\arabic\ArabicAlphabetActivity.kt
+  src\main\java\com\kidslearning\app\ui\arabic\LetterAdapter.kt
+  src\main\java\com\kidslearning\app\ui\base\BaseActivity.kt
+  src\main\java\com\kidslearning\app\ui\drawing\DrawingActivity.kt
+  src\main\java\com\kidslearning\app\ui\french\FrenchAlphabetActivity.kt
+  src\main\java\com\kidslearning\app\ui\main\MainActivity.kt
+  src\main\java\com\kidslearning\app\ui\onboarding\OnboardingActivity.kt
+  src\main\java\com\kidslearning\app\ui\onboarding\OnboardingAdapter.kt
+  src\main\java\com\kidslearning\app\utils\DrawingView.kt
+  src\main\java\com\kidslearning\app\utils\LanguageHelper.kt
+  src\main\java\com\kidslearning\app\utils\SoundPlayer.kt
+Modified
+Removed
+Disappeared Outputs
+Affected By CP
+Affected By new syms
+Affected By sealed
+CP changes
+Dirty:
+  src\main\java\com\kidslearning\app\data\database\AppDatabase.kt
+  src\main\java\com\kidslearning\app\data\database\LetterDao.kt
+  src\main\java\com\kidslearning\app\data\database\ProgressDao.kt
+  src\main\java\com\kidslearning\app\data\model\AlphabetData.kt
+  src\main\java\com\kidslearning\app\data\model\Letter.kt
+  src\main\java\com\kidslearning\app\data\repository\LetterRepository.kt
+  src\main\java\com\kidslearning\app\ui\arabic\ArabicAlphabetActivity.kt
+  src\main\java\com\kidslearning\app\ui\arabic\LetterAdapter.kt
+  src\main\java\com\kidslearning\app\ui\base\BaseActivity.kt
+  src\main\java\com\kidslearning\app\ui\drawing\DrawingActivity.kt
+  src\main\java\com\kidslearning\app\ui\french\FrenchAlphabetActivity.kt
+  src\main\java\com\kidslearning\app\ui\main\MainActivity.kt
+  src\main\java\com\kidslearning\app\ui\onboarding\OnboardingActivity.kt
+  src\main\java\com\kidslearning\app\ui\onboarding\OnboardingAdapter.kt
+  src\main\java\com\kidslearning\app\utils\DrawingView.kt
+  src\main\java\com\kidslearning\app\utils\LanguageHelper.kt
+  src\main\java\com\kidslearning\app\utils\SoundPlayer.kt
+
+Dirty / All: 100.00%
+

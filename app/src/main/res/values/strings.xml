@@ -1,16 +1,83 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <!-- App Info -->
     <string name="app_name">Kids Learning</string>
+
+    <!-- Main Screen -->
     <string name="welcome_title">Bienvenue!</string>
     <string name="choose_language">Choisis ton alphabet</string>
     <string name="arabic_alphabet">الحروف العربية</string>
     <string name="french_alphabet">Alphabet Français</string>
     <string name="start_learning">Commencer</string>
+
+    <!-- Alphabet Screen -->
     <string name="tap_letter">Touche une lettre!</string>
+    <string name="letters_grid">Grille des lettres</string>
+
+    <!-- Drawing Screen -->
     <string name="draw_letter">Trace la lettre</string>
     <string name="clear">Effacer</string>
-    <string name="repeat_sound">Répéter</string>
+    <string name="repeat_sound">Répéter le son</string>
     <string name="back">Retour</string>
+
+    <!-- Feedback Messages -->
     <string name="well_done">Bravo!</string>
     <string name="try_again">Recommence</string>
+    <string name="great_job">Excellent travail!</string>
+    <string name="keep_trying">Continue d\'essayer!</string>
+
+    <!-- Onboarding Strings -->
+    <string name="skip">Passer</string>
+    <string name="next">Suivant</string>
+    <string name="get_started">Commencer!</string>
+
+    <!-- Onboarding Page 1 - Lion -->
+    <string name="onboarding_title_1">Bonjour le Lion!</string>
+    <string name="onboarding_desc_1">Je suis le roi de la jungle!</string>
+
+    <!-- Onboarding Page 2 - Frog -->
+    <string name="onboarding_title_2">Coucou la Grenouille!</string>
+    <string name="onboarding_desc_2">Je saute partout, Coâ Coâ!</string>
+
+    <!-- Onboarding Page 3 - Cat -->
+    <string name="onboarding_title_3">Miaou le Chat!</string>
+    <string name="onboarding_desc_3">J\'aime faire la sieste!</string>
+
+    <!-- Onboarding Page 4 - Fish -->
+    <string name="onboarding_title_4">Bloup le Poisson!</string>
+    <string name="onboarding_desc_4">Je nage dans l\'eau!</string>
+
+    <!-- Onboarding Page 5 - Butterfly -->
+    <string name="onboarding_title_5">Voilà le Papillon!</string>
+    <string name="onboarding_desc_5">Je vole vers les lettres!</string>
+
+    <!-- Language Settings -->
+    <string name="language_settings">Langue</string>
+    <string name="select_language">Choisir la langue</string>
+    <string name="language_french">Français</string>
+    <string name="language_arabic">العربية</string>
+    <string name="language_changed">Langue changée</string>
+    <string name="current_language">fr</string>
+
+    <!-- Settings -->
+    <string name="settings">Paramètres</string>
+    <string name="sound_on">Son activé</string>
+    <string name="sound_off">Son désactivé</string>
+
+    <!-- Navigation -->
+    <string name="home">Accueil</string>
+    <string name="learn">Apprendre</string>
+    <string name="play">Jouer</string>
+
+    <!-- Accessibility -->
+    <string name="content_desc_logo">Logo de l\'application</string>
+    <string name="content_desc_back">Bouton retour</string>
+    <string name="content_desc_sound">Bouton son</string>
+    <string name="content_desc_clear">Bouton effacer</string>
+    <string name="content_desc_language">Changer de langue</string>
+
+    <!-- Letter Categories -->
+    <string name="all_letters">Toutes les lettres</string>
+    <string name="vowels">Voyelles</string>
+    <string name="consonants">Consonnes</string>
 </resources>

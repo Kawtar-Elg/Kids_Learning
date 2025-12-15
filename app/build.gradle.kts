@@ -65,6 +65,12 @@ dependencies {
     // Gson for JSON parsing
     implementation("com.google.code.gson:gson:2.10.1")
 
+    // Lottie Animations
+    implementation("com.airbnb.android:lottie:6.3.0")
+
+    // ViewPager2 for Onboarding
+    implementation("androidx.viewpager2:viewpager2:1.0.0")
+
     // Testing
     testImplementation("junit:junit:4.13.2")
     androidTestImplementation("androidx.test.ext:junit:1.1.5")

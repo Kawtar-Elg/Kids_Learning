@@ -1,30 +1,56 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!-- Padding & Margins -->
+    <!-- Padding & Margins - Generous spacing for baby-friendly touch targets -->
     <dimen name="margin_small">8dp</dimen>
     <dimen name="margin_medium">16dp</dimen>
     <dimen name="margin_large">24dp</dimen>
     <dimen name="margin_xlarge">32dp</dimen>
-    
-    <!-- Text Sizes -->
-    <dimen name="text_size_small">14sp</dimen>
-    <dimen name="text_size_medium">18sp</dimen>
+    <dimen name="margin_xxlarge">40dp</dimen>
+
+    <!-- Text Sizes - Large and readable for babies -->
+    <dimen name="text_size_small">16sp</dimen>
+    <dimen name="text_size_medium">20sp</dimen>
     <dimen name="text_size_large">24sp</dimen>
-    <dimen name="text_size_xlarge">32sp</dimen>
+    <dimen name="text_size_xlarge">36sp</dimen>
     <dimen name="text_size_huge">48sp</dimen>
-    
-    <!-- Letter Sizes -->
-    <dimen name="letter_item_size">80dp</dimen>
+    <dimen name="text_size_giant">52sp</dimen>
+
+    <!-- Letter Sizes - Big for little fingers -->
+    <dimen name="letter_item_size">100dp</dimen>
     <dimen name="letter_display_size">200dp</dimen>
-    
-    <!-- Button Sizes -->
-    <dimen name="button_height">56dp</dimen>
-    <dimen name="icon_button_size">64dp</dimen>
-    
-    <!-- Card -->
-    <dimen name="card_corner_radius">16dp</dimen>
-    <dimen name="card_elevation">4dp</dimen>
-    
+
+    <!-- Button Sizes - Easy to tap -->
+    <dimen name="button_height">60dp</dimen>
+    <dimen name="icon_button_size">48dp</dimen>
+    <dimen name="fab_size">64dp</dimen>
+
+    <!-- Card - Round and friendly -->
+    <dimen name="card_corner_radius">20dp</dimen>
+    <dimen name="card_corner_radius_large">28dp</dimen>
+    <dimen name="card_elevation">8dp</dimen>
+    <dimen name="card_elevation_high">12dp</dimen>
+    <dimen name="card_stroke_width">3dp</dimen>
+
+    <!-- Logo -->
+    <dimen name="logo_size">150dp</dimen>
+
     <!-- Drawing -->
-    <dimen name="stroke_width">12dp</dimen>
+    <dimen name="stroke_width">16dp</dimen>
+
+    <!-- Decorative Elements -->
+    <dimen name="bubble_small">20dp</dimen>
+    <dimen name="bubble_medium">30dp</dimen>
+    <dimen name="bubble_large">40dp</dimen>
+    <dimen name="star_small">16dp</dimen>
+    <dimen name="star_medium">24dp</dimen>
+    <dimen name="star_large">32dp</dimen>
+    <dimen name="cloud_width">80dp</dimen>
+    <dimen name="cloud_height">50dp</dimen>
+
+    <!-- Onboarding Indicators -->
+    <dimen name="indicator_size">12dp</dimen>
+    <dimen name="indicator_margin">6dp</dimen>
+
+    <!-- Onboarding Animation -->
+    <dimen name="lottie_size">280dp</dimen>
 </resources>
