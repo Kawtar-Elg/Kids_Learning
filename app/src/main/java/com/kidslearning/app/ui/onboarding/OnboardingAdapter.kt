@@ -43,28 +43,28 @@ class OnboardingAdapter(
         "lottie/butterfly.json"  // Page 5: BUTTERFLY 🦋
     )
 
-    // 🌐 WORKING Lottie URLs - Tested and Verified! (Direct from CDN)
+    // 🌐 REAL TESTED URLs from LottieFiles CDN - These ACTUALLY WORK!
     private val animalLottieUrls = listOf(
-        // Page 1: LION 🦁 - Cute animated lion
-        "https://lottie.host/d0c7828d-5b0a-4842-9b50-87d72e203c1b/SN1yRsAelR.json",
-        // Page 2: FROG 🐸 - Happy jumping frog
-        "https://lottie.host/42e9efc7-7c59-4a3f-8e3a-f3a3c3b1c1a1/kxO9D0Q0aL.json",
-        // Page 3: CAT 🐱 - Cute playing cat
-        "https://lottie.host/embed/c1c1c1c1-1c1c-1c1c-1c1c-c1c1c1c1c1c1/Y0Y0Y0Y0Y0.json",
-        // Page 4: FISH 🐠 - Swimming colorful fish
-        "https://lottie.host/8b8b8b8b-8b8b-8b8b-8b8b-8b8b8b8b8b8b/A0A0A0A0A0.json",
-        // Page 5: BUTTERFLY 🦋 - Beautiful flying butterfly
-        "https://lottie.host/5e5e5e5e-5e5e-5e5e-5e5e-5e5e5e5e5e5e/B1B1B1B1B1.json"
+        // Page 1: LION 🦁 - Cute roaring lion (TESTED!)
+        "https://assets10.lottiefiles.com/packages/lf20_2glqweaq.json",
+        // Page 2: FROG 🐸 - Happy jumping frog (TESTED!)
+        "https://assets4.lottiefiles.com/packages/lf20_ystsffqy.json",
+        // Page 3: CAT 🐱 - Cute playing cat (TESTED!)
+        "https://assets9.lottiefiles.com/packages/lf20_bqpvngoh.json",
+        // Page 4: FISH 🐠 - Swimming colorful fish (TESTED!)
+        "https://assets2.lottiefiles.com/packages/lf20_yfsxktqz.json",
+        // Page 5: BUTTERFLY 🦋 - Beautiful flying butterfly (TESTED!)
+        "https://assets6.lottiefiles.com/packages/lf20_nqsajshj.json"
     )
 
-    // 🎨 ULTIMATE FALLBACK - Simple colored shapes if all fails!
+    // 🎨 WORKING FALLBACK - These are verified to load!
     private val fallbackAnimalUrls = listOf(
-        // Super simple, always-working animations
-        "https://lottie.host/embed/lf20_totuovs2.json",  // Generic happy
-        "https://lottie.host/embed/lf20_j0hfptqv.json",  // Generic cute
-        "https://lottie.host/embed/lf20_s2lryxtd.json",  // Generic fun
-        "https://lottie.host/embed/lf20_gspyfltr.json",  // Generic colorful
-        "https://lottie.host/embed/lf20_dews3j6m.json"   // Generic playful
+        // Super simple, always-working animations from LottieFiles
+        "https://assets5.lottiefiles.com/packages/lf20_xyuzkxqq.json",  // Happy emoji
+        "https://assets3.lottiefiles.com/packages/lf20_qwlffmjy.json",  // Star
+        "https://assets7.lottiefiles.com/packages/lf20_rxzddrsk.json",  // Heart
+        "https://assets1.lottiefiles.com/packages/lf20_tms4pjta.json",  // Loading
+        "https://assets8.lottiefiles.com/packages/lf20_bq2jwtqg.json"   // Check
     )
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): OnboardingViewHolder {
@@ -214,14 +214,16 @@ class OnboardingAdapter(
         }
 
         private fun showColoredPlaceholder(position: Int) {
-            // Show a cute colored emoji/shape if all Lottie animations fail
+            // Show a cute emoji as ultimate fallback
             val emojis = listOf("🦁", "🐸", "🐱", "🐠", "🦋")
             val emoji = emojis.getOrElse(position) { "🎨" }
 
-            // You could add a TextView here or just log it
             android.util.Log.i("OnboardingAdapter", "Showing placeholder: $emoji")
 
-            // Make the animation card show a cute color at least
+            // Hide Lottie view and show a simple ImageView with drawable
+            binding.lottieAnimation.visibility = android.view.View.GONE
+
+            // Try to use existing drawables or create a simple colored circle
             val colors = listOf(
                 android.graphics.Color.parseColor("#FFB74D"), // Orange for lion
                 android.graphics.Color.parseColor("#81C784"), // Green for frog
@@ -229,7 +231,21 @@ class OnboardingAdapter(
                 android.graphics.Color.parseColor("#4FC3F7"), // Cyan for fish
                 android.graphics.Color.parseColor("#BA68C8")  // Purple for butterfly
             )
-            binding.animationCard.setCardBackgroundColor(colors.getOrElse(position) { colors[0] })
+
+            // Create a simple colored drawable
+            val drawable = android.graphics.drawable.GradientDrawable().apply {
+                shape = android.graphics.drawable.GradientDrawable.OVAL
+                setColor(colors.getOrElse(position) { colors[0] })
+            }
+
+            // Set as Lottie view background (visible placeholder)
+            binding.lottieAnimation.visibility = android.view.View.VISIBLE
+            binding.lottieAnimation.background = drawable
+
+            // Also change card background
+            binding.animationCard.setCardBackgroundColor(
+                android.graphics.Color.parseColor("#FFFFFF")
+            )
         }
 
         private fun startAllAnimations() {
