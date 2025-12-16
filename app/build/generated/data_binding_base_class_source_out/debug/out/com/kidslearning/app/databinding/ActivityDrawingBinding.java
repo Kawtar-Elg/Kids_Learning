@@ -26,6 +26,9 @@ public final class ActivityDrawingBinding implements ViewBinding {
   private final ConstraintLayout rootView;
 
   @NonNull
+  public final LinearLayout btnActionLayout;
+
+  @NonNull
   public final ImageButton btnBack;
 
   @NonNull
@@ -35,10 +38,22 @@ public final class ActivityDrawingBinding implements ViewBinding {
   public final MaterialButton btnClear;
 
   @NonNull
+  public final ImageButton btnMusic;
+
+  @NonNull
+  public final MaterialCardView btnMusicCard;
+
+  @NonNull
+  public final MaterialButton btnRedo;
+
+  @NonNull
   public final ImageButton btnRepeat;
 
   @NonNull
   public final MaterialCardView btnRepeatCard;
+
+  @NonNull
+  public final MaterialButton btnUndo;
 
   @NonNull
   public final View bubblePink;
@@ -50,7 +65,13 @@ public final class ActivityDrawingBinding implements ViewBinding {
   public final MaterialCardView cardDrawing;
 
   @NonNull
+  public final ColorPaletteBinding colorPaletteLayout;
+
+  @NonNull
   public final DrawingView drawingView;
+
+  @NonNull
+  public final MaterialCardView instructionCard;
 
   @NonNull
   public final LinearLayout instructionLayout;
@@ -82,26 +103,37 @@ public final class ActivityDrawingBinding implements ViewBinding {
   @NonNull
   public final TextView tvLetterDisplay;
 
-  private ActivityDrawingBinding(@NonNull ConstraintLayout rootView, @NonNull ImageButton btnBack,
+  private ActivityDrawingBinding(@NonNull ConstraintLayout rootView,
+      @NonNull LinearLayout btnActionLayout, @NonNull ImageButton btnBack,
       @NonNull MaterialCardView btnBackCard, @NonNull MaterialButton btnClear,
-      @NonNull ImageButton btnRepeat, @NonNull MaterialCardView btnRepeatCard,
+      @NonNull ImageButton btnMusic, @NonNull MaterialCardView btnMusicCard,
+      @NonNull MaterialButton btnRedo, @NonNull ImageButton btnRepeat,
+      @NonNull MaterialCardView btnRepeatCard, @NonNull MaterialButton btnUndo,
       @NonNull View bubblePink, @NonNull View bubbleYellow, @NonNull MaterialCardView cardDrawing,
-      @NonNull DrawingView drawingView, @NonNull LinearLayout instructionLayout,
+      @NonNull ColorPaletteBinding colorPaletteLayout, @NonNull DrawingView drawingView,
+      @NonNull MaterialCardView instructionCard, @NonNull LinearLayout instructionLayout,
       @NonNull ImageView ivBottomCloud, @NonNull ImageView ivBottomStar,
       @NonNull ImageView ivFloatingHeart, @NonNull ImageView ivSparkle1,
       @NonNull ImageView ivSparkle2, @NonNull MaterialCardView letterDisplayCard,
       @NonNull ConstraintLayout toolbar, @NonNull TextView tvInstruction,
       @NonNull TextView tvLetterDisplay) {
     this.rootView = rootView;
+    this.btnActionLayout = btnActionLayout;
     this.btnBack = btnBack;
     this.btnBackCard = btnBackCard;
     this.btnClear = btnClear;
+    this.btnMusic = btnMusic;
+    this.btnMusicCard = btnMusicCard;
+    this.btnRedo = btnRedo;
     this.btnRepeat = btnRepeat;
     this.btnRepeatCard = btnRepeatCard;
+    this.btnUndo = btnUndo;
     this.bubblePink = bubblePink;
     this.bubbleYellow = bubbleYellow;
     this.cardDrawing = cardDrawing;
+    this.colorPaletteLayout = colorPaletteLayout;
     this.drawingView = drawingView;
+    this.instructionCard = instructionCard;
     this.instructionLayout = instructionLayout;
     this.ivBottomCloud = ivBottomCloud;
     this.ivBottomStar = ivBottomStar;
@@ -141,6 +173,12 @@ public final class ActivityDrawingBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
+      id = R.id.btnActionLayout;
+      LinearLayout btnActionLayout = ViewBindings.findChildViewById(rootView, id);
+      if (btnActionLayout == null) {
+        break missingId;
+      }
+
       id = R.id.btnBack;
       ImageButton btnBack = ViewBindings.findChildViewById(rootView, id);
       if (btnBack == null) {
@@ -159,6 +197,24 @@ public final class ActivityDrawingBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.btnMusic;
+      ImageButton btnMusic = ViewBindings.findChildViewById(rootView, id);
+      if (btnMusic == null) {
+        break missingId;
+      }
+
+      id = R.id.btnMusicCard;
+      MaterialCardView btnMusicCard = ViewBindings.findChildViewById(rootView, id);
+      if (btnMusicCard == null) {
+        break missingId;
+      }
+
+      id = R.id.btnRedo;
+      MaterialButton btnRedo = ViewBindings.findChildViewById(rootView, id);
+      if (btnRedo == null) {
+        break missingId;
+      }
+
       id = R.id.btnRepeat;
       ImageButton btnRepeat = ViewBindings.findChildViewById(rootView, id);
       if (btnRepeat == null) {
@@ -168,6 +224,12 @@ public final class ActivityDrawingBinding implements ViewBinding {
       id = R.id.btnRepeatCard;
       MaterialCardView btnRepeatCard = ViewBindings.findChildViewById(rootView, id);
       if (btnRepeatCard == null) {
+        break missingId;
+      }
+
+      id = R.id.btnUndo;
+      MaterialButton btnUndo = ViewBindings.findChildViewById(rootView, id);
+      if (btnUndo == null) {
         break missingId;
       }
 
@@ -189,9 +251,22 @@ public final class ActivityDrawingBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.colorPaletteLayout;
+      View colorPaletteLayout = ViewBindings.findChildViewById(rootView, id);
+      if (colorPaletteLayout == null) {
+        break missingId;
+      }
+      ColorPaletteBinding binding_colorPaletteLayout = ColorPaletteBinding.bind(colorPaletteLayout);
+
       id = R.id.drawingView;
       DrawingView drawingView = ViewBindings.findChildViewById(rootView, id);
       if (drawingView == null) {
+        break missingId;
+      }
+
+      id = R.id.instructionCard;
+      MaterialCardView instructionCard = ViewBindings.findChildViewById(rootView, id);
+      if (instructionCard == null) {
         break missingId;
       }
 
@@ -255,10 +330,11 @@ public final class ActivityDrawingBinding implements ViewBinding {
         break missingId;
       }
 
-      return new ActivityDrawingBinding((ConstraintLayout) rootView, btnBack, btnBackCard, btnClear,
-          btnRepeat, btnRepeatCard, bubblePink, bubbleYellow, cardDrawing, drawingView,
-          instructionLayout, ivBottomCloud, ivBottomStar, ivFloatingHeart, ivSparkle1, ivSparkle2,
-          letterDisplayCard, toolbar, tvInstruction, tvLetterDisplay);
+      return new ActivityDrawingBinding((ConstraintLayout) rootView, btnActionLayout, btnBack,
+          btnBackCard, btnClear, btnMusic, btnMusicCard, btnRedo, btnRepeat, btnRepeatCard, btnUndo,
+          bubblePink, bubbleYellow, cardDrawing, binding_colorPaletteLayout, drawingView,
+          instructionCard, instructionLayout, ivBottomCloud, ivBottomStar, ivFloatingHeart,
+          ivSparkle1, ivSparkle2, letterDisplayCard, toolbar, tvInstruction, tvLetterDisplay);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

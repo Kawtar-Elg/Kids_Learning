@@ -80,4 +80,28 @@
     <string name="all_letters">Toutes les lettres</string>
     <string name="vowels">Voyelles</string>
     <string name="consonants">Consonnes</string>
+
+    <!-- Background Music -->
+    <string name="music_on">Musique activée</string>
+    <string name="music_off">Musique désactivée</string>
+    <string name="toggle_music">Musique</string>
+    <string name="content_desc_music">Bouton musique</string>
+    <string name="music_playing">Musique en cours...</string>
+    <string name="music_paused">Musique en pause</string>
+
+    <!-- Video Learning -->
+    <string name="video_learning">Vidéos d\'apprentissage</string>
+    <string name="watch_videos">Regarder des vidéos</string>
+    <string name="arabic_videos">Vidéos Arabes</string>
+    <string name="french_videos">Vidéos Françaises</string>
+    <string name="alphabet_songs">Chansons de l\'alphabet</string>
+    <string name="learning_videos">Vidéos éducatives</string>
+    <string name="how_to_write">Comment écrire</string>
+    <string name="alphabet_tutorial">Tutoriel alphabet</string>
+    <string name="video_loading">Chargement de la vidéo...</string>
+    <string name="video_error">Erreur de lecture vidéo</string>
+    <string name="play_video">Lire la vidéo</string>
+    <string name="pause_video">Pause</string>
+    <string name="fullscreen">Plein écran</string>
+    <string name="content_desc_video">Lecteur vidéo</string>
 </resources>

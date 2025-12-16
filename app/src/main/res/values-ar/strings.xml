@@ -80,4 +80,28 @@
     <string name="all_letters">كل الحروف</string>
     <string name="vowels">حروف العلة</string>
     <string name="consonants">الحروف الساكنة</string>
+
+    <!-- Background Music -->
+    <string name="music_on">الموسيقى مفعلة</string>
+    <string name="music_off">الموسيقى مغلقة</string>
+    <string name="toggle_music">الموسيقى</string>
+    <string name="content_desc_music">زر الموسيقى</string>
+    <string name="music_playing">الموسيقى تعمل...</string>
+    <string name="music_paused">الموسيقى موقوفة</string>
+
+    <!-- Video Learning -->
+    <string name="video_learning">فيديوهات تعليمية</string>
+    <string name="watch_videos">شاهد الفيديوهات</string>
+    <string name="arabic_videos">فيديوهات عربية</string>
+    <string name="french_videos">فيديوهات فرنسية</string>
+    <string name="alphabet_songs">أغاني الحروف</string>
+    <string name="learning_videos">فيديوهات تعليمية</string>
+    <string name="how_to_write">كيف تكتب</string>
+    <string name="alphabet_tutorial">درس الحروف</string>
+    <string name="video_loading">جاري تحميل الفيديو...</string>
+    <string name="video_error">خطأ في تشغيل الفيديو</string>
+    <string name="play_video">تشغيل الفيديو</string>
+    <string name="pause_video">إيقاف مؤقت</string>
+    <string name="fullscreen">ملء الشاشة</string>
+    <string name="content_desc_video">مشغل الفيديو</string>
 </resources>

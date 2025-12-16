@@ -71,6 +71,14 @@ dependencies {
     // ViewPager2 for Onboarding
     implementation("androidx.viewpager2:viewpager2:1.0.0")
 
+    // ExoPlayer for Video Learning
+    implementation("androidx.media3:media3-exoplayer:1.2.0")
+    implementation("androidx.media3:media3-ui:1.2.0")
+    implementation("androidx.media3:media3-common:1.2.0")
+
+    // Image loading (YouTube thumbnails)
+    implementation("io.coil-kt:coil:2.5.0")
+
     // Testing
     testImplementation("junit:junit:4.13.2")
     androidTestImplementation("androidx.test.ext:junit:1.1.5")

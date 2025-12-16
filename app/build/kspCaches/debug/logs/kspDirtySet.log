@@ -1,9 +1,10 @@
-=== Build 1765836696383 ===
+=== Build 1765852642102 ===
 All Files
   src\main\java\com\kidslearning\app\data\database\AppDatabase.kt
   src\main\java\com\kidslearning\app\data\database\LetterDao.kt
   src\main\java\com\kidslearning\app\data\database\ProgressDao.kt
   src\main\java\com\kidslearning\app\data\model\AlphabetData.kt
+  src\main\java\com\kidslearning\app\data\model\LearningVideo.kt
   src\main\java\com\kidslearning\app\data\model\Letter.kt
   src\main\java\com\kidslearning\app\data\repository\LetterRepository.kt
   src\main\java\com\kidslearning\app\ui\arabic\ArabicAlphabetActivity.kt
@@ -14,6 +15,10 @@ All Files
   src\main\java\com\kidslearning\app\ui\main\MainActivity.kt
   src\main\java\com\kidslearning\app\ui\onboarding\OnboardingActivity.kt
   src\main\java\com\kidslearning\app\ui\onboarding\OnboardingAdapter.kt
+  src\main\java\com\kidslearning\app\ui\video\VideoAdapter.kt
+  src\main\java\com\kidslearning\app\ui\video\VideoLearningActivity.kt
+  src\main\java\com\kidslearning\app\ui\video\VideoPlayerActivity.kt
+  src\main\java\com\kidslearning\app\utils\BackgroundMusicPlayer.kt
   src\main\java\com\kidslearning\app\utils\DrawingView.kt
   src\main\java\com\kidslearning\app\utils\LanguageHelper.kt
   src\main\java\com\kidslearning\app\utils\SoundPlayer.kt
@@ -29,6 +34,7 @@ Dirty:
   src\main\java\com\kidslearning\app\data\database\LetterDao.kt
   src\main\java\com\kidslearning\app\data\database\ProgressDao.kt
   src\main\java\com\kidslearning\app\data\model\AlphabetData.kt
+  src\main\java\com\kidslearning\app\data\model\LearningVideo.kt
   src\main\java\com\kidslearning\app\data\model\Letter.kt
   src\main\java\com\kidslearning\app\data\repository\LetterRepository.kt
   src\main\java\com\kidslearning\app\ui\arabic\ArabicAlphabetActivity.kt
@@ -39,6 +45,10 @@ Dirty:
   src\main\java\com\kidslearning\app\ui\main\MainActivity.kt
   src\main\java\com\kidslearning\app\ui\onboarding\OnboardingActivity.kt
   src\main\java\com\kidslearning\app\ui\onboarding\OnboardingAdapter.kt
+  src\main\java\com\kidslearning\app\ui\video\VideoAdapter.kt
+  src\main\java\com\kidslearning\app\ui\video\VideoLearningActivity.kt
+  src\main\java\com\kidslearning\app\ui\video\VideoPlayerActivity.kt
+  src\main\java\com\kidslearning\app\utils\BackgroundMusicPlayer.kt
   src\main\java\com\kidslearning\app\utils\DrawingView.kt
   src\main\java\com\kidslearning\app\utils\LanguageHelper.kt
   src\main\java\com\kidslearning\app\utils\SoundPlayer.kt

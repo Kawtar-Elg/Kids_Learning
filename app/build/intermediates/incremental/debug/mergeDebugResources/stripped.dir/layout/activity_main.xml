@@ -380,6 +380,63 @@
         app:layout_constraintTop_toTopOf="@id/cardFrench"
         android:contentDescription="@null" />
 
+    <!-- ========== VIDEO LEARNING CIRCLE BUTTON ========== -->
+
+    <!-- Video Circle Button - Same style as Arabic/French -->
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/cardVideos"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="20dp"
+        android:clickable="true"
+        android:focusable="true"
+        android:foreground="?attr/selectableItemBackground"
+        app:cardCornerRadius="75dp"
+        app:cardElevation="16dp"
+        app:strokeWidth="6dp"
+        app:strokeColor="@color/white"
+        app:cardBackgroundColor="@android:color/transparent"
+        app:layout_constraintTop_toBottomOf="@id/cardArabic"
+        app:layout_constraintBottom_toTopOf="@id/bottomDecoration"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/bg_circle_video">
+
+            <ImageView
+                android:id="@+id/ivVideoIcon"
+                android:layout_width="44dp"
+                android:layout_height="44dp"
+                android:src="@drawable/ic_video"
+                android:contentDescription="@string/content_desc_video"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintBottom_toTopOf="@id/tvVideoLabel"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintVertical_chainStyle="packed" />
+
+            <TextView
+                android:id="@+id/tvVideoLabel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/watch_videos"
+                android:textSize="14sp"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:layout_marginBottom="20dp"
+                android:gravity="center"
+                app:layout_constraintTop_toBottomOf="@id/ivVideoIcon"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </com.google.android.material.card.MaterialCardView>
+
     <!-- ========== BOTTOM DECORATIONS ========== -->
 
     <androidx.constraintlayout.widget.Guideline

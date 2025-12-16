@@ -62,6 +62,12 @@ class ArabicAlphabetActivity : BaseActivity() {
             layoutManager = GridLayoutManager(this@ArabicAlphabetActivity, 3)
             this.adapter = this@ArabicAlphabetActivity.adapter
             setHasFixedSize(true)
+
+            // Add beautiful layout animation - letters fall down one by one!
+            layoutAnimation = android.view.animation.AnimationUtils.loadLayoutAnimation(
+                this@ArabicAlphabetActivity,
+                R.anim.layout_animation_fall_down
+            )
         }
     }
 

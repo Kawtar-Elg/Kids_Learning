@@ -81,8 +81,11 @@
     <dimen name="text_size_small">16sp</dimen>
     <dimen name="text_size_xlarge">36sp</dimen>
     <string name="all_letters">Toutes les lettres</string>
+    <string name="alphabet_songs">Chansons de l\'alphabet</string>
+    <string name="alphabet_tutorial">Tutoriel alphabet</string>
     <string name="app_name">Kids Learning</string>
     <string name="arabic_alphabet">الحروف العربية</string>
+    <string name="arabic_videos">Vidéos Arabes</string>
     <string name="back">Retour</string>
     <string name="choose_language">Choisis ton alphabet</string>
     <string name="clear">Effacer</string>
@@ -91,33 +94,45 @@
     <string name="content_desc_clear">Bouton effacer</string>
     <string name="content_desc_language">Changer de langue</string>
     <string name="content_desc_logo">Logo de l\'application</string>
+    <string name="content_desc_music">Bouton musique</string>
     <string name="content_desc_sound">Bouton son</string>
+    <string name="content_desc_video">Lecteur vidéo</string>
     <string name="current_language">fr</string>
     <string name="draw_letter">Trace la lettre</string>
     <string name="font_family_comic_sans" translatable="false">sans-serif</string>
     <string name="french_alphabet">Alphabet Français</string>
+    <string name="french_videos">Vidéos Françaises</string>
+    <string name="fullscreen">Plein écran</string>
     <string name="get_started">Commencer!</string>
     <string name="great_job">Excellent travail!</string>
     <string name="home">Accueil</string>
+    <string name="how_to_write">Comment écrire</string>
     <string name="keep_trying">Continue d\'essayer!</string>
     <string name="language_arabic">العربية</string>
     <string name="language_changed">Langue changée</string>
     <string name="language_french">Français</string>
     <string name="language_settings">Langue</string>
     <string name="learn">Apprendre</string>
+    <string name="learning_videos">Vidéos éducatives</string>
     <string name="letters_grid">Grille des lettres</string>
+    <string name="music_off">Musique désactivée</string>
+    <string name="music_on">Musique activée</string>
+    <string name="music_paused">Musique en pause</string>
+    <string name="music_playing">Musique en cours...</string>
     <string name="next">Suivant</string>
-    <string name="onboarding_desc_1">Apprends en t\'amusant!</string>
-    <string name="onboarding_desc_2">A B C et ا ب ت</string>
-    <string name="onboarding_desc_3">Chien, Chat, Oiseau!</string>
-    <string name="onboarding_desc_4">Crée avec tes doigts!</string>
-    <string name="onboarding_desc_5">C\'est parti!</string>
-    <string name="onboarding_title_1">Bienvenue Petit Génie!</string>
-    <string name="onboarding_title_2">Découvre l\'Alphabet</string>
-    <string name="onboarding_title_3">Rencontre les Animaux</string>
-    <string name="onboarding_title_4">Dessine et Trace</string>
-    <string name="onboarding_title_5">Prêt à Jouer?</string>
+    <string name="onboarding_desc_1">Je suis le roi de la jungle!</string>
+    <string name="onboarding_desc_2">Je saute partout, Coâ Coâ!</string>
+    <string name="onboarding_desc_3">J\'aime faire la sieste!</string>
+    <string name="onboarding_desc_4">Je nage dans l\'eau!</string>
+    <string name="onboarding_desc_5">Je vole vers les lettres!</string>
+    <string name="onboarding_title_1">Bonjour le Lion!</string>
+    <string name="onboarding_title_2">Coucou la Grenouille!</string>
+    <string name="onboarding_title_3">Miaou le Chat!</string>
+    <string name="onboarding_title_4">Bloup le Poisson!</string>
+    <string name="onboarding_title_5">Voilà le Papillon!</string>
+    <string name="pause_video">Pause</string>
     <string name="play">Jouer</string>
+    <string name="play_video">Lire la vidéo</string>
     <string name="repeat_sound">Répéter le son</string>
     <string name="select_language">Choisir la langue</string>
     <string name="settings">Paramètres</string>
@@ -126,10 +141,21 @@
     <string name="sound_on">Son activé</string>
     <string name="start_learning">Commencer</string>
     <string name="tap_letter">Touche une lettre!</string>
+    <string name="toggle_music">Musique</string>
     <string name="try_again">Recommence</string>
+    <string name="video_error">Erreur de lecture vidéo</string>
+    <string name="video_learning">Vidéos d\'apprentissage</string>
+    <string name="video_loading">Chargement de la vidéo...</string>
     <string name="vowels">Voyelles</string>
+    <string name="watch_videos">Regarder des vidéos</string>
     <string name="welcome_title">Bienvenue!</string>
     <string name="well_done">Bravo!</string>
+    <style name="AppTheme.Slide" parent="Theme.KidsLearning">
+        <item name="android:windowAnimationStyle">@style/WindowAnimationTransition</item>
+    </style>
+    <style name="AppTheme.Zoom" parent="Theme.KidsLearning">
+        <item name="android:windowAnimationStyle">@style/WindowAnimationZoom</item>
+    </style>
     <style name="BigLetterText">
         <item name="android:textSize">52sp</item>
         <item name="android:textColor">@color/white</item>
@@ -229,6 +255,12 @@
         </item>
         <item name="shapeAppearanceLargeComponent">@style/ShapeAppearance.KidsLearning.Large</item>
     </style>
+    <style name="Theme.KidsLearning.Fullscreen" parent="Theme.KidsLearning">
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:statusBarColor">@android:color/black</item>
+        <item name="android:navigationBarColor">@android:color/black</item>
+        <item name="android:windowBackground">@android:color/black</item>
+    </style>
     <style name="TitleText">
         <item name="android:textSize">40sp</item>
         <item name="android:textColor">@color/text_fun</item>
@@ -237,5 +269,13 @@
         <item name="android:shadowDx">2</item>
         <item name="android:shadowDy">2</item>
         <item name="android:shadowRadius">3</item>
+    </style>
+    <style name="WindowAnimationTransition">
+        <item name="android:windowEnterAnimation">@anim/slide_in_right</item>
+        <item name="android:windowExitAnimation">@anim/slide_out_left</item>
+    </style>
+    <style name="WindowAnimationZoom">
+        <item name="android:windowEnterAnimation">@anim/zoom_in</item>
+        <item name="android:windowExitAnimation">@anim/zoom_out</item>
     </style>
 </resources>

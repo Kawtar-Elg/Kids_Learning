@@ -64,18 +64,70 @@ class MainActivity : BaseActivity() {
     }
 
     private fun setupClickListeners() {
-        // Arabic Alphabet Card
+        // Arabic Alphabet Card with bounce animation
         binding.cardArabic.setOnClickListener {
-            val intent = Intent(this, ArabicAlphabetActivity::class.java)
-            startActivity(intent)
-            overridePendingTransition(android.R.anim.fade_in, android.R.anim.fade_out)
+            // Add click animation
+            it.animate()
+                .scaleX(0.9f)
+                .scaleY(0.9f)
+                .setDuration(100)
+                .withEndAction {
+                    it.animate()
+                        .scaleX(1.0f)
+                        .scaleY(1.0f)
+                        .setDuration(100)
+                        .start()
+
+                    val intent = Intent(this, ArabicAlphabetActivity::class.java)
+                    startActivity(intent)
+                    overridePendingTransition(R.anim.zoom_in, R.anim.zoom_out)
+                }
+                .start()
         }
 
-        // French Alphabet Card
+        // French Alphabet Card with bounce animation
         binding.cardFrench.setOnClickListener {
-            val intent = Intent(this, FrenchAlphabetActivity::class.java)
-            startActivity(intent)
-            overridePendingTransition(android.R.anim.fade_in, android.R.anim.fade_out)
+            // Add click animation
+            it.animate()
+                .scaleX(0.9f)
+                .scaleY(0.9f)
+                .setDuration(100)
+                .withEndAction {
+                    it.animate()
+                        .scaleX(1.0f)
+                        .scaleY(1.0f)
+                        .setDuration(100)
+                        .start()
+
+                    val intent = Intent(this, FrenchAlphabetActivity::class.java)
+                    startActivity(intent)
+                    overridePendingTransition(R.anim.zoom_in, R.anim.zoom_out)
+                }
+                .start()
+        }
+
+        // Video Learning Button (Circle) with bounce animation
+        binding.cardVideos.setOnClickListener {
+            // Add click animation
+            it.animate()
+                .scaleX(0.9f)
+                .scaleY(0.9f)
+                .setDuration(100)
+                .withEndAction {
+                    it.animate()
+                        .scaleX(1.0f)
+                        .scaleY(1.0f)
+                        .setDuration(100)
+                        .start()
+
+                    val intent = Intent(
+                        this,
+                        com.kidslearning.app.ui.video.VideoLearningActivity::class.java
+                    )
+                    startActivity(intent)
+                    overridePendingTransition(R.anim.slide_in_right, R.anim.slide_out_left)
+                }
+                .start()
         }
     }
 
@@ -141,6 +193,12 @@ class MainActivity : BaseActivity() {
         binding.cardFrench.startAnimation(
             AnimationUtils.loadAnimation(this, R.anim.bounce_button).apply {
                 startOffset = 800
+            })
+
+        // Video Learning Button bouncing
+        binding.cardVideos.startAnimation(
+            AnimationUtils.loadAnimation(this, R.anim.bounce_button).apply {
+                startOffset = 1100
             })
 
         // Bubbles rising

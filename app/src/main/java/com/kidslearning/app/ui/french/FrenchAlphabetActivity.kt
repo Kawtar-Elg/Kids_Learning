@@ -63,6 +63,12 @@ class FrenchAlphabetActivity : BaseActivity() {
             layoutManager = GridLayoutManager(this@FrenchAlphabetActivity, 4)
             this.adapter = this@FrenchAlphabetActivity.adapter
             setHasFixedSize(true)
+
+            // Add beautiful layout animation - letters fall down one by one!
+            layoutAnimation = android.view.animation.AnimationUtils.loadLayoutAnimation(
+                this@FrenchAlphabetActivity,
+                R.anim.layout_animation_fall_down
+            )
         }
     }
 

@@ -1,0 +1,117 @@
+╔═══════════════════════════════════════════════════════════════════╗
+║                                                                   ║
+║   🦁 INSTRUCTIONS: ANIMATIONS LOTTIE POUR ONBOARDING             ║
+║                                                                   ║
+╚═══════════════════════════════════════════════════════════════════╝
+
+📂 STRUCTURE REQUISE
+═══════════════════════════════════════════════════════════════════
+
+Créez cette structure dans ce dossier (assets/):
+
+assets/
+├── alphabet_data.json
+├── sounds/
+│   └── README.txt
+└── lottie/              ← CRÉER CE DOSSIER ICI!
+    ├── lion.json        ← Télécharger depuis LottieFiles.com
+    ├── frog.json        ← Télécharger depuis LottieFiles.com
+    ├── cat.json         ← Télécharger depuis LottieFiles.com
+    ├── fish.json        ← Télécharger depuis LottieFiles.com
+    └── butterfly.json   ← Télécharger depuis LottieFiles.com
+
+
+🚀 TÉLÉCHARGEMENT RAPIDE
+═══════════════════════════════════════════════════════════════════
+
+1. Créez le dossier "lottie" dans ce répertoire (assets/)
+
+2. Pour chaque animation:
+   
+   🦁 LION (Page 1):
+   • Allez sur: https://lottiefiles.com/free-animations/lion
+   • Cherchez: "cute lion" ou "cartoon lion"
+   • Téléchargez: Lottie JSON
+   • Renommez en: lion.json
+   • Placez dans: assets/lottie/
+
+   🐸 GRENOUILLE (Page 2):
+   • Allez sur: https://lottiefiles.com/free-animations/frog
+   • Cherchez: "jumping frog" ou "cute frog"
+   • Téléchargez: Lottie JSON
+   • Renommez en: frog.json
+   • Placez dans: assets/lottie/
+
+   🐱 CHAT (Page 3):
+   • Allez sur: https://lottiefiles.com/free-animations/cat
+   • Cherchez: "cute cat" ou "sleeping cat"
+   • Téléchargez: Lottie JSON
+   • Renommez en: cat.json
+   • Placez dans: assets/lottie/
+
+   🐠 POISSON (Page 4):
+   • Allez sur: https://lottiefiles.com/free-animations/fish
+   • Cherchez: "swimming fish" ou "fish bubbles"
+   • Téléchargez: Lottie JSON
+   • Renommez en: fish.json
+   • Placez dans: assets/lottie/
+
+   🦋 PAPILLON (Page 5):
+   • Allez sur: https://lottiefiles.com/free-animations/butterfly
+   • Cherchez: "flying butterfly" ou "colorful butterfly"
+   • Téléchargez: Lottie JSON
+   • Renommez en: butterfly.json
+   • Placez dans: assets/lottie/
+
+
+⚡ IMPORTANT
+═══════════════════════════════════════════════════════════════════
+
+✓ Les noms de fichiers DOIVENT être exactement comme indiqué
+✓ Format: Lottie JSON uniquement (.json)
+✓ Taille recommandée: 50-200 KB par fichier
+✓ Style: Coloré, cartoon, adapté aux enfants
+
+❌ Ne PAS renommer autrement
+❌ Ne PAS utiliser d'espaces dans les noms
+❌ Ne PAS utiliser de fichiers trop gros (> 500 KB)
+
+
+🔄 SI VOUS NE TÉLÉCHARGEZ PAS LES FICHIERS
+═══════════════════════════════════════════════════════════════════
+
+L'app fonctionnera quand même! Elle utilisera automatiquement:
+
+1. URLs en ligne (nécessite internet)
+2. Animations de secours si les URLs échouent
+3. Vue vide en dernier recours (ne casse pas l'app)
+
+MAIS pour la MEILLEURE EXPÉRIENCE:
+→ Téléchargez et placez les fichiers locaux
+→ Plus rapide, fonctionne hors ligne, toujours disponible!
+
+
+✅ VÉRIFICATION
+═══════════════════════════════════════════════════════════════════
+
+Après avoir ajouté les fichiers:
+
+1. Rebuild le projet: Build → Rebuild Project
+2. Lancez l'app: Run → Run 'app'
+3. Testez l'onboarding: Swipez à travers les 5 pages
+4. Vérifiez que chaque animal correspond au texte!
+
+
+📚 DOCUMENTATION COMPLÈTE
+═══════════════════════════════════════════════════════════════════
+
+Pour plus de détails, consultez:
+→ LOTTIE_ANIMALS_SETUP_GUIDE.md (à la racine du projet)
+
+
+═══════════════════════════════════════════════════════════════════
+
+Fait avec ❤️ pour Kids Learning App
+Des animations qui donnent vie à l'apprentissage! 🎨✨
+
+═══════════════════════════════════════════════════════════════════

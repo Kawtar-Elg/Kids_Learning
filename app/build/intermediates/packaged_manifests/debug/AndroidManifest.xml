@@ -60,6 +60,17 @@
             android:parentActivityName="com.kidslearning.app.ui.main.MainActivity"
             android:screenOrientation="portrait" />
 
+        <!-- Video Learning Activities -->
+        <activity
+            android:name="com.kidslearning.app.ui.video.VideoLearningActivity"
+            android:parentActivityName="com.kidslearning.app.ui.main.MainActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.kidslearning.app.ui.video.VideoPlayerActivity"
+            android:configChanges="orientation|screenSize|keyboardHidden"
+            android:parentActivityName="com.kidslearning.app.ui.video.VideoLearningActivity"
+            android:theme="@style/Theme.KidsLearning.Fullscreen" />
+
         <provider
             android:name="androidx.startup.InitializationProvider"
             android:authorities="com.kidslearning.app.androidx-startup"

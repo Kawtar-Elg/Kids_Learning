@@ -31,16 +31,16 @@
         app:layout_constraintStart_toStartOf="parent"
         android:contentDescription="@null" />
 
-    <!-- Lottie Animation Container - Big and Circular -->
+    <!-- Lottie Animation Container - HUGE, Circular & SUPER Attractive! ✨ -->
     <com.google.android.material.card.MaterialCardView
         android:id="@+id/animationCard"
-        android:layout_width="250dp"
-        android:layout_height="250dp"
-        android:layout_marginTop="40dp"
-        app:cardCornerRadius="125dp"
-        app:cardElevation="20dp"
+        android:layout_width="280dp"
+        android:layout_height="280dp"
+        android:layout_marginTop="60dp"
+        app:cardCornerRadius="140dp"
+        app:cardElevation="24dp"
         app:cardBackgroundColor="@color/white"
-        app:strokeWidth="6dp"
+        app:strokeWidth="8dp"
         app:strokeColor="@color/accent_yellow"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -50,31 +50,35 @@
             android:id="@+id/lottieAnimation"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:padding="16dp"
+            android:padding="20dp"
+            android:scaleType="fitCenter"
             app:lottie_autoPlay="true"
-            app:lottie_loop="true" />
+            app:lottie_loop="true"
+            app:lottie_speed="0.8" />
 
     </com.google.android.material.card.MaterialCardView>
 
-    <!-- Sparkle decorations around animation -->
+    <!-- ✨ BIG Sparkle Decorations - Super Attractive & Eye-Catching! -->
     <ImageView
         android:id="@+id/ivSparkle1"
-        android:layout_width="40dp"
-        android:layout_height="40dp"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
         android:src="@drawable/ic_sparkle"
-        android:layout_marginEnd="-12dp"
-        android:layout_marginTop="15dp"
+        android:layout_marginEnd="-16dp"
+        android:layout_marginTop="20dp"
+        android:alpha="0.95"
         app:layout_constraintEnd_toEndOf="@id/animationCard"
         app:layout_constraintTop_toTopOf="@id/animationCard"
         android:contentDescription="@null" />
 
     <ImageView
         android:id="@+id/ivSparkle2"
-        android:layout_width="32dp"
-        android:layout_height="32dp"
+        android:layout_width="44dp"
+        android:layout_height="44dp"
         android:src="@drawable/ic_sparkle"
-        android:layout_marginStart="-8dp"
-        android:layout_marginBottom="35dp"
+        android:layout_marginStart="-12dp"
+        android:layout_marginBottom="40dp"
+        android:alpha="0.9"
         app:layout_constraintStart_toStartOf="@id/animationCard"
         app:layout_constraintBottom_toBottomOf="@id/animationCard"
         android:contentDescription="@null" />
@@ -91,21 +95,22 @@
         app:layout_constraintTop_toTopOf="@id/animationCard"
         android:contentDescription="@null" />
 
-    <!-- Title - Fun and Bold -->
+    <!-- Title - SUPER Fun, Bold & Attractive! 🎉 -->
     <TextView
         android:id="@+id/tvTitle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="28dp"
+        android:layout_marginTop="32dp"
         android:text="Welcome!"
-        android:textSize="34sp"
+        android:textSize="38sp"
         android:textColor="@color/text_fun"
         android:textStyle="bold"
         android:gravity="center"
-        android:shadowColor="#33000000"
+        android:letterSpacing="0.02"
+        android:shadowColor="#44000000"
         android:shadowDx="2"
-        android:shadowDy="2"
-        android:shadowRadius="4"
+        android:shadowDy="3"
+        android:shadowRadius="6"
         app:layout_constraintTop_toBottomOf="@id/animationCard"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent" />
@@ -135,10 +140,15 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Learn and have fun!"
-            android:textSize="18sp"
+            android:textSize="22sp"
             android:textColor="@color/text_secondary"
             android:textStyle="bold"
-            android:gravity="center" />
+            android:gravity="center"
+            android:letterSpacing="0.01"
+            android:shadowColor="#22000000"
+            android:shadowDx="1"
+            android:shadowDy="1"
+            android:shadowRadius="2" />
 
         <ImageView
             android:id="@+id/ivHeart2"
@@ -150,7 +160,7 @@
 
     </LinearLayout>
 
-    <!-- Fun emoji/icon row - Animated -->
+    <!-- Fun animal icon row - Animated -->
     <LinearLayout
         android:id="@+id/emojiLayout"
         android:layout_width="wrap_content"
@@ -166,7 +176,7 @@
             android:id="@+id/ivIcon1"
             android:layout_width="36dp"
             android:layout_height="36dp"
-            android:src="@drawable/ic_star"
+            android:src="@drawable/ic_paw"
             android:layout_marginEnd="20dp"
             android:contentDescription="@null" />
 
@@ -174,7 +184,7 @@
             android:id="@+id/ivIcon2"
             android:layout_width="36dp"
             android:layout_height="36dp"
-            android:src="@drawable/ic_heart"
+            android:src="@drawable/ic_fish"
             android:layout_marginEnd="20dp"
             android:contentDescription="@null" />
 
@@ -182,7 +192,7 @@
             android:id="@+id/ivIcon3"
             android:layout_width="36dp"
             android:layout_height="36dp"
-            android:src="@drawable/ic_star"
+            android:src="@drawable/ic_butterfly"
             android:contentDescription="@null" />
 
     </LinearLayout>

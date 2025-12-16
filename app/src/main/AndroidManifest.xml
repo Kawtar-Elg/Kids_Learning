@@ -48,6 +48,18 @@
             android:screenOrientation="portrait"
             android:parentActivityName=".ui.main.MainActivity" />
 
+        <!-- Video Learning Activities -->
+        <activity
+            android:name=".ui.video.VideoLearningActivity"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".ui.main.MainActivity" />
+
+        <activity
+            android:name=".ui.video.VideoPlayerActivity"
+            android:configChanges="orientation|screenSize|keyboardHidden"
+            android:parentActivityName=".ui.video.VideoLearningActivity"
+            android:theme="@style/Theme.KidsLearning.Fullscreen" />
+
     </application>
 
 </manifest>

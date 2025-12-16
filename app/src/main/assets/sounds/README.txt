@@ -1,7 +1,8 @@
 FICHIERS AUDIO POUR KIDS LEARNING
 ===================================
 
-Ce dossier doit contenir les fichiers audio MP3 pour les lettres.
+Ce dossier contient les fichiers audio MP3 pour la prononciation des lettres.
+Les fichiers de MUSIQUE DE FOND vont dans: app/src/main/res/raw/
 
 STRUCTURE REQUISE:
 ==================
@@ -36,3 +37,17 @@ INSTALLATION:
 3. Relancer l'application
 
 Note: Les fichiers audio ne sont PAS inclus dans le projet pour réduire la taille.
+
+MUSIQUE DE FOND POUR L'APPRENTISSAGE
+====================================
+Les enfants peuvent maintenant apprendre en écoutant de la musique amusante!
+
+Fichiers de musique de fond requises (app/src/main/res/raw/):
+- happy_learning_music.mp3 (musique par défaut - obligatoire)
+- gentle_piano_music.mp3 (optionnel)
+- uplifting_melody.mp3 (optionnel)
+- cheerful_bells.mp3 (optionnel)
+- rainbow_notes.mp3 (optionnel)
+
+Pour plus de détails sur la configuration des fichiers de musique:
+Consulter: MUSIC_SETUP_GUIDE.md à la racine du projet

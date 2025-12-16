@@ -49,6 +49,9 @@ public final class ActivityMainBinding implements ViewBinding {
   public final MaterialCardView cardFrench;
 
   @NonNull
+  public final MaterialCardView cardVideos;
+
+  @NonNull
   public final ImageView ivArabicStar;
 
   @NonNull
@@ -91,6 +94,9 @@ public final class ActivityMainBinding implements ViewBinding {
   public final ImageView ivSun;
 
   @NonNull
+  public final ImageView ivVideoIcon;
+
+  @NonNull
   public final MaterialCardView logoCard;
 
   @NonNull
@@ -115,23 +121,27 @@ public final class ActivityMainBinding implements ViewBinding {
   public final TextView tvLanguageLabel;
 
   @NonNull
+  public final TextView tvVideoLabel;
+
+  @NonNull
   public final TextView tvWelcome;
 
   private ActivityMainBinding(@NonNull ConstraintLayout rootView,
       @NonNull Guideline bottomDecoration, @NonNull ImageButton btnLanguage,
       @NonNull MaterialCardView btnLanguageCard, @NonNull View bubbleBlue, @NonNull View bubblePink,
       @NonNull View bubbleYellow, @NonNull MaterialCardView cardArabic,
-      @NonNull MaterialCardView cardFrench, @NonNull ImageView ivArabicStar,
-      @NonNull ImageView ivBalloon, @NonNull ImageView ivBottomCloud,
-      @NonNull ImageView ivCloudLeft, @NonNull ImageView ivCloudMiddle,
-      @NonNull ImageView ivFrenchHeart, @NonNull ImageView ivLogo, @NonNull ImageView ivSparkle1,
-      @NonNull ImageView ivSparkle2, @NonNull ImageView ivStar1, @NonNull ImageView ivStar2,
-      @NonNull ImageView ivSubtitleStar1, @NonNull ImageView ivSubtitleStar2,
-      @NonNull ImageView ivSun, @NonNull MaterialCardView logoCard,
-      @NonNull LinearLayout subtitleLayout, @NonNull TextView tvArabicLabel,
-      @NonNull TextView tvArabicLetters, @NonNull TextView tvChoose,
-      @NonNull TextView tvFrenchLabel, @NonNull TextView tvFrenchLetters,
-      @NonNull TextView tvLanguageLabel, @NonNull TextView tvWelcome) {
+      @NonNull MaterialCardView cardFrench, @NonNull MaterialCardView cardVideos,
+      @NonNull ImageView ivArabicStar, @NonNull ImageView ivBalloon,
+      @NonNull ImageView ivBottomCloud, @NonNull ImageView ivCloudLeft,
+      @NonNull ImageView ivCloudMiddle, @NonNull ImageView ivFrenchHeart, @NonNull ImageView ivLogo,
+      @NonNull ImageView ivSparkle1, @NonNull ImageView ivSparkle2, @NonNull ImageView ivStar1,
+      @NonNull ImageView ivStar2, @NonNull ImageView ivSubtitleStar1,
+      @NonNull ImageView ivSubtitleStar2, @NonNull ImageView ivSun, @NonNull ImageView ivVideoIcon,
+      @NonNull MaterialCardView logoCard, @NonNull LinearLayout subtitleLayout,
+      @NonNull TextView tvArabicLabel, @NonNull TextView tvArabicLetters,
+      @NonNull TextView tvChoose, @NonNull TextView tvFrenchLabel,
+      @NonNull TextView tvFrenchLetters, @NonNull TextView tvLanguageLabel,
+      @NonNull TextView tvVideoLabel, @NonNull TextView tvWelcome) {
     this.rootView = rootView;
     this.bottomDecoration = bottomDecoration;
     this.btnLanguage = btnLanguage;
@@ -141,6 +151,7 @@ public final class ActivityMainBinding implements ViewBinding {
     this.bubbleYellow = bubbleYellow;
     this.cardArabic = cardArabic;
     this.cardFrench = cardFrench;
+    this.cardVideos = cardVideos;
     this.ivArabicStar = ivArabicStar;
     this.ivBalloon = ivBalloon;
     this.ivBottomCloud = ivBottomCloud;
@@ -155,6 +166,7 @@ public final class ActivityMainBinding implements ViewBinding {
     this.ivSubtitleStar1 = ivSubtitleStar1;
     this.ivSubtitleStar2 = ivSubtitleStar2;
     this.ivSun = ivSun;
+    this.ivVideoIcon = ivVideoIcon;
     this.logoCard = logoCard;
     this.subtitleLayout = subtitleLayout;
     this.tvArabicLabel = tvArabicLabel;
@@ -163,6 +175,7 @@ public final class ActivityMainBinding implements ViewBinding {
     this.tvFrenchLabel = tvFrenchLabel;
     this.tvFrenchLetters = tvFrenchLetters;
     this.tvLanguageLabel = tvLanguageLabel;
+    this.tvVideoLabel = tvVideoLabel;
     this.tvWelcome = tvWelcome;
   }
 
@@ -238,6 +251,12 @@ public final class ActivityMainBinding implements ViewBinding {
       id = R.id.cardFrench;
       MaterialCardView cardFrench = ViewBindings.findChildViewById(rootView, id);
       if (cardFrench == null) {
+        break missingId;
+      }
+
+      id = R.id.cardVideos;
+      MaterialCardView cardVideos = ViewBindings.findChildViewById(rootView, id);
+      if (cardVideos == null) {
         break missingId;
       }
 
@@ -325,6 +344,12 @@ public final class ActivityMainBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.ivVideoIcon;
+      ImageView ivVideoIcon = ViewBindings.findChildViewById(rootView, id);
+      if (ivVideoIcon == null) {
+        break missingId;
+      }
+
       id = R.id.logoCard;
       MaterialCardView logoCard = ViewBindings.findChildViewById(rootView, id);
       if (logoCard == null) {
@@ -373,6 +398,12 @@ public final class ActivityMainBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.tvVideoLabel;
+      TextView tvVideoLabel = ViewBindings.findChildViewById(rootView, id);
+      if (tvVideoLabel == null) {
+        break missingId;
+      }
+
       id = R.id.tvWelcome;
       TextView tvWelcome = ViewBindings.findChildViewById(rootView, id);
       if (tvWelcome == null) {
@@ -380,11 +411,11 @@ public final class ActivityMainBinding implements ViewBinding {
       }
 
       return new ActivityMainBinding((ConstraintLayout) rootView, bottomDecoration, btnLanguage,
-          btnLanguageCard, bubbleBlue, bubblePink, bubbleYellow, cardArabic, cardFrench,
+          btnLanguageCard, bubbleBlue, bubblePink, bubbleYellow, cardArabic, cardFrench, cardVideos,
           ivArabicStar, ivBalloon, ivBottomCloud, ivCloudLeft, ivCloudMiddle, ivFrenchHeart, ivLogo,
           ivSparkle1, ivSparkle2, ivStar1, ivStar2, ivSubtitleStar1, ivSubtitleStar2, ivSun,
-          logoCard, subtitleLayout, tvArabicLabel, tvArabicLetters, tvChoose, tvFrenchLabel,
-          tvFrenchLetters, tvLanguageLabel, tvWelcome);
+          ivVideoIcon, logoCard, subtitleLayout, tvArabicLabel, tvArabicLetters, tvChoose,
+          tvFrenchLabel, tvFrenchLetters, tvLanguageLabel, tvVideoLabel, tvWelcome);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));
