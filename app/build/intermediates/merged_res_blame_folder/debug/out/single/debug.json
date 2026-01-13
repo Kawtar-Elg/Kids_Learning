@@ -1,286 +1,438 @@
 [
     {
-        "merged": "com.kidslearning.app-merged_res-44:/anim_slide_out_left.xml.flat",
-        "source": "com.kidslearning.app-main-46:/anim/slide_out_left.xml"
+        "merged": "C:\\Users\\pc\\.gradle\\daemon\\8.4\\com.alphapals.app-merged_res-44:\\xml_data_extraction_rules.xml.flat",
+        "source": "C:\\Users\\pc\\.gradle\\daemon\\8.4\\com.alphapals.app-main-46:\\xml\\data_extraction_rules.xml"
     },
     {
-        "merged": "com.kidslearning.app-merged_res-44:/anim_heart_beat.xml.flat",
-        "source": "com.kidslearning.app-main-46:/anim/heart_beat.xml"
+        "merged": "C:\\Users\\pc\\.gradle\\daemon\\8.4\\com.alphapals.app-merged_res-44:\\drawable_bg_bubble_pink.xml.flat",
+        "source": "C:\\Users\\pc\\.gradle\\daemon\\8.4\\com.alphapals.app-main-46:\\drawable\\bg_bubble_pink.xml"
     },
     {
-        "merged": "com.kidslearning.app-merged_res-44:/drawable_ic_cloud.xml.flat",
-        "source": "com.kidslearning.app-main-46:/drawable/ic_cloud.xml"
+        "merged": "C:\\Users\\pc\\.gradle\\daemon\\8.4\\com.alphapals.app-merged_res-44:\\drawable_ic_rainbow.xml.flat",
+        "source": "C:\\Users\\pc\\.gradle\\daemon\\8.4\\com.alphapals.app-main-46:\\drawable\\ic_rainbow.xml"
     },
     {
-        "merged": "com.kidslearning.app-merged_res-44:/drawable_ic_video.xml.flat",
-        "source": "com.kidslearning.app-main-46:/drawable/ic_video.xml"
+        "merged": "C:\\Users\\pc\\.gradle\\daemon\\8.4\\com.alphapals.app-merged_res-44:\\drawable_bg_card_arabic.xml.flat",
+        "source": "C:\\Users\\pc\\.gradle\\daemon\\8.4\\com.alphapals.app-main-46:\\drawable\\bg_card_arabic.xml"
     },
     {
-        "merged": "com.kidslearning.app-merged_res-44:/drawable_bg_button_fun.xml.flat",
-        "source": "com.kidslearning.app-main-46:/drawable/bg_button_fun.xml"
+        "merged": "C:\\Users\\pc\\.gradle\\daemon\\8.4\\com.alphapals.app-merged_res-44:\\drawable_bg_circle_french.xml.flat",
+        "source": "C:\\Users\\pc\\.gradle\\daemon\\8.4\\com.alphapals.app-main-46:\\drawable\\bg_circle_french.xml"
     },
     {
-        "merged": "com.kidslearning.app-merged_res-44:/drawable_bg_toolbar_fun.xml.flat",
-        "source": "com.kidslearning.app-main-46:/drawable/bg_toolbar_fun.xml"
+        "merged": "C:\\Users\\pc\\.gradle\\daemon\\8.4\\com.alphapals.app-merged_res-44:\\drawable_bg_gradient_rainbow.xml.flat",
+        "source": "C:\\Users\\pc\\.gradle\\daemon\\8.4\\com.alphapals.app-main-46:\\drawable\\bg_gradient_rainbow.xml"
     },
     {
-        "merged": "com.kidslearning.app-merged_res-44:/drawable_ic_clear.xml.flat",
-        "source": "com.kidslearning.app-main-46:/drawable/ic_clear.xml"
+        "merged": "C:\\Users\\pc\\.gradle\\daemon\\8.4\\com.alphapals.app-merged_res-44:\\anim_layout_animation_fall_down.xml.flat",
+        "source": "C:\\Users\\pc\\.gradle\\daemon\\8.4\\com.alphapals.app-main-46:\\anim\\layout_animation_fall_down.xml"
     },
     {
-        "merged": "com.kidslearning.app-merged_res-44:/xml_backup_rules.xml.flat",
-        "source": "com.kidslearning.app-main-46:/xml/backup_rules.xml"
+        "merged": "C:\\Users\\pc\\.gradle\\daemon\\8.4\\com.alphapals.app-merged_res-44:\\drawable_bg_toolbar_fun.xml.flat",
+        "source": "C:\\Users\\pc\\.gradle\\daemon\\8.4\\com.alphapals.app-main-46:\\drawable\\bg_toolbar_fun.xml"
     },
     {
-        "merged": "com.kidslearning.app-merged_res-44:/drawable_indicator_inactive.xml.flat",
-        "source": "com.kidslearning.app-main-46:/drawable/indicator_inactive.xml"
+        "merged": "C:\\Users\\pc\\.gradle\\daemon\\8.4\\com.alphapals.app-merged_res-44:\\anim_pulse_star.xml.flat",
+        "source": "C:\\Users\\pc\\.gradle\\daemon\\8.4\\com.alphapals.app-main-46:\\anim\\pulse_star.xml"
     },
     {
-        "merged": "com.kidslearning.app-merged_res-44:/anim_slide_in_left.xml.flat",
-        "source": "com.kidslearning.app-main-46:/anim/slide_in_left.xml"
+        "merged": "C:\\Users\\pc\\.gradle\\daemon\\8.4\\com.alphapals.app-merged_res-44:\\drawable_bg_bubble_blue.xml.flat",
+        "source": "C:\\Users\\pc\\.gradle\\daemon\\8.4\\com.alphapals.app-main-46:\\drawable\\bg_bubble_blue.xml"
     },
     {
-        "merged": "com.kidslearning.app-merged_res-44:/anim_float_slow.xml.flat",
-        "source": "com.kidslearning.app-main-46:/anim/float_slow.xml"
+        "merged": "C:\\Users\\pc\\.gradle\\daemon\\8.4\\com.alphapals.app-merged_res-44:\\drawable_gradient_completion_bg.xml.flat",
+        "source": "C:\\Users\\pc\\.gradle\\daemon\\8.4\\com.alphapals.app-main-46:\\drawable\\gradient_completion_bg.xml"
     },
     {
-        "merged": "com.kidslearning.app-merged_res-44:/drawable_ic_rainbow.xml.flat",
-        "source": "com.kidslearning.app-main-46:/drawable/ic_rainbow.xml"
+        "merged": "C:\\Users\\pc\\.gradle\\daemon\\8.4\\com.alphapals.app-merged_res-44:\\drawable_ic_cloud.xml.flat",
+        "source": "C:\\Users\\pc\\.gradle\\daemon\\8.4\\com.alphapals.app-main-46:\\drawable\\ic_cloud.xml"
     },
     {
-        "merged": "com.kidslearning.app-merged_res-44:/drawable_ic_heart.xml.flat",
-        "source": "com.kidslearning.app-main-46:/drawable/ic_heart.xml"
+        "merged": "C:\\Users\\pc\\.gradle\\daemon\\8.4\\com.alphapals.app-merged_res-44:\\anim_fade_slide_up.xml.flat",
+        "source": "C:\\Users\\pc\\.gradle\\daemon\\8.4\\com.alphapals.app-main-46:\\anim\\fade_slide_up.xml"
     },
     {
-        "merged": "com.kidslearning.app-merged_res-44:/layout_activity_drawing.xml.flat",
-        "source": "com.kidslearning.app-main-46:/layout/activity_drawing.xml"
+        "merged": "C:\\Users\\pc\\.gradle\\daemon\\8.4\\com.alphapals.app-merged_res-44:\\anim_sparkle.xml.flat",
+        "source": "C:\\Users\\pc\\.gradle\\daemon\\8.4\\com.alphapals.app-main-46:\\anim\\sparkle.xml"
     },
     {
-        "merged": "com.kidslearning.app-merged_res-44:/anim_bounce_in.xml.flat",
-        "source": "com.kidslearning.app-main-46:/anim/bounce_in.xml"
+        "merged": "C:\\Users\\pc\\.gradle\\daemon\\8.4\\com.alphapals.app-merged_res-44:\\drawable_ic_language.xml.flat",
+        "source": "C:\\Users\\pc\\.gradle\\daemon\\8.4\\com.alphapals.app-main-46:\\drawable\\ic_language.xml"
     },
     {
-        "merged": "com.kidslearning.app-merged_res-44:/anim_slide_out_right.xml.flat",
-        "source": "com.kidslearning.app-main-46:/anim/slide_out_right.xml"
+        "merged": "C:\\Users\\pc\\.gradle\\daemon\\8.4\\com.alphapals.app-merged_res-44:\\anim_rotate_sun.xml.flat",
+        "source": "C:\\Users\\pc\\.gradle\\daemon\\8.4\\com.alphapals.app-main-46:\\anim\\rotate_sun.xml"
     },
     {
-        "merged": "com.kidslearning.app-merged_res-44:/anim_zoom_out.xml.flat",
-        "source": "com.kidslearning.app-main-46:/anim/zoom_out.xml"
+        "merged": "C:\\Users\\pc\\.gradle\\daemon\\8.4\\com.alphapals.app-merged_res-44:\\mipmap-hdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\pc\\.gradle\\daemon\\8.4\\com.alphapals.app-main-46:\\mipmap-hdpi\\ic_launcher.png"
     },
     {
-        "merged": "com.kidslearning.app-merged_res-44:/drawable_bg_circle_french.xml.flat",
-        "source": "com.kidslearning.app-main-46:/drawable/bg_circle_french.xml"
+        "merged": "C:\\Users\\pc\\.gradle\\daemon\\8.4\\com.alphapals.app-merged_res-44:\\mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\pc\\.gradle\\daemon\\8.4\\com.alphapals.app-main-46:\\mipmap-xxxhdpi\\ic_launcher.png"
     },
     {
-        "merged": "com.kidslearning.app-merged_res-44:/anim_item_animation_fall_down.xml.flat",
-        "source": "com.kidslearning.app-main-46:/anim/item_animation_fall_down.xml"
+        "merged": "C:\\Users\\pc\\.gradle\\daemon\\8.4\\com.alphapals.app-merged_res-44:\\font_comic_sans.xml.flat",
+        "source": "C:\\Users\\pc\\.gradle\\daemon\\8.4\\com.alphapals.app-main-46:\\font\\comic_sans.xml"
     },
     {
-        "merged": "com.kidslearning.app-merged_res-44:/layout_custom_player_controls.xml.flat",
-        "source": "com.kidslearning.app-main-46:/layout/custom_player_controls.xml"
+        "merged": "C:\\Users\\pc\\.gradle\\daemon\\8.4\\com.alphapals.app-merged_res-44:\\anim_item_animation_fall_down.xml.flat",
+        "source": "C:\\Users\\pc\\.gradle\\daemon\\8.4\\com.alphapals.app-main-46:\\anim\\item_animation_fall_down.xml"
     },
     {
-        "merged": "com.kidslearning.app-merged_res-44:/layout_color_palette.xml.flat",
-        "source": "com.kidslearning.app-main-46:/layout/color_palette.xml"
+        "merged": "C:\\Users\\pc\\.gradle\\daemon\\8.4\\com.alphapals.app-merged_res-44:\\drawable_bg_video_chip.xml.flat",
+        "source": "C:\\Users\\pc\\.gradle\\daemon\\8.4\\com.alphapals.app-main-46:\\drawable\\bg_video_chip.xml"
     },
     {
-        "merged": "com.kidslearning.app-merged_res-44:/drawable_bg_bubble_pink.xml.flat",
-        "source": "com.kidslearning.app-main-46:/drawable/bg_bubble_pink.xml"
+        "merged": "C:\\Users\\pc\\.gradle\\daemon\\8.4\\com.alphapals.app-merged_res-44:\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "C:\\Users\\pc\\.gradle\\daemon\\8.4\\com.alphapals.app-main-46:\\mipmap-anydpi-v26\\ic_launcher.xml"
     },
     {
-        "merged": "com.kidslearning.app-merged_res-44:/drawable_indicator_active.xml.flat",
-        "source": "com.kidslearning.app-main-46:/drawable/indicator_active.xml"
+        "merged": "C:\\Users\\pc\\.gradle\\daemon\\8.4\\com.alphapals.app-merged_res-44:\\anim_slide_out_left.xml.flat",
+        "source": "C:\\Users\\pc\\.gradle\\daemon\\8.4\\com.alphapals.app-main-46:\\anim\\slide_out_left.xml"
     },
     {
-        "merged": "com.kidslearning.app-merged_res-44:/drawable_ic_butterfly.xml.flat",
-        "source": "com.kidslearning.app-main-46:/drawable/ic_butterfly.xml"
+        "merged": "C:\\Users\\pc\\.gradle\\daemon\\8.4\\com.alphapals.app-merged_res-44:\\anim_scale_up.xml.flat",
+        "source": "C:\\Users\\pc\\.gradle\\daemon\\8.4\\com.alphapals.app-main-46:\\anim\\scale_up.xml"
     },
     {
-        "merged": "com.kidslearning.app-merged_res-44:/mipmap-anydpi-v26_ic_launcher.xml.flat",
-        "source": "com.kidslearning.app-main-46:/mipmap-anydpi-v26/ic_launcher.xml"
+        "merged": "C:\\Users\\pc\\.gradle\\daemon\\8.4\\com.alphapals.app-merged_res-44:\\drawable_ic_kids_logo.png.flat",
+        "source": "C:\\Users\\pc\\.gradle\\daemon\\8.4\\com.alphapals.app-main-46:\\drawable\\ic_kids_logo.png"
     },
     {
-        "merged": "com.kidslearning.app-merged_res-44:/drawable_ic_fish.xml.flat",
-        "source": "com.kidslearning.app-main-46:/drawable/ic_fish.xml"
+        "merged": "C:\\Users\\pc\\.gradle\\daemon\\8.4\\com.alphapals.app-merged_res-44:\\drawable_ic_sun.xml.flat",
+        "source": "C:\\Users\\pc\\.gradle\\daemon\\8.4\\com.alphapals.app-main-46:\\drawable\\ic_sun.xml"
     },
     {
-        "merged": "com.kidslearning.app-merged_res-44:/layout_activity_alphabet.xml.flat",
-        "source": "com.kidslearning.app-main-46:/layout/activity_alphabet.xml"
+        "merged": "C:\\Users\\pc\\.gradle\\daemon\\8.4\\com.alphapals.app-merged_res-44:\\drawable_ic_refresh.xml.flat",
+        "source": "C:\\Users\\pc\\.gradle\\daemon\\8.4\\com.alphapals.app-main-46:\\drawable\\ic_refresh.xml"
     },
     {
-        "merged": "com.kidslearning.app-merged_res-44:/anim_sparkle.xml.flat",
-        "source": "com.kidslearning.app-main-46:/anim/sparkle.xml"
+        "merged": "C:\\Users\\pc\\.gradle\\daemon\\8.4\\com.alphapals.app-merged_res-44:\\anim_bounce_in.xml.flat",
+        "source": "C:\\Users\\pc\\.gradle\\daemon\\8.4\\com.alphapals.app-main-46:\\anim\\bounce_in.xml"
     },
     {
-        "merged": "com.kidslearning.app-merged_res-44:/drawable_bg_card_french.xml.flat",
-        "source": "com.kidslearning.app-main-46:/drawable/bg_card_french.xml"
+        "merged": "C:\\Users\\pc\\.gradle\\daemon\\8.4\\com.alphapals.app-merged_res-44:\\mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\pc\\.gradle\\daemon\\8.4\\com.alphapals.app-main-46:\\mipmap-xhdpi\\ic_launcher_round.png"
     },
     {
-        "merged": "com.kidslearning.app-merged_res-44:/anim_float_sideways.xml.flat",
-        "source": "com.kidslearning.app-main-46:/anim/float_sideways.xml"
+        "merged": "C:\\Users\\pc\\.gradle\\daemon\\8.4\\com.alphapals.app-merged_res-44:\\anim_heart_beat.xml.flat",
+        "source": "C:\\Users\\pc\\.gradle\\daemon\\8.4\\com.alphapals.app-main-46:\\anim\\heart_beat.xml"
     },
     {
-        "merged": "com.kidslearning.app-merged_res-44:/drawable_bg_video_thumbnail_overlay.xml.flat",
-        "source": "com.kidslearning.app-main-46:/drawable/bg_video_thumbnail_overlay.xml"
+        "merged": "C:\\Users\\pc\\.gradle\\daemon\\8.4\\com.alphapals.app-merged_res-44:\\raw_cute_tiger.json.flat",
+        "source": "C:\\Users\\pc\\.gradle\\daemon\\8.4\\com.alphapals.app-main-46:\\raw\\cute_tiger.json"
     },
     {
-        "merged": "com.kidslearning.app-merged_res-44:/anim_balloon_sway.xml.flat",
-        "source": "com.kidslearning.app-main-46:/anim/balloon_sway.xml"
+        "merged": "C:\\Users\\pc\\.gradle\\daemon\\8.4\\com.alphapals.app-merged_res-44:\\font_roboto_regular.xml.flat",
+        "source": "C:\\Users\\pc\\.gradle\\daemon\\8.4\\com.alphapals.app-main-46:\\font\\roboto_regular.xml"
     },
     {
-        "merged": "com.kidslearning.app-merged_res-44:/anim_float_up_down.xml.flat",
-        "source": "com.kidslearning.app-main-46:/anim/float_up_down.xml"
+        "merged": "C:\\Users\\pc\\.gradle\\daemon\\8.4\\com.alphapals.app-merged_res-44:\\mipmap-xxhdpi_ic_launcher_foreground.png.flat",
+        "source": "C:\\Users\\pc\\.gradle\\daemon\\8.4\\com.alphapals.app-main-46:\\mipmap-xxhdpi\\ic_launcher_foreground.png"
     },
     {
-        "merged": "com.kidslearning.app-merged_res-44:/drawable_ic_kids_logo.png.flat",
-        "source": "com.kidslearning.app-main-46:/drawable/ic_kids_logo.png"
+        "merged": "C:\\Users\\pc\\.gradle\\daemon\\8.4\\com.alphapals.app-merged_res-44:\\raw_butterfly_lottie_animation.json.flat",
+        "source": "C:\\Users\\pc\\.gradle\\daemon\\8.4\\com.alphapals.app-main-46:\\raw\\butterfly_lottie_animation.json"
     },
     {
-        "merged": "com.kidslearning.app-merged_res-44:/anim_scale_up.xml.flat",
-        "source": "com.kidslearning.app-main-46:/anim/scale_up.xml"
+        "merged": "C:\\Users\\pc\\.gradle\\daemon\\8.4\\com.alphapals.app-merged_res-44:\\drawable_gradient_bottom_wave.xml.flat",
+        "source": "C:\\Users\\pc\\.gradle\\daemon\\8.4\\com.alphapals.app-main-46:\\drawable\\gradient_bottom_wave.xml"
     },
     {
-        "merged": "com.kidslearning.app-merged_res-44:/anim_pulse_star.xml.flat",
-        "source": "com.kidslearning.app-main-46:/anim/pulse_star.xml"
+        "merged": "C:\\Users\\pc\\.gradle\\daemon\\8.4\\com.alphapals.app-merged_res-44:\\drawable_bg_circle_arabic.xml.flat",
+        "source": "C:\\Users\\pc\\.gradle\\daemon\\8.4\\com.alphapals.app-main-46:\\drawable\\bg_circle_arabic.xml"
     },
     {
-        "merged": "com.kidslearning.app-merged_res-44:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
-        "source": "com.kidslearning.app-main-46:/mipmap-anydpi-v26/ic_launcher_round.xml"
+        "merged": "C:\\Users\\pc\\.gradle\\daemon\\8.4\\com.alphapals.app-merged_res-44:\\mipmap-xhdpi_ic_launcher_foreground.png.flat",
+        "source": "C:\\Users\\pc\\.gradle\\daemon\\8.4\\com.alphapals.app-main-46:\\mipmap-xhdpi\\ic_launcher_foreground.png"
     },
     {
-        "merged": "com.kidslearning.app-merged_res-44:/drawable_ic_back.xml.flat",
-        "source": "com.kidslearning.app-main-46:/drawable/ic_back.xml"
+        "merged": "C:\\Users\\pc\\.gradle\\daemon\\8.4\\com.alphapals.app-merged_res-44:\\mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\pc\\.gradle\\daemon\\8.4\\com.alphapals.app-main-46:\\mipmap-xxhdpi\\ic_launcher.png"
     },
     {
-        "merged": "com.kidslearning.app-merged_res-44:/drawable_ic_balloon.xml.flat",
-        "source": "com.kidslearning.app-main-46:/drawable/ic_balloon.xml"
+        "merged": "C:\\Users\\pc\\.gradle\\daemon\\8.4\\com.alphapals.app-merged_res-44:\\raw_loading_cat.json.flat",
+        "source": "C:\\Users\\pc\\.gradle\\daemon\\8.4\\com.alphapals.app-main-46:\\raw\\loading_cat.json"
     },
     {
-        "merged": "com.kidslearning.app-merged_res-44:/drawable_ic_sound.xml.flat",
-        "source": "com.kidslearning.app-main-46:/drawable/ic_sound.xml"
+        "merged": "C:\\Users\\pc\\.gradle\\daemon\\8.4\\com.alphapals.app-merged_res-44:\\layout_item_letter.xml.flat",
+        "source": "C:\\Users\\pc\\.gradle\\daemon\\8.4\\com.alphapals.app-main-46:\\layout\\item_letter.xml"
     },
     {
-        "merged": "com.kidslearning.app-merged_res-44:/anim_bounce_button.xml.flat",
-        "source": "com.kidslearning.app-main-46:/anim/bounce_button.xml"
+        "merged": "C:\\Users\\pc\\.gradle\\daemon\\8.4\\com.alphapals.app-merged_res-44:\\drawable_bg_video_thumbnail_overlay.xml.flat",
+        "source": "C:\\Users\\pc\\.gradle\\daemon\\8.4\\com.alphapals.app-main-46:\\drawable\\bg_video_thumbnail_overlay.xml"
     },
     {
-        "merged": "com.kidslearning.app-merged_res-44:/anim_layout_animation_fall_down.xml.flat",
-        "source": "com.kidslearning.app-main-46:/anim/layout_animation_fall_down.xml"
+        "merged": "C:\\Users\\pc\\.gradle\\daemon\\8.4\\com.alphapals.app-merged_res-44:\\drawable_ic_redo.xml.flat",
+        "source": "C:\\Users\\pc\\.gradle\\daemon\\8.4\\com.alphapals.app-main-46:\\drawable\\ic_redo.xml"
     },
     {
-        "merged": "com.kidslearning.app-merged_res-44:/drawable_bg_circle_video.xml.flat",
-        "source": "com.kidslearning.app-main-46:/drawable/bg_circle_video.xml"
+        "merged": "C:\\Users\\pc\\.gradle\\daemon\\8.4\\com.alphapals.app-merged_res-44:\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "C:\\Users\\pc\\.gradle\\daemon\\8.4\\com.alphapals.app-main-46:\\mipmap-anydpi-v26\\ic_launcher_round.xml"
     },
     {
-        "merged": "com.kidslearning.app-merged_res-44:/font_roboto_regular.xml.flat",
-        "source": "com.kidslearning.app-main-46:/font/roboto_regular.xml"
+        "merged": "C:\\Users\\pc\\.gradle\\daemon\\8.4\\com.alphapals.app-merged_res-44:\\drawable_ic_video.xml.flat",
+        "source": "C:\\Users\\pc\\.gradle\\daemon\\8.4\\com.alphapals.app-main-46:\\drawable\\ic_video.xml"
     },
     {
-        "merged": "com.kidslearning.app-merged_res-44:/drawable_ic_language.xml.flat",
-        "source": "com.kidslearning.app-main-46:/drawable/ic_language.xml"
+        "merged": "C:\\Users\\pc\\.gradle\\daemon\\8.4\\com.alphapals.app-merged_res-44:\\anim_slide_in_right.xml.flat",
+        "source": "C:\\Users\\pc\\.gradle\\daemon\\8.4\\com.alphapals.app-main-46:\\anim\\slide_in_right.xml"
     },
     {
-        "merged": "com.kidslearning.app-merged_res-44:/drawable_bg_toolbar_arabic.xml.flat",
-        "source": "com.kidslearning.app-main-46:/drawable/bg_toolbar_arabic.xml"
+        "merged": "C:\\Users\\pc\\.gradle\\daemon\\8.4\\com.alphapals.app-merged_res-44:\\anim_float_up_down.xml.flat",
+        "source": "C:\\Users\\pc\\.gradle\\daemon\\8.4\\com.alphapals.app-main-46:\\anim\\float_up_down.xml"
     },
     {
-        "merged": "com.kidslearning.app-merged_res-44:/layout_activity_main.xml.flat",
-        "source": "com.kidslearning.app-main-46:/layout/activity_main.xml"
+        "merged": "C:\\Users\\pc\\.gradle\\daemon\\8.4\\com.alphapals.app-merged_res-44:\\layout_color_palette.xml.flat",
+        "source": "C:\\Users\\pc\\.gradle\\daemon\\8.4\\com.alphapals.app-main-46:\\layout\\color_palette.xml"
     },
     {
-        "merged": "com.kidslearning.app-merged_res-44:/font_comic_sans.xml.flat",
-        "source": "com.kidslearning.app-main-46:/font/comic_sans.xml"
+        "merged": "C:\\Users\\pc\\.gradle\\daemon\\8.4\\com.alphapals.app-merged_res-44:\\drawable_circle_shape.xml.flat",
+        "source": "C:\\Users\\pc\\.gradle\\daemon\\8.4\\com.alphapals.app-main-46:\\drawable\\circle_shape.xml"
     },
     {
-        "merged": "com.kidslearning.app-merged_res-44:/drawable_bg_bubble_yellow.xml.flat",
-        "source": "com.kidslearning.app-main-46:/drawable/bg_bubble_yellow.xml"
+        "merged": "C:\\Users\\pc\\.gradle\\daemon\\8.4\\com.alphapals.app-merged_res-44:\\mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\pc\\.gradle\\daemon\\8.4\\com.alphapals.app-main-46:\\mipmap-hdpi\\ic_launcher_round.png"
     },
     {
-        "merged": "com.kidslearning.app-merged_res-44:/xml_data_extraction_rules.xml.flat",
-        "source": "com.kidslearning.app-main-46:/xml/data_extraction_rules.xml"
+        "merged": "C:\\Users\\pc\\.gradle\\daemon\\8.4\\com.alphapals.app-merged_res-44:\\anim_bubble_rise.xml.flat",
+        "source": "C:\\Users\\pc\\.gradle\\daemon\\8.4\\com.alphapals.app-main-46:\\anim\\bubble_rise.xml"
     },
     {
-        "merged": "com.kidslearning.app-merged_res-44:/anim_fade_slide_up.xml.flat",
-        "source": "com.kidslearning.app-main-46:/anim/fade_slide_up.xml"
+        "merged": "C:\\Users\\pc\\.gradle\\daemon\\8.4\\com.alphapals.app-merged_res-44:\\mipmap-ldpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\pc\\.gradle\\daemon\\8.4\\com.alphapals.app-main-46:\\mipmap-ldpi\\ic_launcher.png"
     },
     {
-        "merged": "com.kidslearning.app-merged_res-44:/drawable_bg_card_arabic.xml.flat",
-        "source": "com.kidslearning.app-main-46:/drawable/bg_card_arabic.xml"
+        "merged": "C:\\Users\\pc\\.gradle\\daemon\\8.4\\com.alphapals.app-merged_res-44:\\layout_activity_video_learning.xml.flat",
+        "source": "C:\\Users\\pc\\.gradle\\daemon\\8.4\\com.alphapals.app-main-46:\\layout\\activity_video_learning.xml"
     },
     {
-        "merged": "com.kidslearning.app-merged_res-44:/layout_activity_onboarding.xml.flat",
-        "source": "com.kidslearning.app-main-46:/layout/activity_onboarding.xml"
+        "merged": "C:\\Users\\pc\\.gradle\\daemon\\8.4\\com.alphapals.app-merged_res-44:\\mipmap-mdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\pc\\.gradle\\daemon\\8.4\\com.alphapals.app-main-46:\\mipmap-mdpi\\ic_launcher.png"
     },
     {
-        "merged": "com.kidslearning.app-merged_res-44:/drawable_bg_video_chip.xml.flat",
-        "source": "com.kidslearning.app-main-46:/drawable/bg_video_chip.xml"
+        "merged": "C:\\Users\\pc\\.gradle\\daemon\\8.4\\com.alphapals.app-merged_res-44:\\drawable_bg_button_fun.xml.flat",
+        "source": "C:\\Users\\pc\\.gradle\\daemon\\8.4\\com.alphapals.app-main-46:\\drawable\\bg_button_fun.xml"
     },
     {
-        "merged": "com.kidslearning.app-merged_res-44:/anim_zoom_in.xml.flat",
-        "source": "com.kidslearning.app-main-46:/anim/zoom_in.xml"
+        "merged": "C:\\Users\\pc\\.gradle\\daemon\\8.4\\com.alphapals.app-merged_res-44:\\drawable_gradient_celebration_bg.xml.flat",
+        "source": "C:\\Users\\pc\\.gradle\\daemon\\8.4\\com.alphapals.app-main-46:\\drawable\\gradient_celebration_bg.xml"
     },
     {
-        "merged": "com.kidslearning.app-merged_res-44:/anim_bubble_rise.xml.flat",
-        "source": "com.kidslearning.app-main-46:/anim/bubble_rise.xml"
+        "merged": "C:\\Users\\pc\\.gradle\\daemon\\8.4\\com.alphapals.app-merged_res-44:\\layout_item_onboarding_page.xml.flat",
+        "source": "C:\\Users\\pc\\.gradle\\daemon\\8.4\\com.alphapals.app-main-46:\\layout\\item_onboarding_page.xml"
     },
     {
-        "merged": "com.kidslearning.app-merged_res-44:/anim_rotate_sun.xml.flat",
-        "source": "com.kidslearning.app-main-46:/anim/rotate_sun.xml"
+        "merged": "C:\\Users\\pc\\.gradle\\daemon\\8.4\\com.alphapals.app-merged_res-44:\\layout_activity_alphabet.xml.flat",
+        "source": "C:\\Users\\pc\\.gradle\\daemon\\8.4\\com.alphapals.app-main-46:\\layout\\activity_alphabet.xml"
     },
     {
-        "merged": "com.kidslearning.app-merged_res-44:/drawable_bg_bubble_blue.xml.flat",
-        "source": "com.kidslearning.app-main-46:/drawable/bg_bubble_blue.xml"
+        "merged": "C:\\Users\\pc\\.gradle\\daemon\\8.4\\com.alphapals.app-merged_res-44:\\drawable_ic_clear.xml.flat",
+        "source": "C:\\Users\\pc\\.gradle\\daemon\\8.4\\com.alphapals.app-main-46:\\drawable\\ic_clear.xml"
     },
     {
-        "merged": "com.kidslearning.app-merged_res-44:/drawable_ic_star.xml.flat",
-        "source": "com.kidslearning.app-main-46:/drawable/ic_star.xml"
+        "merged": "C:\\Users\\pc\\.gradle\\daemon\\8.4\\com.alphapals.app-merged_res-44:\\mipmap-mdpi_ic_launcher_foreground.png.flat",
+        "source": "C:\\Users\\pc\\.gradle\\daemon\\8.4\\com.alphapals.app-main-46:\\mipmap-mdpi\\ic_launcher_foreground.png"
     },
     {
-        "merged": "com.kidslearning.app-merged_res-44:/layout_item_letter.xml.flat",
-        "source": "com.kidslearning.app-main-46:/layout/item_letter.xml"
+        "merged": "C:\\Users\\pc\\.gradle\\daemon\\8.4\\com.alphapals.app-merged_res-44:\\layout_activity_drawing.xml.flat",
+        "source": "C:\\Users\\pc\\.gradle\\daemon\\8.4\\com.alphapals.app-main-46:\\layout\\activity_drawing.xml"
     },
     {
-        "merged": "com.kidslearning.app-merged_res-44:/drawable_bg_letter_card.xml.flat",
-        "source": "com.kidslearning.app-main-46:/drawable/bg_letter_card.xml"
+        "merged": "C:\\Users\\pc\\.gradle\\daemon\\8.4\\com.alphapals.app-merged_res-44:\\drawable_ic_heart.xml.flat",
+        "source": "C:\\Users\\pc\\.gradle\\daemon\\8.4\\com.alphapals.app-main-46:\\drawable\\ic_heart.xml"
     },
     {
-        "merged": "com.kidslearning.app-merged_res-44:/drawable_ic_paw.xml.flat",
-        "source": "com.kidslearning.app-main-46:/drawable/ic_paw.xml"
+        "merged": "C:\\Users\\pc\\.gradle\\daemon\\8.4\\com.alphapals.app-merged_res-44:\\layout_activity_video_player.xml.flat",
+        "source": "C:\\Users\\pc\\.gradle\\daemon\\8.4\\com.alphapals.app-main-46:\\layout\\activity_video_player.xml"
     },
     {
-        "merged": "com.kidslearning.app-merged_res-44:/drawable_bg_circle_arabic.xml.flat",
-        "source": "com.kidslearning.app-main-46:/drawable/bg_circle_arabic.xml"
+        "merged": "C:\\Users\\pc\\.gradle\\daemon\\8.4\\com.alphapals.app-merged_res-44:\\anim_bounce_button.xml.flat",
+        "source": "C:\\Users\\pc\\.gradle\\daemon\\8.4\\com.alphapals.app-main-46:\\anim\\bounce_button.xml"
     },
     {
-        "merged": "com.kidslearning.app-merged_res-44:/drawable_ic_sparkle.xml.flat",
-        "source": "com.kidslearning.app-main-46:/drawable/ic_sparkle.xml"
+        "merged": "C:\\Users\\pc\\.gradle\\daemon\\8.4\\com.alphapals.app-merged_res-44:\\anim_zoom_out.xml.flat",
+        "source": "C:\\Users\\pc\\.gradle\\daemon\\8.4\\com.alphapals.app-main-46:\\anim\\zoom_out.xml"
     },
     {
-        "merged": "com.kidslearning.app-merged_res-44:/layout_item_video.xml.flat",
-        "source": "com.kidslearning.app-main-46:/layout/item_video.xml"
+        "merged": "C:\\Users\\pc\\.gradle\\daemon\\8.4\\com.alphapals.app-merged_res-44:\\drawable_ic_back.xml.flat",
+        "source": "C:\\Users\\pc\\.gradle\\daemon\\8.4\\com.alphapals.app-main-46:\\drawable\\ic_back.xml"
     },
     {
-        "merged": "com.kidslearning.app-merged_res-44:/layout_item_onboarding_page.xml.flat",
-        "source": "com.kidslearning.app-main-46:/layout/item_onboarding_page.xml"
+        "merged": "C:\\Users\\pc\\.gradle\\daemon\\8.4\\com.alphapals.app-merged_res-44:\\drawable_ic_butterfly.xml.flat",
+        "source": "C:\\Users\\pc\\.gradle\\daemon\\8.4\\com.alphapals.app-main-46:\\drawable\\ic_butterfly.xml"
     },
     {
-        "merged": "com.kidslearning.app-merged_res-44:/anim_slide_in_right.xml.flat",
-        "source": "com.kidslearning.app-main-46:/anim/slide_in_right.xml"
+        "merged": "C:\\Users\\pc\\.gradle\\daemon\\8.4\\com.alphapals.app-merged_res-44:\\mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\pc\\.gradle\\daemon\\8.4\\com.alphapals.app-main-46:\\mipmap-xxxhdpi\\ic_launcher_round.png"
     },
     {
-        "merged": "com.kidslearning.app-merged_res-44:/drawable_bg_gradient_rainbow.xml.flat",
-        "source": "com.kidslearning.app-main-46:/drawable/bg_gradient_rainbow.xml"
+        "merged": "C:\\Users\\pc\\.gradle\\daemon\\8.4\\com.alphapals.app-merged_res-44:\\layout_activity_onboarding.xml.flat",
+        "source": "C:\\Users\\pc\\.gradle\\daemon\\8.4\\com.alphapals.app-main-46:\\layout\\activity_onboarding.xml"
     },
     {
-        "merged": "com.kidslearning.app-merged_res-44:/layout_activity_video_learning.xml.flat",
-        "source": "com.kidslearning.app-main-46:/layout/activity_video_learning.xml"
+        "merged": "C:\\Users\\pc\\.gradle\\daemon\\8.4\\com.alphapals.app-merged_res-44:\\anim_zoom_in.xml.flat",
+        "source": "C:\\Users\\pc\\.gradle\\daemon\\8.4\\com.alphapals.app-main-46:\\anim\\zoom_in.xml"
     },
     {
-        "merged": "com.kidslearning.app-merged_res-44:/layout_activity_video_player.xml.flat",
-        "source": "com.kidslearning.app-main-46:/layout/activity_video_player.xml"
+        "merged": "C:\\Users\\pc\\.gradle\\daemon\\8.4\\com.alphapals.app-merged_res-44:\\layout_dialog_congratulations.xml.flat",
+        "source": "C:\\Users\\pc\\.gradle\\daemon\\8.4\\com.alphapals.app-main-46:\\layout\\dialog_congratulations.xml"
     },
     {
-        "merged": "com.kidslearning.app-merged_res-44:/drawable_ic_sun.xml.flat",
-        "source": "com.kidslearning.app-main-46:/drawable/ic_sun.xml"
+        "merged": "C:\\Users\\pc\\.gradle\\daemon\\8.4\\com.alphapals.app-merged_res-44:\\mipmap-xxxhdpi_ic_launcher_foreground.png.flat",
+        "source": "C:\\Users\\pc\\.gradle\\daemon\\8.4\\com.alphapals.app-main-46:\\mipmap-xxxhdpi\\ic_launcher_foreground.png"
+    },
+    {
+        "merged": "C:\\Users\\pc\\.gradle\\daemon\\8.4\\com.alphapals.app-merged_res-44:\\drawable_indicator_active.xml.flat",
+        "source": "C:\\Users\\pc\\.gradle\\daemon\\8.4\\com.alphapals.app-main-46:\\drawable\\indicator_active.xml"
+    },
+    {
+        "merged": "C:\\Users\\pc\\.gradle\\daemon\\8.4\\com.alphapals.app-merged_res-44:\\layout_dialog_completion.xml.flat",
+        "source": "C:\\Users\\pc\\.gradle\\daemon\\8.4\\com.alphapals.app-main-46:\\layout\\dialog_completion.xml"
+    },
+    {
+        "merged": "C:\\Users\\pc\\.gradle\\daemon\\8.4\\com.alphapals.app-merged_res-44:\\drawable_bg_toolbar_arabic.xml.flat",
+        "source": "C:\\Users\\pc\\.gradle\\daemon\\8.4\\com.alphapals.app-main-46:\\drawable\\bg_toolbar_arabic.xml"
+    },
+    {
+        "merged": "C:\\Users\\pc\\.gradle\\daemon\\8.4\\com.alphapals.app-merged_res-44:\\mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\pc\\.gradle\\daemon\\8.4\\com.alphapals.app-main-46:\\mipmap-xxhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\pc\\.gradle\\daemon\\8.4\\com.alphapals.app-merged_res-44:\\drawable_ic_balloon.xml.flat",
+        "source": "C:\\Users\\pc\\.gradle\\daemon\\8.4\\com.alphapals.app-main-46:\\drawable\\ic_balloon.xml"
+    },
+    {
+        "merged": "C:\\Users\\pc\\.gradle\\daemon\\8.4\\com.alphapals.app-merged_res-44:\\mipmap-ldpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\pc\\.gradle\\daemon\\8.4\\com.alphapals.app-main-46:\\mipmap-ldpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\pc\\.gradle\\daemon\\8.4\\com.alphapals.app-merged_res-44:\\layout_custom_player_controls.xml.flat",
+        "source": "C:\\Users\\pc\\.gradle\\daemon\\8.4\\com.alphapals.app-main-46:\\layout\\custom_player_controls.xml"
+    },
+    {
+        "merged": "C:\\Users\\pc\\.gradle\\daemon\\8.4\\com.alphapals.app-merged_res-44:\\drawable_ic_paw.xml.flat",
+        "source": "C:\\Users\\pc\\.gradle\\daemon\\8.4\\com.alphapals.app-main-46:\\drawable\\ic_paw.xml"
+    },
+    {
+        "merged": "C:\\Users\\pc\\.gradle\\daemon\\8.4\\com.alphapals.app-merged_res-44:\\drawable_gradient_fireworks.xml.flat",
+        "source": "C:\\Users\\pc\\.gradle\\daemon\\8.4\\com.alphapals.app-main-46:\\drawable\\gradient_fireworks.xml"
+    },
+    {
+        "merged": "C:\\Users\\pc\\.gradle\\daemon\\8.4\\com.alphapals.app-merged_res-44:\\raw_goldfish.json.flat",
+        "source": "C:\\Users\\pc\\.gradle\\daemon\\8.4\\com.alphapals.app-main-46:\\raw\\goldfish.json"
+    },
+    {
+        "merged": "C:\\Users\\pc\\.gradle\\daemon\\8.4\\com.alphapals.app-merged_res-44:\\raw_monkey1.json.flat",
+        "source": "C:\\Users\\pc\\.gradle\\daemon\\8.4\\com.alphapals.app-main-46:\\raw\\monkey1.json"
+    },
+    {
+        "merged": "C:\\Users\\pc\\.gradle\\daemon\\8.4\\com.alphapals.app-merged_res-44:\\drawable_ic_fish.xml.flat",
+        "source": "C:\\Users\\pc\\.gradle\\daemon\\8.4\\com.alphapals.app-main-46:\\drawable\\ic_fish.xml"
+    },
+    {
+        "merged": "C:\\Users\\pc\\.gradle\\daemon\\8.4\\com.alphapals.app-merged_res-44:\\drawable_ic_sound.xml.flat",
+        "source": "C:\\Users\\pc\\.gradle\\daemon\\8.4\\com.alphapals.app-main-46:\\drawable\\ic_sound.xml"
+    },
+    {
+        "merged": "C:\\Users\\pc\\.gradle\\daemon\\8.4\\com.alphapals.app-merged_res-44:\\mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\pc\\.gradle\\daemon\\8.4\\com.alphapals.app-main-46:\\mipmap-mdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "C:\\Users\\pc\\.gradle\\daemon\\8.4\\com.alphapals.app-merged_res-44:\\drawable_bg_bubble_yellow.xml.flat",
+        "source": "C:\\Users\\pc\\.gradle\\daemon\\8.4\\com.alphapals.app-main-46:\\drawable\\bg_bubble_yellow.xml"
+    },
+    {
+        "merged": "C:\\Users\\pc\\.gradle\\daemon\\8.4\\com.alphapals.app-merged_res-44:\\layout_activity_main.xml.flat",
+        "source": "C:\\Users\\pc\\.gradle\\daemon\\8.4\\com.alphapals.app-main-46:\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\pc\\.gradle\\daemon\\8.4\\com.alphapals.app-merged_res-44:\\drawable_bg_letter_card.xml.flat",
+        "source": "C:\\Users\\pc\\.gradle\\daemon\\8.4\\com.alphapals.app-main-46:\\drawable\\bg_letter_card.xml"
+    },
+    {
+        "merged": "C:\\Users\\pc\\.gradle\\daemon\\8.4\\com.alphapals.app-merged_res-44:\\drawable_bg_circle_video.xml.flat",
+        "source": "C:\\Users\\pc\\.gradle\\daemon\\8.4\\com.alphapals.app-main-46:\\drawable\\bg_circle_video.xml"
+    },
+    {
+        "merged": "C:\\Users\\pc\\.gradle\\daemon\\8.4\\com.alphapals.app-merged_res-44:\\drawable_ic_star.xml.flat",
+        "source": "C:\\Users\\pc\\.gradle\\daemon\\8.4\\com.alphapals.app-main-46:\\drawable\\ic_star.xml"
+    },
+    {
+        "merged": "C:\\Users\\pc\\.gradle\\daemon\\8.4\\com.alphapals.app-merged_res-44:\\anim_float_sideways.xml.flat",
+        "source": "C:\\Users\\pc\\.gradle\\daemon\\8.4\\com.alphapals.app-main-46:\\anim\\float_sideways.xml"
+    },
+    {
+        "merged": "com.alphapals.app-merged_res-44:/layout_color_palette.xml.flat",
+        "source": "com.alphapals.app-main-46:/layout/color_palette.xml"
+    },
+    {
+        "merged": "C:\\Users\\pc\\.gradle\\daemon\\8.4\\com.alphapals.app-merged_res-44:\\mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\pc\\.gradle\\daemon\\8.4\\com.alphapals.app-main-46:\\mipmap-xhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\pc\\.gradle\\daemon\\8.4\\com.alphapals.app-merged_res-44:\\drawable_ic_undo.xml.flat",
+        "source": "C:\\Users\\pc\\.gradle\\daemon\\8.4\\com.alphapals.app-main-46:\\drawable\\ic_undo.xml"
+    },
+    {
+        "merged": "C:\\Users\\pc\\.gradle\\daemon\\8.4\\com.alphapals.app-merged_res-44:\\anim_slide_out_right.xml.flat",
+        "source": "C:\\Users\\pc\\.gradle\\daemon\\8.4\\com.alphapals.app-main-46:\\anim\\slide_out_right.xml"
+    },
+    {
+        "merged": "C:\\Users\\pc\\.gradle\\daemon\\8.4\\com.alphapals.app-merged_res-44:\\drawable_bg_card_french.xml.flat",
+        "source": "C:\\Users\\pc\\.gradle\\daemon\\8.4\\com.alphapals.app-main-46:\\drawable\\bg_card_french.xml"
+    },
+    {
+        "merged": "C:\\Users\\pc\\.gradle\\daemon\\8.4\\com.alphapals.app-merged_res-44:\\anim_float_slow.xml.flat",
+        "source": "C:\\Users\\pc\\.gradle\\daemon\\8.4\\com.alphapals.app-main-46:\\anim\\float_slow.xml"
+    },
+    {
+        "merged": "C:\\Users\\pc\\.gradle\\daemon\\8.4\\com.alphapals.app-merged_res-44:\\anim_balloon_sway.xml.flat",
+        "source": "C:\\Users\\pc\\.gradle\\daemon\\8.4\\com.alphapals.app-main-46:\\anim\\balloon_sway.xml"
+    },
+    {
+        "merged": "C:\\Users\\pc\\.gradle\\daemon\\8.4\\com.alphapals.app-merged_res-44:\\xml_backup_rules.xml.flat",
+        "source": "C:\\Users\\pc\\.gradle\\daemon\\8.4\\com.alphapals.app-main-46:\\xml\\backup_rules.xml"
+    },
+    {
+        "merged": "C:\\Users\\pc\\.gradle\\daemon\\8.4\\com.alphapals.app-merged_res-44:\\drawable_indicator_inactive.xml.flat",
+        "source": "C:\\Users\\pc\\.gradle\\daemon\\8.4\\com.alphapals.app-main-46:\\drawable\\indicator_inactive.xml"
+    },
+    {
+        "merged": "C:\\Users\\pc\\.gradle\\daemon\\8.4\\com.alphapals.app-merged_res-44:\\layout_item_video.xml.flat",
+        "source": "C:\\Users\\pc\\.gradle\\daemon\\8.4\\com.alphapals.app-main-46:\\layout\\item_video.xml"
+    },
+    {
+        "merged": "C:\\Users\\pc\\.gradle\\daemon\\8.4\\com.alphapals.app-merged_res-44:\\drawable_bg_palette_rounded.xml.flat",
+        "source": "C:\\Users\\pc\\.gradle\\daemon\\8.4\\com.alphapals.app-main-46:\\drawable\\bg_palette_rounded.xml"
+    },
+    {
+        "merged": "C:\\Users\\pc\\.gradle\\daemon\\8.4\\com.alphapals.app-merged_res-44:\\drawable_ic_sparkle.xml.flat",
+        "source": "C:\\Users\\pc\\.gradle\\daemon\\8.4\\com.alphapals.app-main-46:\\drawable\\ic_sparkle.xml"
+    },
+    {
+        "merged": "C:\\Users\\pc\\.gradle\\daemon\\8.4\\com.alphapals.app-merged_res-44:\\drawable_ic_arrow_forward.xml.flat",
+        "source": "C:\\Users\\pc\\.gradle\\daemon\\8.4\\com.alphapals.app-main-46:\\drawable\\ic_arrow_forward.xml"
+    },
+    {
+        "merged": "C:\\Users\\pc\\.gradle\\daemon\\8.4\\com.alphapals.app-merged_res-44:\\drawable_gradient_top_wave.xml.flat",
+        "source": "C:\\Users\\pc\\.gradle\\daemon\\8.4\\com.alphapals.app-main-46:\\drawable\\gradient_top_wave.xml"
+    },
+    {
+        "merged": "com.alphapals.app-merged_res-44:/layout_activity_drawing.xml.flat",
+        "source": "com.alphapals.app-main-46:/layout/activity_drawing.xml"
+    },
+    {
+        "merged": "C:\\Users\\pc\\.gradle\\daemon\\8.4\\com.alphapals.app-merged_res-44:\\mipmap-hdpi_ic_launcher_foreground.png.flat",
+        "source": "C:\\Users\\pc\\.gradle\\daemon\\8.4\\com.alphapals.app-main-46:\\mipmap-hdpi\\ic_launcher_foreground.png"
+    },
+    {
+        "merged": "C:\\Users\\pc\\.gradle\\daemon\\8.4\\com.alphapals.app-merged_res-44:\\anim_slide_in_left.xml.flat",
+        "source": "C:\\Users\\pc\\.gradle\\daemon\\8.4\\com.alphapals.app-main-46:\\anim\\slide_in_left.xml"
+    },
+    {
+        "merged": "C:\\Users\\pc\\.gradle\\daemon\\8.4\\com.alphapals.app-merged_res-44:\\drawable_ic_home.xml.flat",
+        "source": "C:\\Users\\pc\\.gradle\\daemon\\8.4\\com.alphapals.app-main-46:\\drawable\\ic_home.xml"
     }
 ]

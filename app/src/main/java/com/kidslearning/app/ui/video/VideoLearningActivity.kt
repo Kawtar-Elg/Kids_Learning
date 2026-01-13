@@ -1,16 +1,16 @@
-package com.kidslearning.app.ui.video
+package com.alphapals.app.ui.video
 
 import android.content.Intent
 import android.os.Bundle
 import android.view.animation.AnimationUtils
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.google.android.material.tabs.TabLayout
-import com.kidslearning.app.R
-import com.kidslearning.app.data.model.LearningVideo
-import com.kidslearning.app.data.model.VideoLanguage
-import com.kidslearning.app.data.model.VideoRepository
-import com.kidslearning.app.databinding.ActivityVideoLearningBinding
-import com.kidslearning.app.ui.base.BaseActivity
+import com.alphapals.app.R
+import com.alphapals.app.data.model.LearningVideo
+import com.alphapals.app.data.model.VideoLanguage
+import com.alphapals.app.data.model.VideoRepository
+import com.alphapals.app.databinding.ActivityVideoLearningBinding
+import com.alphapals.app.ui.base.BaseActivity
 
 /**
  * Activity for browsing and selecting educational videos

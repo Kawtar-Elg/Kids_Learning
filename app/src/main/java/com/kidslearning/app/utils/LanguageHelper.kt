@@ -1,4 +1,4 @@
-package com.kidslearning.app.utils
+package com.alphapals.app.utils
 
 import android.app.Activity
 import android.content.Context

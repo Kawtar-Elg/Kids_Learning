@@ -1,9 +1,9 @@
-package com.kidslearning.app.data.repository
+package com.alphapals.app.data.repository
 
 import android.content.Context
 import com.google.gson.Gson
-import com.kidslearning.app.data.database.AppDatabase
-import com.kidslearning.app.data.model.*
+import com.alphapals.app.data.database.AppDatabase
+import com.alphapals.app.data.model.*
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.withContext
@@ -81,6 +81,13 @@ class LetterRepository(private val context: Context) {
     
     suspend fun getLetterById(id: Int): Letter? {
         return letterDao.getLetterById(id)
+    }
+
+    /**
+     * Get the next letter in sequence based on current letter
+     */
+    suspend fun getNextLetter(currentLetter: Letter): Letter? = withContext(Dispatchers.IO) {
+        letterDao.getNextLetter(currentLetter.language, currentLetter.order)
     }
     
     fun getProgress(letterId: Int): Flow<UserProgress?> {

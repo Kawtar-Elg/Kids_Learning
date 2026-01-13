@@ -1,4 +1,4 @@
-com.kidslearning.app
+com.alphapals.app
 anim abc_fade_in
 anim abc_fade_out
 anim abc_grow_fade_in_from_bottom
@@ -1460,8 +1460,11 @@ color bright_foreground_material_light
 color bubble_blue
 color bubble_pink
 color bubble_yellow
+color button_completion
 color button_material_dark
 color button_material_light
+color button_next_letter
+color button_try_again
 color call_notification_answer_color
 color call_notification_decline_color
 color card_background
@@ -1477,6 +1480,12 @@ color cardview_dark_background
 color cardview_light_background
 color cardview_shadow_end_color
 color cardview_shadow_start_color
+color celebration_message
+color celebration_sub_message
+color celebration_title
+color completion_message
+color completion_subtitle
+color completion_title
 color design_bottom_navigation_shadow_color
 color design_box_stroke_color
 color design_dark_default_color_background
@@ -1541,6 +1550,7 @@ color gradient_start_pink
 color gradient_start_yellow
 color highlighted_text_material_dark
 color highlighted_text_material_light
+color ic_launcher_background
 color letter_guide
 color m3_appbar_overlay_color
 color m3_assist_chip_icon_tint_color
@@ -3186,6 +3196,7 @@ drawable bg_circle_french
 drawable bg_circle_video
 drawable bg_gradient_rainbow
 drawable bg_letter_card
+drawable bg_palette_rounded
 drawable bg_toolbar_arabic
 drawable bg_toolbar_fun
 drawable bg_video_chip
@@ -3198,6 +3209,7 @@ drawable btn_radio_off_mtrl
 drawable btn_radio_off_to_on_mtrl_animation
 drawable btn_radio_on_mtrl
 drawable btn_radio_on_to_off_mtrl_animation
+drawable circle_shape
 drawable design_fab_background
 drawable design_ic_visibility
 drawable design_ic_visibility_off
@@ -3282,7 +3294,13 @@ drawable exo_styled_controls_speed
 drawable exo_styled_controls_subtitle_off
 drawable exo_styled_controls_subtitle_on
 drawable exo_styled_controls_vr
+drawable gradient_bottom_wave
+drawable gradient_celebration_bg
+drawable gradient_completion_bg
+drawable gradient_fireworks
+drawable gradient_top_wave
 drawable ic_arrow_back_black_24
+drawable ic_arrow_forward
 drawable ic_back
 drawable ic_balloon
 drawable ic_butterfly
@@ -3298,6 +3316,7 @@ drawable ic_clock_black_24dp
 drawable ic_cloud
 drawable ic_fish
 drawable ic_heart
+drawable ic_home
 drawable ic_keyboard_black_24dp
 drawable ic_kids_logo
 drawable ic_language
@@ -3310,11 +3329,14 @@ drawable ic_mtrl_chip_checked_circle
 drawable ic_mtrl_chip_close_circle
 drawable ic_paw
 drawable ic_rainbow
+drawable ic_redo
+drawable ic_refresh
 drawable ic_search_black_24
 drawable ic_sound
 drawable ic_sparkle
 drawable ic_star
 drawable ic_sun
+drawable ic_undo
 drawable ic_video
 drawable indicator_active
 drawable indicator_inactive
@@ -3503,19 +3525,25 @@ id bounceStart
 id btnActionLayout
 id btnBack
 id btnBackCard
+id btnBackHome
 id btnBackToList
 id btnClear
+id btnClearCard
 id btnLanguage
 id btnLanguageCard
 id btnMusic
 id btnMusicCard
 id btnNext
+id btnNextLetter
 id btnRedo
+id btnRedoCard
 id btnRepeat
 id btnRepeatCard
 id btnRetry
 id btnSkip
+id btnTryAgain
 id btnUndo
+id btnUndoCard
 id bubbleBlue
 id bubbleBottom
 id bubblePink
@@ -3729,8 +3757,6 @@ id included
 id indeterminate
 id indicatorLayout
 id info
-id instructionCard
-id instructionLayout
 id invisible
 id inward
 id is_pooling_container_tag
@@ -3740,7 +3766,6 @@ id ivArabicStar
 id ivArrow
 id ivBalloon
 id ivBottomCloud
-id ivBottomStar
 id ivCloud1
 id ivCloud2
 id ivCloudLeft
@@ -3782,6 +3807,11 @@ id listMode
 id list_item
 id logoCard
 id lottieAnimation
+id lottieAnimationCenter
+id lottieAnimationLeft
+id lottieAnimationRight
+id lottieButterfly
+id lottieTiger
 id lottie_layer_name
 id m3_side_sheet
 id marquee
@@ -4043,16 +4073,20 @@ id tvArabicLabel
 id tvArabicLetters
 id tvCategory
 id tvChoose
+id tvCompletionMessage
+id tvCompletionTitle
+id tvCongratulations
 id tvDescription
 id tvDuration
 id tvError
 id tvFrenchLabel
 id tvFrenchLetters
-id tvInstruction
 id tvLang
 id tvLanguageLabel
 id tvLetter
 id tvLetterDisplay
+id tvMessage
+id tvSubMessage
 id tvTitle
 id tvVideoDescription
 id tvVideoLabel
@@ -4225,6 +4259,8 @@ layout design_navigation_menu
 layout design_navigation_menu_item
 layout design_text_input_end_icon
 layout design_text_input_start_icon
+layout dialog_completion
+layout dialog_congratulations
 layout exo_legacy_player_control_view
 layout exo_list_divider
 layout exo_player_control_ffwd_button
@@ -4311,10 +4347,16 @@ layout select_dialog_multichoice_material
 layout select_dialog_singlechoice_material
 layout support_simple_spinner_dropdown_item
 mipmap ic_launcher
+mipmap ic_launcher_foreground
 mipmap ic_launcher_round
 plurals exo_controls_fastforward_by_amount_description
 plurals exo_controls_rewind_by_amount_description
 plurals mtrl_badge_content_description
+raw butterfly_lottie_animation
+raw cute_tiger
+raw goldfish
+raw loading_cat
+raw monkey1
 string abc_action_bar_home_description
 string abc_action_bar_up_description
 string abc_action_menu_overflow_description
@@ -4342,6 +4384,7 @@ string abc_searchview_description_voice
 string abc_shareactionprovider_share_with
 string abc_shareactionprovider_share_with_application
 string abc_toolbar_collapse_description
+string all_done
 string all_letters
 string alphabet_songs
 string alphabet_tutorial
@@ -4370,6 +4413,7 @@ string character_counter_pattern
 string choose_language
 string clear
 string clear_text_end_icon_content_description
+string congratulations
 string consonants
 string content_desc_back
 string content_desc_clear
@@ -4443,6 +4487,7 @@ string french_alphabet
 string french_videos
 string fullscreen
 string get_started
+string good_kid
 string great_job
 string hide_bottom_view_on_scroll_behavior
 string home
@@ -4562,6 +4607,7 @@ string music_on
 string music_paused
 string music_playing
 string next
+string next_letter
 string onboarding_desc_1
 string onboarding_desc_2
 string onboarding_desc_3
@@ -4578,6 +4624,7 @@ string path_password_eye_mask_strike_through
 string path_password_eye_mask_visible
 string path_password_strike_through
 string pause_video
+string perfect_tracing
 string play
 string play_video
 string repeat_sound

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <!-- App Info -->
-    <string name="app_name">تعلم الأطفال</string>
+    <string name="app_name">Alpha-Pals</string>
 
     <!-- Main Screen -->
     <string name="welcome_title">مرحباً!</string>
@@ -25,6 +25,11 @@
     <string name="try_again">حاول مرة أخرى</string>
     <string name="great_job">عمل رائع!</string>
     <string name="keep_trying">استمر في المحاولة!</string>
+    <string name="congratulations">تهانينا!</string>
+    <string name="good_kid">عمل رائع أيها البطل الصغير!</string>
+    <string name="perfect_tracing">لقد رسمت الحرف بشكل مثالي!</string>
+    <string name="next_letter">الحرف التالي</string>
+    <string name="all_done">برافو! لقد أنهيت جميع الحروف!</string>
 
     <!-- Onboarding Strings -->
     <string name="skip">تخطي</string>
@@ -35,9 +40,9 @@
     <string name="onboarding_title_1">مرحباً أيها الأسد!</string>
     <string name="onboarding_desc_1">أنا ملك الغابة!</string>
 
-    <!-- Onboarding Page 2 - Frog -->
-    <string name="onboarding_title_2">أهلاً أيها الضفدع!</string>
-    <string name="onboarding_desc_2">أقفز في كل مكان!</string>
+    <!-- Onboarding Page 2 - Gorilla -->
+    <string name="onboarding_title_2">أهلاً أيها الغوريلا!</string>
+    <string name="onboarding_desc_2">أنا قوي وشجاع!</string>
 
     <!-- Onboarding Page 3 - Cat -->
     <string name="onboarding_title_3">مياو القطة!</string>

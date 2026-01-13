@@ -1,4 +1,4 @@
-package com.kidslearning.app.ui.video
+package com.alphapals.app.ui.video
 
 import android.content.Intent
 import android.content.pm.ActivityInfo
@@ -11,9 +11,9 @@ import androidx.media3.common.MediaItem
 import androidx.media3.common.PlaybackException
 import androidx.media3.common.Player
 import androidx.media3.exoplayer.ExoPlayer
-import com.kidslearning.app.R
-import com.kidslearning.app.databinding.ActivityVideoPlayerBinding
-import com.kidslearning.app.ui.base.BaseActivity
+import com.alphapals.app.R
+import com.alphapals.app.databinding.ActivityVideoPlayerBinding
+import com.alphapals.app.ui.base.BaseActivity
 
 /**
  * Activity for playing educational videos using ExoPlayer

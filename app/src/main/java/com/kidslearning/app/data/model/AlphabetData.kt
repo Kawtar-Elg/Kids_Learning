@@ -1,4 +1,4 @@
-package com.kidslearning.app.data.model
+package com.alphapals.app.data.model
 
 /**
  * Modèle pour charger les données JSON

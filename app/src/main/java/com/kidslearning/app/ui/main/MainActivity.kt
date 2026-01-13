@@ -1,17 +1,17 @@
-package com.kidslearning.app.ui.main
+package com.alphapals.app.ui.main
 
 import android.content.Intent
 import android.os.Bundle
 import android.view.animation.AnimationUtils
 import android.widget.Toast
 import androidx.lifecycle.lifecycleScope
-import com.kidslearning.app.R
-import com.kidslearning.app.data.repository.LetterRepository
-import com.kidslearning.app.databinding.ActivityMainBinding
-import com.kidslearning.app.ui.arabic.ArabicAlphabetActivity
-import com.kidslearning.app.ui.base.BaseActivity
-import com.kidslearning.app.ui.french.FrenchAlphabetActivity
-import com.kidslearning.app.utils.LanguageHelper
+import com.alphapals.app.R
+import com.alphapals.app.data.repository.LetterRepository
+import com.alphapals.app.databinding.ActivityMainBinding
+import com.alphapals.app.ui.arabic.ArabicAlphabetActivity
+import com.alphapals.app.ui.base.BaseActivity
+import com.alphapals.app.ui.french.FrenchAlphabetActivity
+import com.alphapals.app.utils.LanguageHelper
 import kotlinx.coroutines.launch
 
 /**
@@ -122,7 +122,7 @@ class MainActivity : BaseActivity() {
 
                     val intent = Intent(
                         this,
-                        com.kidslearning.app.ui.video.VideoLearningActivity::class.java
+                        com.alphapals.app.ui.video.VideoLearningActivity::class.java
                     )
                     startActivity(intent)
                     overridePendingTransition(R.anim.slide_in_right, R.anim.slide_out_left)

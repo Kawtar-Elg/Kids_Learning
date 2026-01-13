@@ -37,7 +37,6 @@
                 android:background="?attr/selectableItemBackgroundBorderless"
                 android:src="@drawable/ic_back"
                 android:contentDescription="@string/back"
-                app:tint="@color/primary_blue"
                 android:scaleType="center" />
 
         </com.google.android.material.card.MaterialCardView>

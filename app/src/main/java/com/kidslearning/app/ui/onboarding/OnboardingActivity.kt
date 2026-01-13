@@ -1,4 +1,4 @@
-package com.kidslearning.app.ui.onboarding
+package com.alphapals.app.ui.onboarding
 
 import android.content.Context
 import android.content.Intent
@@ -8,10 +8,10 @@ import android.view.animation.AnimationUtils
 import android.widget.ImageView
 import androidx.core.content.ContextCompat
 import androidx.viewpager2.widget.ViewPager2
-import com.kidslearning.app.R
-import com.kidslearning.app.databinding.ActivityOnboardingBinding
-import com.kidslearning.app.ui.base.BaseActivity
-import com.kidslearning.app.ui.main.MainActivity
+import com.alphapals.app.R
+import com.alphapals.app.databinding.ActivityOnboardingBinding
+import com.alphapals.app.ui.base.BaseActivity
+import com.alphapals.app.ui.main.MainActivity
 import kotlin.math.abs
 
 /**
@@ -52,10 +52,10 @@ class OnboardingActivity : BaseActivity() {
                 lottieAsset = "lion.json"
             ),
             OnboardingPage(
-                title = getString(R.string.onboarding_title_2),  // Frog
+                title = getString(R.string.onboarding_title_2),  // Gorilla
                 description = getString(R.string.onboarding_desc_2),
                 lottieUrl = "",
-                lottieAsset = "frog.json"
+                lottieAsset = "gorilla.json"
             ),
             OnboardingPage(
                 title = getString(R.string.onboarding_title_3),  // Cat

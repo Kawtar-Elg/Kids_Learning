@@ -1,46 +1,62 @@
 [
     {
-        "merged": "com.kidslearning.app-mergeDebugResources-43:/layout/activity_video_learning.xml",
-        "source": "com.kidslearning.app-main-46:/layout/activity_video_learning.xml"
+        "merged": "C:\\Users\\pc\\.gradle\\daemon\\8.4\\com.alphapals.app-mergeDebugResources-43:\\layout\\activity_video_learning.xml",
+        "source": "C:\\Users\\pc\\.gradle\\daemon\\8.4\\com.alphapals.app-main-46:\\layout\\activity_video_learning.xml"
     },
     {
-        "merged": "com.kidslearning.app-mergeDebugResources-43:/layout/activity_alphabet.xml",
-        "source": "com.kidslearning.app-main-46:/layout/activity_alphabet.xml"
+        "merged": "C:\\Users\\pc\\.gradle\\daemon\\8.4\\com.alphapals.app-mergeDebugResources-43:\\layout\\dialog_congratulations.xml",
+        "source": "C:\\Users\\pc\\.gradle\\daemon\\8.4\\com.alphapals.app-main-46:\\layout\\dialog_congratulations.xml"
     },
     {
-        "merged": "com.kidslearning.app-mergeDebugResources-43:/layout/activity_onboarding.xml",
-        "source": "com.kidslearning.app-main-46:/layout/activity_onboarding.xml"
+        "merged": "C:\\Users\\pc\\.gradle\\daemon\\8.4\\com.alphapals.app-mergeDebugResources-43:\\layout\\activity_alphabet.xml",
+        "source": "C:\\Users\\pc\\.gradle\\daemon\\8.4\\com.alphapals.app-main-46:\\layout\\activity_alphabet.xml"
     },
     {
-        "merged": "com.kidslearning.app-mergeDebugResources-43:/layout/custom_player_controls.xml",
-        "source": "com.kidslearning.app-main-46:/layout/custom_player_controls.xml"
+        "merged": "C:\\Users\\pc\\.gradle\\daemon\\8.4\\com.alphapals.app-mergeDebugResources-43:\\layout\\color_palette.xml",
+        "source": "C:\\Users\\pc\\.gradle\\daemon\\8.4\\com.alphapals.app-main-46:\\layout\\color_palette.xml"
     },
     {
-        "merged": "com.kidslearning.app-mergeDebugResources-43:/layout/activity_main.xml",
-        "source": "com.kidslearning.app-main-46:/layout/activity_main.xml"
+        "merged": "C:\\Users\\pc\\.gradle\\daemon\\8.4\\com.alphapals.app-mergeDebugResources-43:\\layout\\custom_player_controls.xml",
+        "source": "C:\\Users\\pc\\.gradle\\daemon\\8.4\\com.alphapals.app-main-46:\\layout\\custom_player_controls.xml"
     },
     {
-        "merged": "com.kidslearning.app-mergeDebugResources-43:/layout/color_palette.xml",
-        "source": "com.kidslearning.app-main-46:/layout/color_palette.xml"
+        "merged": "C:\\Users\\pc\\.gradle\\daemon\\8.4\\com.alphapals.app-mergeDebugResources-43:\\layout\\dialog_completion.xml",
+        "source": "C:\\Users\\pc\\.gradle\\daemon\\8.4\\com.alphapals.app-main-46:\\layout\\dialog_completion.xml"
     },
     {
-        "merged": "com.kidslearning.app-mergeDebugResources-43:/layout/activity_video_player.xml",
-        "source": "com.kidslearning.app-main-46:/layout/activity_video_player.xml"
+        "merged": "C:\\Users\\pc\\.gradle\\daemon\\8.4\\com.alphapals.app-mergeDebugResources-43:\\layout\\activity_main.xml",
+        "source": "C:\\Users\\pc\\.gradle\\daemon\\8.4\\com.alphapals.app-main-46:\\layout\\activity_main.xml"
     },
     {
-        "merged": "com.kidslearning.app-mergeDebugResources-43:/layout/item_video.xml",
-        "source": "com.kidslearning.app-main-46:/layout/item_video.xml"
+        "merged": "C:\\Users\\pc\\.gradle\\daemon\\8.4\\com.alphapals.app-mergeDebugResources-43:\\layout\\item_letter.xml",
+        "source": "C:\\Users\\pc\\.gradle\\daemon\\8.4\\com.alphapals.app-main-46:\\layout\\item_letter.xml"
     },
     {
-        "merged": "com.kidslearning.app-mergeDebugResources-43:/layout/activity_drawing.xml",
-        "source": "com.kidslearning.app-main-46:/layout/activity_drawing.xml"
+        "merged": "com.alphapals.app-mergeDebugResources-43:/layout/color_palette.xml",
+        "source": "com.alphapals.app-main-46:/layout/color_palette.xml"
     },
     {
-        "merged": "com.kidslearning.app-mergeDebugResources-43:/layout/item_letter.xml",
-        "source": "com.kidslearning.app-main-46:/layout/item_letter.xml"
+        "merged": "C:\\Users\\pc\\.gradle\\daemon\\8.4\\com.alphapals.app-mergeDebugResources-43:\\layout\\activity_onboarding.xml",
+        "source": "C:\\Users\\pc\\.gradle\\daemon\\8.4\\com.alphapals.app-main-46:\\layout\\activity_onboarding.xml"
     },
     {
-        "merged": "com.kidslearning.app-mergeDebugResources-43:/layout/item_onboarding_page.xml",
-        "source": "com.kidslearning.app-main-46:/layout/item_onboarding_page.xml"
+        "merged": "C:\\Users\\pc\\.gradle\\daemon\\8.4\\com.alphapals.app-mergeDebugResources-43:\\layout\\item_video.xml",
+        "source": "C:\\Users\\pc\\.gradle\\daemon\\8.4\\com.alphapals.app-main-46:\\layout\\item_video.xml"
+    },
+    {
+        "merged": "C:\\Users\\pc\\.gradle\\daemon\\8.4\\com.alphapals.app-mergeDebugResources-43:\\layout\\item_onboarding_page.xml",
+        "source": "C:\\Users\\pc\\.gradle\\daemon\\8.4\\com.alphapals.app-main-46:\\layout\\item_onboarding_page.xml"
+    },
+    {
+        "merged": "C:\\Users\\pc\\.gradle\\daemon\\8.4\\com.alphapals.app-mergeDebugResources-43:\\layout\\activity_video_player.xml",
+        "source": "C:\\Users\\pc\\.gradle\\daemon\\8.4\\com.alphapals.app-main-46:\\layout\\activity_video_player.xml"
+    },
+    {
+        "merged": "C:\\Users\\pc\\.gradle\\daemon\\8.4\\com.alphapals.app-mergeDebugResources-43:\\layout\\activity_drawing.xml",
+        "source": "C:\\Users\\pc\\.gradle\\daemon\\8.4\\com.alphapals.app-main-46:\\layout\\activity_drawing.xml"
+    },
+    {
+        "merged": "com.alphapals.app-mergeDebugResources-43:/layout/activity_drawing.xml",
+        "source": "com.alphapals.app-main-46:/layout/activity_drawing.xml"
     }
 ]

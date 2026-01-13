@@ -1,4 +1,4 @@
-package com.kidslearning.app.data.model
+package com.alphapals.app.data.model
 
 /**
  * Data class representing an educational video

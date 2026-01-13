@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.kidslearning.app-mergeDebugResources-42:/values-lv/values-lv.xml",
+            "outputFile": "com.alphapals.app-mergeDebugResources-42:/values-lv/values-lv.xml",
             "map": [
                 {
                     "source": "C:\\Users\\pc\\.gradle\\caches\\transforms-3\\9cd7eb061ea6c35efce15a0f8b2f56b6\\transformed\\material-1.11.0\\res\\values-lv\\values-lv.xml",

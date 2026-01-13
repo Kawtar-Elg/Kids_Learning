@@ -1,4 +1,4 @@
-=== Build 1765852642102 ===
+=== Build 1766587717977 ===
 All Files
   src\main\java\com\kidslearning\app\data\database\AppDatabase.kt
   src\main\java\com\kidslearning\app\data\database\LetterDao.kt
@@ -54,4 +54,190 @@ Dirty:
   src\main\java\com\kidslearning\app\utils\SoundPlayer.kt
 
 Dirty / All: 100.00%
+
+=== Build 1768319514262 ===
+All Files
+  src\main\java\com\kidslearning\app\data\database\AppDatabase.kt
+  src\main\java\com\kidslearning\app\data\database\LetterDao.kt
+  src\main\java\com\kidslearning\app\data\database\ProgressDao.kt
+  src\main\java\com\kidslearning\app\data\model\AlphabetData.kt
+  src\main\java\com\kidslearning\app\data\model\LearningVideo.kt
+  src\main\java\com\kidslearning\app\data\model\Letter.kt
+  src\main\java\com\kidslearning\app\data\repository\LetterRepository.kt
+  src\main\java\com\kidslearning\app\ui\arabic\ArabicAlphabetActivity.kt
+  src\main\java\com\kidslearning\app\ui\arabic\LetterAdapter.kt
+  src\main\java\com\kidslearning\app\ui\base\BaseActivity.kt
+  src\main\java\com\kidslearning\app\ui\drawing\DrawingActivity.kt
+  src\main\java\com\kidslearning\app\ui\french\FrenchAlphabetActivity.kt
+  src\main\java\com\kidslearning\app\ui\main\MainActivity.kt
+  src\main\java\com\kidslearning\app\ui\onboarding\OnboardingActivity.kt
+  src\main\java\com\kidslearning\app\ui\onboarding\OnboardingAdapter.kt
+  src\main\java\com\kidslearning\app\ui\video\VideoAdapter.kt
+  src\main\java\com\kidslearning\app\ui\video\VideoLearningActivity.kt
+  src\main\java\com\kidslearning\app\ui\video\VideoPlayerActivity.kt
+  src\main\java\com\kidslearning\app\utils\BackgroundMusicPlayer.kt
+  src\main\java\com\kidslearning\app\utils\DrawingView.kt
+  src\main\java\com\kidslearning\app\utils\LanguageHelper.kt
+  src\main\java\com\kidslearning\app\utils\SoundPlayer.kt
+Modified
+Removed
+Disappeared Outputs
+Affected By CP
+Affected By new syms
+Affected By sealed
+CP changes
+  com.alphapals.app.R.mipmap
+  com.alphapals.app.R.color
+Dirty:
+
+Dirty / All: 0.00%
+
+=== Build 1768320311633 ===
+All Files
+  src\main\java\com\kidslearning\app\data\database\AppDatabase.kt
+  src\main\java\com\kidslearning\app\data\database\LetterDao.kt
+  src\main\java\com\kidslearning\app\data\database\ProgressDao.kt
+  src\main\java\com\kidslearning\app\data\model\AlphabetData.kt
+  src\main\java\com\kidslearning\app\data\model\LearningVideo.kt
+  src\main\java\com\kidslearning\app\data\model\Letter.kt
+  src\main\java\com\kidslearning\app\data\repository\LetterRepository.kt
+  src\main\java\com\kidslearning\app\ui\arabic\ArabicAlphabetActivity.kt
+  src\main\java\com\kidslearning\app\ui\arabic\LetterAdapter.kt
+  src\main\java\com\kidslearning\app\ui\base\BaseActivity.kt
+  src\main\java\com\kidslearning\app\ui\drawing\DrawingActivity.kt
+  src\main\java\com\kidslearning\app\ui\french\FrenchAlphabetActivity.kt
+  src\main\java\com\kidslearning\app\ui\main\MainActivity.kt
+  src\main\java\com\kidslearning\app\ui\onboarding\OnboardingActivity.kt
+  src\main\java\com\kidslearning\app\ui\onboarding\OnboardingAdapter.kt
+  src\main\java\com\kidslearning\app\ui\video\VideoAdapter.kt
+  src\main\java\com\kidslearning\app\ui\video\VideoLearningActivity.kt
+  src\main\java\com\kidslearning\app\ui\video\VideoPlayerActivity.kt
+  src\main\java\com\kidslearning\app\utils\BackgroundMusicPlayer.kt
+  src\main\java\com\kidslearning\app\utils\DrawingView.kt
+  src\main\java\com\kidslearning\app\utils\LanguageHelper.kt
+  src\main\java\com\kidslearning\app\utils\SoundPlayer.kt
+Modified
+  src\main\java\com\kidslearning\app\ui\drawing\DrawingActivity.kt
+Removed
+Disappeared Outputs
+Affected By CP
+Affected By new syms
+Affected By sealed
+CP changes
+Dirty:
+  src\main\java\com\kidslearning\app\ui\drawing\DrawingActivity.kt
+
+Dirty / All: 4.55%
+
+=== Build 1768320451286 ===
+All Files
+  src\main\java\com\kidslearning\app\data\database\AppDatabase.kt
+  src\main\java\com\kidslearning\app\data\database\LetterDao.kt
+  src\main\java\com\kidslearning\app\data\database\ProgressDao.kt
+  src\main\java\com\kidslearning\app\data\model\AlphabetData.kt
+  src\main\java\com\kidslearning\app\data\model\LearningVideo.kt
+  src\main\java\com\kidslearning\app\data\model\Letter.kt
+  src\main\java\com\kidslearning\app\data\repository\LetterRepository.kt
+  src\main\java\com\kidslearning\app\ui\arabic\ArabicAlphabetActivity.kt
+  src\main\java\com\kidslearning\app\ui\arabic\LetterAdapter.kt
+  src\main\java\com\kidslearning\app\ui\base\BaseActivity.kt
+  src\main\java\com\kidslearning\app\ui\drawing\DrawingActivity.kt
+  src\main\java\com\kidslearning\app\ui\french\FrenchAlphabetActivity.kt
+  src\main\java\com\kidslearning\app\ui\main\MainActivity.kt
+  src\main\java\com\kidslearning\app\ui\onboarding\OnboardingActivity.kt
+  src\main\java\com\kidslearning\app\ui\onboarding\OnboardingAdapter.kt
+  src\main\java\com\kidslearning\app\ui\video\VideoAdapter.kt
+  src\main\java\com\kidslearning\app\ui\video\VideoLearningActivity.kt
+  src\main\java\com\kidslearning\app\ui\video\VideoPlayerActivity.kt
+  src\main\java\com\kidslearning\app\utils\BackgroundMusicPlayer.kt
+  src\main\java\com\kidslearning\app\utils\DrawingView.kt
+  src\main\java\com\kidslearning\app\utils\LanguageHelper.kt
+  src\main\java\com\kidslearning\app\utils\SoundPlayer.kt
+Modified
+  src\main\java\com\kidslearning\app\ui\drawing\DrawingActivity.kt
+Removed
+Disappeared Outputs
+Affected By CP
+Affected By new syms
+Affected By sealed
+CP changes
+Dirty:
+  src\main\java\com\kidslearning\app\ui\drawing\DrawingActivity.kt
+
+Dirty / All: 4.55%
+
+=== Build 1768321542089 ===
+All Files
+  src\main\java\com\kidslearning\app\data\database\AppDatabase.kt
+  src\main\java\com\kidslearning\app\data\database\LetterDao.kt
+  src\main\java\com\kidslearning\app\data\database\ProgressDao.kt
+  src\main\java\com\kidslearning\app\data\model\AlphabetData.kt
+  src\main\java\com\kidslearning\app\data\model\LearningVideo.kt
+  src\main\java\com\kidslearning\app\data\model\Letter.kt
+  src\main\java\com\kidslearning\app\data\repository\LetterRepository.kt
+  src\main\java\com\kidslearning\app\ui\arabic\ArabicAlphabetActivity.kt
+  src\main\java\com\kidslearning\app\ui\arabic\LetterAdapter.kt
+  src\main\java\com\kidslearning\app\ui\base\BaseActivity.kt
+  src\main\java\com\kidslearning\app\ui\drawing\DrawingActivity.kt
+  src\main\java\com\kidslearning\app\ui\french\FrenchAlphabetActivity.kt
+  src\main\java\com\kidslearning\app\ui\main\MainActivity.kt
+  src\main\java\com\kidslearning\app\ui\onboarding\OnboardingActivity.kt
+  src\main\java\com\kidslearning\app\ui\onboarding\OnboardingAdapter.kt
+  src\main\java\com\kidslearning\app\ui\video\VideoAdapter.kt
+  src\main\java\com\kidslearning\app\ui\video\VideoLearningActivity.kt
+  src\main\java\com\kidslearning\app\ui\video\VideoPlayerActivity.kt
+  src\main\java\com\kidslearning\app\utils\BackgroundMusicPlayer.kt
+  src\main\java\com\kidslearning\app\utils\DrawingView.kt
+  src\main\java\com\kidslearning\app\utils\LanguageHelper.kt
+  src\main\java\com\kidslearning\app\utils\SoundPlayer.kt
+Modified
+  src\main\java\com\kidslearning\app\ui\drawing\DrawingActivity.kt
+Removed
+Disappeared Outputs
+Affected By CP
+Affected By new syms
+Affected By sealed
+CP changes
+  com.alphapals.app.R.id
+  com.alphapals.app.R.drawable
+Dirty:
+  src\main\java\com\kidslearning\app\ui\drawing\DrawingActivity.kt
+
+Dirty / All: 4.55%
+
+=== Build 1768322195957 ===
+All Files
+  src\main\java\com\kidslearning\app\data\database\AppDatabase.kt
+  src\main\java\com\kidslearning\app\data\database\LetterDao.kt
+  src\main\java\com\kidslearning\app\data\database\ProgressDao.kt
+  src\main\java\com\kidslearning\app\data\model\AlphabetData.kt
+  src\main\java\com\kidslearning\app\data\model\LearningVideo.kt
+  src\main\java\com\kidslearning\app\data\model\Letter.kt
+  src\main\java\com\kidslearning\app\data\repository\LetterRepository.kt
+  src\main\java\com\kidslearning\app\ui\arabic\ArabicAlphabetActivity.kt
+  src\main\java\com\kidslearning\app\ui\arabic\LetterAdapter.kt
+  src\main\java\com\kidslearning\app\ui\base\BaseActivity.kt
+  src\main\java\com\kidslearning\app\ui\drawing\DrawingActivity.kt
+  src\main\java\com\kidslearning\app\ui\french\FrenchAlphabetActivity.kt
+  src\main\java\com\kidslearning\app\ui\main\MainActivity.kt
+  src\main\java\com\kidslearning\app\ui\onboarding\OnboardingActivity.kt
+  src\main\java\com\kidslearning\app\ui\onboarding\OnboardingAdapter.kt
+  src\main\java\com\kidslearning\app\ui\video\VideoAdapter.kt
+  src\main\java\com\kidslearning\app\ui\video\VideoLearningActivity.kt
+  src\main\java\com\kidslearning\app\ui\video\VideoPlayerActivity.kt
+  src\main\java\com\kidslearning\app\utils\BackgroundMusicPlayer.kt
+  src\main\java\com\kidslearning\app\utils\DrawingView.kt
+  src\main\java\com\kidslearning\app\utils\LanguageHelper.kt
+  src\main\java\com\kidslearning\app\utils\SoundPlayer.kt
+Modified
+Removed
+Disappeared Outputs
+Affected By CP
+Affected By new syms
+Affected By sealed
+CP changes
+  com.alphapals.app.R.id
+Dirty:
+
+Dirty / All: 0.00%
 

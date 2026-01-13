@@ -1,14 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="all_done">برافو! لقد أنهيت جميع الحروف!</string>
     <string name="all_letters">كل الحروف</string>
     <string name="alphabet_songs">أغاني الحروف</string>
     <string name="alphabet_tutorial">درس الحروف</string>
-    <string name="app_name">تعلم الأطفال</string>
+    <string name="app_name">Alpha-Pals</string>
     <string name="arabic_alphabet">الحروف العربية</string>
     <string name="arabic_videos">فيديوهات عربية</string>
     <string name="back">رجوع</string>
     <string name="choose_language">اختر الأبجدية</string>
     <string name="clear">مسح</string>
+    <string name="congratulations">تهانينا!</string>
     <string name="consonants">الحروف الساكنة</string>
     <string name="content_desc_back">زر الرجوع</string>
     <string name="content_desc_clear">زر المسح</string>
@@ -23,6 +25,7 @@
     <string name="french_videos">فيديوهات فرنسية</string>
     <string name="fullscreen">ملء الشاشة</string>
     <string name="get_started">ابدأ!</string>
+    <string name="good_kid">عمل رائع أيها البطل الصغير!</string>
     <string name="great_job">عمل رائع!</string>
     <string name="home">الرئيسية</string>
     <string name="how_to_write">كيف تكتب</string>
@@ -39,17 +42,19 @@
     <string name="music_paused">الموسيقى موقوفة</string>
     <string name="music_playing">الموسيقى تعمل...</string>
     <string name="next">التالي</string>
+    <string name="next_letter">الحرف التالي</string>
     <string name="onboarding_desc_1">أنا ملك الغابة!</string>
-    <string name="onboarding_desc_2">أقفز في كل مكان!</string>
+    <string name="onboarding_desc_2">أنا قوي وشجاع!</string>
     <string name="onboarding_desc_3">أحب النوم والراحة!</string>
     <string name="onboarding_desc_4">أسبح في الماء!</string>
     <string name="onboarding_desc_5">أطير نحو الحروف!</string>
     <string name="onboarding_title_1">مرحباً أيها الأسد!</string>
-    <string name="onboarding_title_2">أهلاً أيها الضفدع!</string>
+    <string name="onboarding_title_2">أهلاً أيها الغوريلا!</string>
     <string name="onboarding_title_3">مياو القطة!</string>
     <string name="onboarding_title_4">بلوب السمكة!</string>
     <string name="onboarding_title_5">ها هي الفراشة!</string>
     <string name="pause_video">إيقاف مؤقت</string>
+    <string name="perfect_tracing">لقد رسمت الحرف بشكل مثالي!</string>
     <string name="play">العب</string>
     <string name="play_video">تشغيل الفيديو</string>
     <string name="repeat_sound">إعادة الصوت</string>

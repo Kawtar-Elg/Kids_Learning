@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="24dp"
+    app:cardCornerRadius="24dp"
+    app:cardElevation="8dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/gradient_celebration_bg"
+        android:orientation="vertical"
+        android:padding="0dp">
+
+        <!-- Top decorative wave -->
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="8dp"
+            android:background="@drawable/gradient_top_wave" />
+
+        <!-- Lottie Animation Container -->
+        <com.airbnb.lottie.LottieAnimationView
+            android:id="@+id/lottieAnimation"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="16dp"
+            app:lottie_autoPlay="true"
+            app:lottie_loop="true"
+            app:lottie_rawRes="@raw/butterfly_lottie_animation" />
+
+        <!-- Trophy Icon Container -->
+        <androidx.cardview.widget.CardView
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="-40dp"
+            app:cardCornerRadius="40dp"
+            app:cardElevation="4dp"
+            android:backgroundTint="@color/white">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="🏆"
+                android:textSize="48sp" />
+        </androidx.cardview.widget.CardView>
+
+        <!-- Congratulations Title with Stars -->
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="16dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="⭐"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/tvCongratulations"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginEnd="8dp"
+                android:fontFamily="sans-serif-medium"
+                android:text="@string/congratulations"
+                android:textColor="@color/celebration_title"
+                android:textSize="32sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="⭐"
+                android:textSize="24sp" />
+        </LinearLayout>
+
+        <!-- Success Message -->
+        <TextView
+            android:id="@+id/tvMessage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="24dp"
+            android:fontFamily="sans-serif"
+            android:gravity="center"
+            android:lineSpacingExtra="4dp"
+            android:text="@string/good_kid"
+            android:textColor="@color/celebration_message"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/tvSubMessage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="24dp"
+            android:fontFamily="sans-serif"
+            android:gravity="center"
+            android:text="@string/perfect_tracing"
+            android:textColor="@color/celebration_sub_message"
+            android:textSize="16sp" />
+
+        <!-- Decorative Stars -->
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="16dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="8dp"
+                android:text="✨"
+                android:textSize="28sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="8dp"
+                android:text="🌟"
+                android:textSize="32sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="✨"
+                android:textSize="28sp" />
+        </LinearLayout>
+
+        <!-- Button Container -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="24dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginBottom="24dp"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+            <!-- Try Again Button -->
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btnTryAgain"
+                android:layout_width="0dp"
+                android:layout_height="60dp"
+                android:layout_marginEnd="8dp"
+                android:layout_weight="1"
+                android:backgroundTint="@color/button_try_again"
+                android:elevation="4dp"
+                android:fontFamily="sans-serif-medium"
+                android:text="@string/try_again"
+                android:textAllCaps="false"
+                android:textColor="@color/white"
+                android:textSize="16sp"
+                app:cornerRadius="16dp"
+                app:icon="@drawable/ic_refresh"
+                app:iconGravity="textStart"
+                app:iconPadding="8dp"
+                app:iconSize="24dp"
+                app:iconTint="@color/white" />
+
+            <!-- Next Letter Button -->
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btnNextLetter"
+                android:layout_width="0dp"
+                android:layout_height="60dp"
+                android:layout_marginStart="8dp"
+                android:layout_weight="1"
+                android:backgroundTint="@color/button_next_letter"
+                android:elevation="4dp"
+                android:fontFamily="sans-serif-medium"
+                android:text="@string/next_letter"
+                android:textAllCaps="false"
+                android:textColor="@color/white"
+                android:textSize="16sp"
+                app:cornerRadius="16dp"
+                app:icon="@drawable/ic_arrow_forward"
+                app:iconGravity="textEnd"
+                app:iconTint="@null"
+                app:iconPadding="8dp"
+                app:iconSize="24dp" />
+        </LinearLayout>
+
+        <!-- Bottom decorative wave -->
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="8dp"
+            android:background="@drawable/gradient_bottom_wave" />
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

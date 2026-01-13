@@ -13,7 +13,6 @@
         android:layout_margin="16dp"
         android:background="@drawable/bg_bubble_pink"
         android:src="@drawable/ic_back"
-        app:tint="@color/white"
         android:scaleType="center"
         android:contentDescription="@string/back"
         app:layout_constraintTop_toTopOf="parent"

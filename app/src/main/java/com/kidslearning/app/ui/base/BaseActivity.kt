@@ -1,9 +1,9 @@
-package com.kidslearning.app.ui.base
+package com.alphapals.app.ui.base
 
 import android.content.Context
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
-import com.kidslearning.app.utils.LanguageHelper
+import com.alphapals.app.utils.LanguageHelper
 
 /**
  * Base Activity that handles language/locale configuration

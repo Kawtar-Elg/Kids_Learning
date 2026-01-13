@@ -67,4 +67,17 @@
     <color name="bubble_pink">#FFB6C1</color>
     <color name="bubble_blue">#87CEEB</color>
     <color name="star_gold">#FFD700</color>
+
+    <!-- Celebration Dialog Colors -->
+    <color name="celebration_title">#FF6B6B</color>
+    <color name="celebration_message">#4A4A4A</color>
+    <color name="celebration_sub_message">#7F8C8D</color>
+    <color name="button_try_again">#FF9800</color>
+    <color name="button_next_letter">#4CAF50</color>
+
+    <!-- Completion Dialog Colors -->
+    <color name="completion_title">#FF6B6B</color>
+    <color name="completion_subtitle">#9C27B0</color>
+    <color name="completion_message">#4A4A4A</color>
+    <color name="button_completion">#2196F3</color>
 </resources>

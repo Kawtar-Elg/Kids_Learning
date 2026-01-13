@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.kidslearning.app-mergeDebugResources-42:/values-v18/values-v18.xml",
+            "outputFile": "com.alphapals.app-mergeDebugResources-42:/values-v18/values-v18.xml",
             "map": [
                 {
                     "source": "C:\\Users\\pc\\.gradle\\caches\\transforms-3\\71c51b39f14f5f86ce72b1515daea1f9\\transformed\\appcompat-1.6.1\\res\\values-v18\\values-v18.xml",

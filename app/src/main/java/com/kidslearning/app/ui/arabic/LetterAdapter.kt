@@ -1,12 +1,12 @@
-package com.kidslearning.app.ui.arabic
+package com.alphapals.app.ui.arabic
 
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.DiffUtil
 import androidx.recyclerview.widget.ListAdapter
 import androidx.recyclerview.widget.RecyclerView
-import com.kidslearning.app.data.model.Letter
-import com.kidslearning.app.databinding.ItemLetterBinding
+import com.alphapals.app.data.model.Letter
+import com.alphapals.app.databinding.ItemLetterBinding
 
 /**
  * Adapter pour afficher la liste des lettres

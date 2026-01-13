@@ -9,7 +9,20 @@
 /.idea/assetWizardSettings.xml
 .DS_Store
 /build
+**/build/
 /captures
 .externalNativeBuild
 .cxx
 local.properties
+
+# Release artifacts
+*.apk
+*.aab
+*.apks
+
+# Keystores / signing (NEVER commit)
+*.jks
+*.keystore
+keystore.properties
+**/keystore.properties
+**/keystore/

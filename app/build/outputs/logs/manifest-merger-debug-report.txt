@@ -136,7 +136,7 @@ MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\pc\.gradle\caches\
 		ADDED from C:\Users\pc\AndroidStudioProjects\KidsLearning\app\src\main\AndroidManifest.xml:10:9-65
 	android:usesCleartextTraffic
 		ADDED from C:\Users\pc\AndroidStudioProjects\KidsLearning\app\src\main\AndroidManifest.xml:17:9-44
-activity#com.kidslearning.app.ui.onboarding.OnboardingActivity
+activity#com.alphapals.app.ui.onboarding.OnboardingActivity
 ADDED from C:\Users\pc\AndroidStudioProjects\KidsLearning\app\src\main\AndroidManifest.xml:21:9-29:20
 	android:screenOrientation
 		ADDED from C:\Users\pc\AndroidStudioProjects\KidsLearning\app\src\main\AndroidManifest.xml:24:13-49
@@ -154,7 +154,7 @@ category#android.intent.category.LAUNCHER
 ADDED from C:\Users\pc\AndroidStudioProjects\KidsLearning\app\src\main\AndroidManifest.xml:27:17-77
 	android:name
 		ADDED from C:\Users\pc\AndroidStudioProjects\KidsLearning\app\src\main\AndroidManifest.xml:27:27-74
-activity#com.kidslearning.app.ui.main.MainActivity
+activity#com.alphapals.app.ui.main.MainActivity
 ADDED from C:\Users\pc\AndroidStudioProjects\KidsLearning\app\src\main\AndroidManifest.xml:31:9-34:52
 	android:screenOrientation
 		ADDED from C:\Users\pc\AndroidStudioProjects\KidsLearning\app\src\main\AndroidManifest.xml:34:13-49
@@ -162,7 +162,7 @@ ADDED from C:\Users\pc\AndroidStudioProjects\KidsLearning\app\src\main\AndroidMa
 		ADDED from C:\Users\pc\AndroidStudioProjects\KidsLearning\app\src\main\AndroidManifest.xml:33:13-37
 	android:name
 		ADDED from C:\Users\pc\AndroidStudioProjects\KidsLearning\app\src\main\AndroidManifest.xml:32:13-49
-activity#com.kidslearning.app.ui.arabic.ArabicAlphabetActivity
+activity#com.alphapals.app.ui.arabic.ArabicAlphabetActivity
 ADDED from C:\Users\pc\AndroidStudioProjects\KidsLearning\app\src\main\AndroidManifest.xml:36:9-39:66
 	android:screenOrientation
 		ADDED from C:\Users\pc\AndroidStudioProjects\KidsLearning\app\src\main\AndroidManifest.xml:38:13-49
@@ -170,7 +170,7 @@ ADDED from C:\Users\pc\AndroidStudioProjects\KidsLearning\app\src\main\AndroidMa
 		ADDED from C:\Users\pc\AndroidStudioProjects\KidsLearning\app\src\main\AndroidManifest.xml:39:13-63
 	android:name
 		ADDED from C:\Users\pc\AndroidStudioProjects\KidsLearning\app\src\main\AndroidManifest.xml:37:13-61
-activity#com.kidslearning.app.ui.french.FrenchAlphabetActivity
+activity#com.alphapals.app.ui.french.FrenchAlphabetActivity
 ADDED from C:\Users\pc\AndroidStudioProjects\KidsLearning\app\src\main\AndroidManifest.xml:41:9-44:66
 	android:screenOrientation
 		ADDED from C:\Users\pc\AndroidStudioProjects\KidsLearning\app\src\main\AndroidManifest.xml:43:13-49
@@ -178,7 +178,7 @@ ADDED from C:\Users\pc\AndroidStudioProjects\KidsLearning\app\src\main\AndroidMa
 		ADDED from C:\Users\pc\AndroidStudioProjects\KidsLearning\app\src\main\AndroidManifest.xml:44:13-63
 	android:name
 		ADDED from C:\Users\pc\AndroidStudioProjects\KidsLearning\app\src\main\AndroidManifest.xml:42:13-61
-activity#com.kidslearning.app.ui.drawing.DrawingActivity
+activity#com.alphapals.app.ui.drawing.DrawingActivity
 ADDED from C:\Users\pc\AndroidStudioProjects\KidsLearning\app\src\main\AndroidManifest.xml:46:9-49:66
 	android:screenOrientation
 		ADDED from C:\Users\pc\AndroidStudioProjects\KidsLearning\app\src\main\AndroidManifest.xml:48:13-49
@@ -186,7 +186,7 @@ ADDED from C:\Users\pc\AndroidStudioProjects\KidsLearning\app\src\main\AndroidMa
 		ADDED from C:\Users\pc\AndroidStudioProjects\KidsLearning\app\src\main\AndroidManifest.xml:49:13-63
 	android:name
 		ADDED from C:\Users\pc\AndroidStudioProjects\KidsLearning\app\src\main\AndroidManifest.xml:47:13-55
-activity#com.kidslearning.app.ui.video.VideoLearningActivity
+activity#com.alphapals.app.ui.video.VideoLearningActivity
 ADDED from C:\Users\pc\AndroidStudioProjects\KidsLearning\app\src\main\AndroidManifest.xml:52:9-55:66
 	android:screenOrientation
 		ADDED from C:\Users\pc\AndroidStudioProjects\KidsLearning\app\src\main\AndroidManifest.xml:54:13-49
@@ -194,7 +194,7 @@ ADDED from C:\Users\pc\AndroidStudioProjects\KidsLearning\app\src\main\AndroidMa
 		ADDED from C:\Users\pc\AndroidStudioProjects\KidsLearning\app\src\main\AndroidManifest.xml:55:13-63
 	android:name
 		ADDED from C:\Users\pc\AndroidStudioProjects\KidsLearning\app\src\main\AndroidManifest.xml:53:13-59
-activity#com.kidslearning.app.ui.video.VideoPlayerActivity
+activity#com.alphapals.app.ui.video.VideoPlayerActivity
 ADDED from C:\Users\pc\AndroidStudioProjects\KidsLearning\app\src\main\AndroidManifest.xml:57:9-61:68
 	android:parentActivityName
 		ADDED from C:\Users\pc\AndroidStudioProjects\KidsLearning\app\src\main\AndroidManifest.xml:60:13-73
@@ -372,7 +372,7 @@ ADDED from [androidx.core:core:1.12.0] C:\Users\pc\.gradle\caches\transforms-3\1
 		ADDED from [androidx.core:core:1.12.0] C:\Users\pc\.gradle\caches\transforms-3\192e90856102798661a5ca6bb534801d\transformed\core-1.12.0\AndroidManifest.xml:24:9-44
 	android:name
 		ADDED from [androidx.core:core:1.12.0] C:\Users\pc\.gradle\caches\transforms-3\192e90856102798661a5ca6bb534801d\transformed\core-1.12.0\AndroidManifest.xml:23:9-81
-permission#com.kidslearning.app.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+permission#com.alphapals.app.debug.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
 ADDED from [androidx.core:core:1.12.0] C:\Users\pc\.gradle\caches\transforms-3\192e90856102798661a5ca6bb534801d\transformed\core-1.12.0\AndroidManifest.xml:22:5-24:47
 	android:protectionLevel
 		ADDED from [androidx.core:core:1.12.0] C:\Users\pc\.gradle\caches\transforms-3\192e90856102798661a5ca6bb534801d\transformed\core-1.12.0\AndroidManifest.xml:24:9-44
@@ -382,7 +382,7 @@ uses-permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
 ADDED from [androidx.core:core:1.12.0] C:\Users\pc\.gradle\caches\transforms-3\192e90856102798661a5ca6bb534801d\transformed\core-1.12.0\AndroidManifest.xml:26:5-97
 	android:name
 		ADDED from [androidx.core:core:1.12.0] C:\Users\pc\.gradle\caches\transforms-3\192e90856102798661a5ca6bb534801d\transformed\core-1.12.0\AndroidManifest.xml:26:22-94
-uses-permission#com.kidslearning.app.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+uses-permission#com.alphapals.app.debug.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
 ADDED from [androidx.core:core:1.12.0] C:\Users\pc\.gradle\caches\transforms-3\192e90856102798661a5ca6bb534801d\transformed\core-1.12.0\AndroidManifest.xml:26:5-97
 	android:name
 		ADDED from [androidx.core:core:1.12.0] C:\Users\pc\.gradle\caches\transforms-3\192e90856102798661a5ca6bb534801d\transformed\core-1.12.0\AndroidManifest.xml:26:22-94

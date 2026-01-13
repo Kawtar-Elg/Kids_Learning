@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="24dp"
+    app:cardCornerRadius="24dp"
+    app:cardElevation="8dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/gradient_completion_bg"
+        android:orientation="vertical"
+        android:padding="0dp">
+
+        <!-- Fireworks top decoration -->
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="12dp"
+            android:background="@drawable/gradient_fireworks" />
+
+        <!-- Multiple Lottie Animations for Grand Finale! -->
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:layout_marginTop="16dp">
+
+            <!-- Main center animation -->
+            <com.airbnb.lottie.LottieAnimationView
+                android:id="@+id/lottieAnimationCenter"
+                android:layout_width="250dp"
+                android:layout_height="250dp"
+                android:layout_gravity="center"
+                app:lottie_autoPlay="true"
+                app:lottie_loop="true"
+                app:lottie_rawRes="@raw/butterfly_lottie_animation" />
+
+            <!-- Left decoration animation -->
+            <com.airbnb.lottie.LottieAnimationView
+                android:id="@+id/lottieAnimationLeft"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_gravity="start|top"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="50dp"
+                app:lottie_autoPlay="true"
+                app:lottie_loop="true"
+                app:lottie_rawRes="@raw/goldfish" />
+
+            <!-- Right decoration animation -->
+            <com.airbnb.lottie.LottieAnimationView
+                android:id="@+id/lottieAnimationRight"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_gravity="end|top"
+                android:layout_marginTop="50dp"
+                android:layout_marginEnd="16dp"
+                app:lottie_autoPlay="true"
+                app:lottie_loop="true"
+                app:lottie_rawRes="@raw/loading_cat" />
+        </FrameLayout>
+
+        <!-- Big Trophy -->
+        <androidx.cardview.widget.CardView
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="-60dp"
+            app:cardCornerRadius="60dp"
+            app:cardElevation="8dp"
+            android:backgroundTint="@color/white">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="🏆"
+                    android:textSize="72sp" />
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <!-- YOU DID IT! Title -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="24dp"
+            android:fontFamily="sans-serif-black"
+            android:text="🎉 YOU DID IT! 🎉"
+            android:textColor="@color/completion_title"
+            android:textSize="36sp"
+            android:textStyle="bold" />
+
+        <!-- Congratulations Title -->
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="8dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="⭐"
+                android:textSize="28sp" />
+
+            <TextView
+                android:id="@+id/tvCompletionTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginEnd="8dp"
+                android:fontFamily="sans-serif-medium"
+                android:text="@string/congratulations"
+                android:textColor="@color/completion_subtitle"
+                android:textSize="28sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="⭐"
+                android:textSize="28sp" />
+        </LinearLayout>
+
+        <!-- All Done Message -->
+        <TextView
+            android:id="@+id/tvCompletionMessage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="32dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="32dp"
+            android:fontFamily="sans-serif-medium"
+            android:gravity="center"
+            android:lineSpacingExtra="4dp"
+            android:text="@string/all_done"
+            android:textColor="@color/completion_message"
+            android:textSize="22sp" />
+
+        <!-- Star Rating Display -->
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="24dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="8dp"
+                android:text="⭐"
+                android:textSize="40sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="8dp"
+                android:text="⭐"
+                android:textSize="48sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="8dp"
+                android:text="⭐"
+                android:textSize="40sp" />
+        </LinearLayout>
+
+        <!-- Decorative Emojis -->
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="16dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="12dp"
+                android:text="🎊"
+                android:textSize="32sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="12dp"
+                android:text="✨"
+                android:textSize="32sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="12dp"
+                android:text="🎉"
+                android:textSize="32sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="🌟"
+                android:textSize="32sp" />
+        </LinearLayout>
+
+        <!-- Back Home Button -->
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnBackHome"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_marginStart="32dp"
+            android:layout_marginTop="32dp"
+            android:layout_marginEnd="32dp"
+            android:layout_marginBottom="32dp"
+            android:backgroundTint="@color/button_completion"
+            android:elevation="6dp"
+            android:fontFamily="sans-serif-medium"
+            android:text="@string/back"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            app:cornerRadius="20dp"
+            app:icon="@drawable/ic_home"
+            app:iconGravity="textStart"
+            app:iconPadding="12dp"
+            app:iconSize="32dp"
+            app:iconTint="@color/white" />
+
+        <!-- Bottom fireworks decoration -->
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="12dp"
+            android:background="@drawable/gradient_fireworks" />
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

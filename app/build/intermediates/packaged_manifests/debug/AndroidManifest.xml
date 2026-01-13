@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.kidslearning.app"
-    android:versionCode="1"
-    android:versionName="1.0" >
+    package="com.alphapals.app.debug"
+    android:versionCode="2"
+    android:versionName="1.0-DEBUG" >
 
     <uses-sdk
         android:minSdkVersion="24"
-        android:targetSdkVersion="34" />
+        android:targetSdkVersion="35" />
 
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
 
     <permission
-        android:name="com.kidslearning.app.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+        android:name="com.alphapals.app.debug.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
         android:protectionLevel="signature" />
 
-    <uses-permission android:name="com.kidslearning.app.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+    <uses-permission android:name="com.alphapals.app.debug.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
 
     <application
         android:allowBackup="true"
@@ -34,7 +34,7 @@
 
         <!-- Onboarding Activity - New Launcher -->
         <activity
-            android:name="com.kidslearning.app.ui.onboarding.OnboardingActivity"
+            android:name="com.alphapals.app.ui.onboarding.OnboardingActivity"
             android:exported="true"
             android:screenOrientation="portrait" >
             <intent-filter>
@@ -44,36 +44,36 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.kidslearning.app.ui.main.MainActivity"
+            android:name="com.alphapals.app.ui.main.MainActivity"
             android:exported="false"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.kidslearning.app.ui.arabic.ArabicAlphabetActivity"
-            android:parentActivityName="com.kidslearning.app.ui.main.MainActivity"
+            android:name="com.alphapals.app.ui.arabic.ArabicAlphabetActivity"
+            android:parentActivityName="com.alphapals.app.ui.main.MainActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.kidslearning.app.ui.french.FrenchAlphabetActivity"
-            android:parentActivityName="com.kidslearning.app.ui.main.MainActivity"
+            android:name="com.alphapals.app.ui.french.FrenchAlphabetActivity"
+            android:parentActivityName="com.alphapals.app.ui.main.MainActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.kidslearning.app.ui.drawing.DrawingActivity"
-            android:parentActivityName="com.kidslearning.app.ui.main.MainActivity"
+            android:name="com.alphapals.app.ui.drawing.DrawingActivity"
+            android:parentActivityName="com.alphapals.app.ui.main.MainActivity"
             android:screenOrientation="portrait" />
 
         <!-- Video Learning Activities -->
         <activity
-            android:name="com.kidslearning.app.ui.video.VideoLearningActivity"
-            android:parentActivityName="com.kidslearning.app.ui.main.MainActivity"
+            android:name="com.alphapals.app.ui.video.VideoLearningActivity"
+            android:parentActivityName="com.alphapals.app.ui.main.MainActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.kidslearning.app.ui.video.VideoPlayerActivity"
+            android:name="com.alphapals.app.ui.video.VideoPlayerActivity"
             android:configChanges="orientation|screenSize|keyboardHidden"
-            android:parentActivityName="com.kidslearning.app.ui.video.VideoLearningActivity"
+            android:parentActivityName="com.alphapals.app.ui.video.VideoLearningActivity"
             android:theme="@style/Theme.KidsLearning.Fullscreen" />
 
         <provider
             android:name="androidx.startup.InitializationProvider"
-            android:authorities="com.kidslearning.app.androidx-startup"
+            android:authorities="com.alphapals.app.debug.androidx-startup"
             android:exported="false" >
             <meta-data
                 android:name="androidx.emoji2.text.EmojiCompatInitializer"

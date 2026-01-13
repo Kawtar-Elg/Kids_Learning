@@ -1,16 +1,16 @@
-package com.kidslearning.app.ui.arabic
+package com.alphapals.app.ui.arabic
 
 import android.content.Intent
 import android.os.Bundle
 import android.view.animation.AnimationUtils
 import androidx.lifecycle.lifecycleScope
 import androidx.recyclerview.widget.GridLayoutManager
-import com.kidslearning.app.R
-import com.kidslearning.app.data.repository.LetterRepository
-import com.kidslearning.app.databinding.ActivityAlphabetBinding
-import com.kidslearning.app.ui.base.BaseActivity
-import com.kidslearning.app.ui.drawing.DrawingActivity
-import com.kidslearning.app.utils.SoundPlayer
+import com.alphapals.app.R
+import com.alphapals.app.data.repository.LetterRepository
+import com.alphapals.app.databinding.ActivityAlphabetBinding
+import com.alphapals.app.ui.base.BaseActivity
+import com.alphapals.app.ui.drawing.DrawingActivity
+import com.alphapals.app.utils.SoundPlayer
 import kotlinx.coroutines.flow.collectLatest
 import kotlinx.coroutines.launch
 

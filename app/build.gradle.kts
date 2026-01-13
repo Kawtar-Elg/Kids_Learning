@@ -4,27 +4,61 @@ plugins {
     id("com.google.devtools.ksp")
 }
 
+import java . util . Properties
+
+val keystoreProperties = Properties() // loaded from keystore.properties if present
+val keystorePropertiesFile = rootProject.file("keystore.properties")
+val hasReleaseKeystore = keystorePropertiesFile.exists()
+if (hasReleaseKeystore) {
+    keystorePropertiesFile.inputStream().use { keystoreProperties.load(it) }
+}
+
 android {
-    namespace = "com.kidslearning.app"
-    compileSdk = 34
+    namespace = "com.alphapals.app"
+    compileSdk = 35
 
     defaultConfig {
-        applicationId = "com.kidslearning.app"
+        applicationId = "com.alphapals.app"
         minSdk = 24
-        targetSdk = 34
-        versionCode = 1
+        targetSdk = 35
+        versionCode = 2
         versionName = "1.0"
 
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
     }
 
+    // Signing configs for release (loaded from root `keystore.properties`)
+    signingConfigs {
+        create("release") {
+            if (hasReleaseKeystore) {
+                // Expected keys:
+                // storeFile, storePassword, keyAlias, keyPassword
+                storeFile = file(keystoreProperties["storeFile"] as String)
+                storePassword = keystoreProperties["storePassword"] as String
+                keyAlias = keystoreProperties["keyAlias"] as String
+                keyPassword = keystoreProperties["keyPassword"] as String
+            }
+        }
+    }
+
     buildTypes {
-        release {
-            isMinifyEnabled = false
+        getByName("debug") {
+            applicationIdSuffix = ".debug"
+            versionNameSuffix = "-DEBUG"
+            isDebuggable = true
+        }
+
+        getByName("release") {
+            isMinifyEnabled = true
+            isShrinkResources = true
             proguardFiles(
                 getDefaultProguardFile("proguard-android-optimize.txt"),
                 "proguard-rules.pro"
             )
+            // Only apply signing when `keystore.properties` exists (avoids CI/dev breakage)
+            if (hasReleaseKeystore) {
+                signingConfig = signingConfigs.getByName("release")
+            }
         }
     }
 

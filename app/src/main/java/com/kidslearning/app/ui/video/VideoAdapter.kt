@@ -1,4 +1,4 @@
-package com.kidslearning.app.ui.video
+package com.alphapals.app.ui.video
 
 import android.content.res.ColorStateList
 import android.view.LayoutInflater
@@ -7,11 +7,11 @@ import android.view.View
 import androidx.core.content.ContextCompat
 import androidx.recyclerview.widget.RecyclerView
 import coil.load
-import com.kidslearning.app.R
-import com.kidslearning.app.data.model.LearningVideo
-import com.kidslearning.app.data.model.VideoCategory
-import com.kidslearning.app.data.model.VideoLanguage
-import com.kidslearning.app.databinding.ItemVideoBinding
+import com.alphapals.app.R
+import com.alphapals.app.data.model.LearningVideo
+import com.alphapals.app.data.model.VideoCategory
+import com.alphapals.app.data.model.VideoLanguage
+import com.alphapals.app.databinding.ItemVideoBinding
 
 /**
  * Adapter for displaying educational videos in a RecyclerView

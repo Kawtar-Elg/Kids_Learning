@@ -1,19 +1,79 @@
-=== Build 1765852642102 ===
+=== Build 1766587717977 ===
 Accumulated source to outputs map
   <This is a virtual key for removed outputs; DO NOT USE>:
   src\main\java\com\kidslearning\app\data\database\AppDatabase.kt:
-    build\generated\ksp\debug\java\byRounds\1\com\kidslearning\app\data\database\LetterDao_Impl.java
-    build\generated\ksp\debug\java\byRounds\1\com\kidslearning\app\data\database\AppDatabase_Impl.java
-    build\generated\ksp\debug\java\byRounds\1\com\kidslearning\app\data\database\ProgressDao_Impl.java
+    build\generated\ksp\debug\java\byRounds\1\com\alphapals\app\data\database\ProgressDao_Impl.java
+    build\generated\ksp\debug\java\byRounds\1\com\alphapals\app\data\database\LetterDao_Impl.java
+    build\generated\ksp\debug\java\byRounds\1\com\alphapals\app\data\database\AppDatabase_Impl.java
 
 Reprocessed sources and their outputs
   src\main\java\com\kidslearning\app\data\database\AppDatabase.kt:
-    build\generated\ksp\debug\java\byRounds\1\com\kidslearning\app\data\database\LetterDao_Impl.java
-    build\generated\ksp\debug\java\byRounds\1\com\kidslearning\app\data\database\ProgressDao_Impl.java
-    build\generated\ksp\debug\java\byRounds\1\com\kidslearning\app\data\database\AppDatabase_Impl.java
+    build\generated\ksp\debug\java\byRounds\1\com\alphapals\app\data\database\LetterDao_Impl.java
+    build\generated\ksp\debug\java\byRounds\1\com\alphapals\app\data\database\ProgressDao_Impl.java
+    build\generated\ksp\debug\java\byRounds\1\com\alphapals\app\data\database\AppDatabase_Impl.java
 
 All reprocessed outputs
-  build\generated\ksp\debug\java\byRounds\1\com\kidslearning\app\data\database\LetterDao_Impl.java
-  build\generated\ksp\debug\java\byRounds\1\com\kidslearning\app\data\database\ProgressDao_Impl.java
-  build\generated\ksp\debug\java\byRounds\1\com\kidslearning\app\data\database\AppDatabase_Impl.java
+  build\generated\ksp\debug\java\byRounds\1\com\alphapals\app\data\database\LetterDao_Impl.java
+  build\generated\ksp\debug\java\byRounds\1\com\alphapals\app\data\database\ProgressDao_Impl.java
+  build\generated\ksp\debug\java\byRounds\1\com\alphapals\app\data\database\AppDatabase_Impl.java
+
+=== Build 1768319514262 ===
+Accumulated source to outputs map
+  <This is a virtual key for removed outputs; DO NOT USE>:
+  src\main\java\com\kidslearning\app\data\database\AppDatabase.kt:
+    build\generated\ksp\debug\java\byRounds\1\com\alphapals\app\data\database\ProgressDao_Impl.java
+    build\generated\ksp\debug\java\byRounds\1\com\alphapals\app\data\database\LetterDao_Impl.java
+    build\generated\ksp\debug\java\byRounds\1\com\alphapals\app\data\database\AppDatabase_Impl.java
+
+Reprocessed sources and their outputs
+
+All reprocessed outputs
+
+=== Build 1768320311633 ===
+Accumulated source to outputs map
+  <This is a virtual key for removed outputs; DO NOT USE>:
+  src\main\java\com\kidslearning\app\data\database\AppDatabase.kt:
+    build\generated\ksp\debug\java\byRounds\1\com\alphapals\app\data\database\ProgressDao_Impl.java
+    build\generated\ksp\debug\java\byRounds\1\com\alphapals\app\data\database\LetterDao_Impl.java
+    build\generated\ksp\debug\java\byRounds\1\com\alphapals\app\data\database\AppDatabase_Impl.java
+
+Reprocessed sources and their outputs
+
+All reprocessed outputs
+
+=== Build 1768320451286 ===
+Accumulated source to outputs map
+  <This is a virtual key for removed outputs; DO NOT USE>:
+  src\main\java\com\kidslearning\app\data\database\AppDatabase.kt:
+    build\generated\ksp\debug\java\byRounds\1\com\alphapals\app\data\database\ProgressDao_Impl.java
+    build\generated\ksp\debug\java\byRounds\1\com\alphapals\app\data\database\LetterDao_Impl.java
+    build\generated\ksp\debug\java\byRounds\1\com\alphapals\app\data\database\AppDatabase_Impl.java
+
+Reprocessed sources and their outputs
+
+All reprocessed outputs
+
+=== Build 1768321542089 ===
+Accumulated source to outputs map
+  <This is a virtual key for removed outputs; DO NOT USE>:
+  src\main\java\com\kidslearning\app\data\database\AppDatabase.kt:
+    build\generated\ksp\debug\java\byRounds\1\com\alphapals\app\data\database\ProgressDao_Impl.java
+    build\generated\ksp\debug\java\byRounds\1\com\alphapals\app\data\database\LetterDao_Impl.java
+    build\generated\ksp\debug\java\byRounds\1\com\alphapals\app\data\database\AppDatabase_Impl.java
+
+Reprocessed sources and their outputs
+
+All reprocessed outputs
+
+=== Build 1768322195957 ===
+Accumulated source to outputs map
+  <This is a virtual key for removed outputs; DO NOT USE>:
+  src\main\java\com\kidslearning\app\data\database\AppDatabase.kt:
+    build\generated\ksp\debug\java\byRounds\1\com\alphapals\app\data\database\ProgressDao_Impl.java
+    build\generated\ksp\debug\java\byRounds\1\com\alphapals\app\data\database\LetterDao_Impl.java
+    build\generated\ksp\debug\java\byRounds\1\com\alphapals\app\data\database\AppDatabase_Impl.java
+
+Reprocessed sources and their outputs
+
+All reprocessed outputs
 

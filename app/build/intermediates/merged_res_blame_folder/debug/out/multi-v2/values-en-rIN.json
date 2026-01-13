@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.kidslearning.app-mergeDebugResources-42:/values-en-rIN/values-en-rIN.xml",
+            "outputFile": "com.alphapals.app-mergeDebugResources-42:/values-en-rIN/values-en-rIN.xml",
             "map": [
                 {
                     "source": "C:\\Users\\pc\\.gradle\\caches\\transforms-3\\192e90856102798661a5ca6bb534801d\\transformed\\core-1.12.0\\res\\values-en-rIN\\values-en-rIN.xml",

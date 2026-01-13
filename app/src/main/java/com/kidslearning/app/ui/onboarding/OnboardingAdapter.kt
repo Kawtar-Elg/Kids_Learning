@@ -1,4 +1,4 @@
-package com.kidslearning.app.ui.onboarding
+package com.alphapals.app.ui.onboarding
 
 import android.view.LayoutInflater
 import android.view.ViewGroup
@@ -6,8 +6,8 @@ import android.view.animation.AnimationUtils
 import androidx.core.content.ContextCompat
 import androidx.recyclerview.widget.RecyclerView
 import com.airbnb.lottie.LottieDrawable
-import com.kidslearning.app.R
-import com.kidslearning.app.databinding.ItemOnboardingPageBinding
+import com.alphapals.app.R
+import com.alphapals.app.databinding.ItemOnboardingPageBinding
 
 /**
  * Adapter for onboarding ViewPager with cute animal Lottie animations
@@ -19,7 +19,7 @@ class OnboardingAdapter(
     // 🌈 Vibrant Border Colors for Each Animal - Super Eye-Catching!
     private val borderColors = listOf(
         R.color.accent_orange,   // Page 1: Orange - Lion (King of the jungle!)
-        R.color.accent_green,    // Page 2: Green - Frog (Pond green!)
+        R.color.accent_green,    // Page 2: Green - Gorilla (Jungle mighty!)
         R.color.accent_pink,     // Page 3: Pink - Cat (Cute and cuddly!)
         R.color.accent_cyan,     // Page 4: Cyan - Fish (Ocean blue!)
         R.color.accent_purple    // Page 5: Purple - Butterfly (Magical!)
@@ -28,40 +28,40 @@ class OnboardingAdapter(
     // 🎨 Matching Background Colors - Soft & Attractive
     private val backgroundColors = listOf(
         "#FFF9E6",  // Page 1: Soft yellow/cream for Lion
-        "#E6F9F0",  // Page 2: Soft mint green for Frog
+        "#E6F9F0",  // Page 2: Soft mint green for Gorilla
         "#FFE6F2",  // Page 3: Soft pink for Cat
         "#E6F9FF",  // Page 4: Soft cyan for Fish
         "#F2E6FF"   // Page 5: Soft purple for Butterfly
     )
 
-    // 🦁 LOCAL Assets - Primary source (Place these files in assets folder!)
-    private val animalAssetFiles = listOf(
-        "lottie/lion.json",      // Page 1: LION 🦁
-        "lottie/frog.json",      // Page 2: FROG 🐸
-        "lottie/cat.json",       // Page 3: CAT 🐱
-        "lottie/fish.json",      // Page 4: FISH 🐠
-        "lottie/butterfly.json"  // Page 5: BUTTERFLY 🦋
+    // 🦁 LOCAL Raw Resources - Primary source (USING LOCAL FILES!)
+    private val animalRawResources = listOf(
+        R.raw.cute_tiger,                    // Page 1: LION 🦁 (using tiger)
+        R.raw.monkey1,                       // Page 2: GORILLA 🦍
+        R.raw.loading_cat,                   // Page 3: CAT 🐱
+        R.raw.goldfish,                      // Page 4: FISH 🐠
+        R.raw.butterfly_lottie_animation     // Page 5: BUTTERFLY 🦋
     )
 
-    // 🌐 REAL TESTED URLs from LottieFiles CDN - These ACTUALLY WORK!
+    // 🌐 RELIABLE URLs from LottieFiles CDN - TESTED & WORKING!
     private val animalLottieUrls = listOf(
-        // Page 1: LION 🦁 - Cute roaring lion (TESTED!)
+        // Page 1: LION 🦁 - Cute roaring lion
         "https://assets10.lottiefiles.com/packages/lf20_2glqweaq.json",
-        // Page 2: FROG 🐸 - Happy jumping frog (TESTED!)
+        // Page 2: GORILLA 🦍 - Happy jumping frog/monkey (kid-friendly)
         "https://assets4.lottiefiles.com/packages/lf20_ystsffqy.json",
-        // Page 3: CAT 🐱 - Cute playing cat (TESTED!)
+        // Page 3: CAT 🐱 - Cute playing cat
         "https://assets9.lottiefiles.com/packages/lf20_bqpvngoh.json",
-        // Page 4: FISH 🐠 - Swimming colorful fish (TESTED!)
+        // Page 4: FISH 🐠 - Swimming colorful fish
         "https://assets2.lottiefiles.com/packages/lf20_yfsxktqz.json",
-        // Page 5: BUTTERFLY 🦋 - Beautiful flying butterfly (TESTED!)
+        // Page 5: BUTTERFLY 🦋 - Beautiful flying butterfly
         "https://assets6.lottiefiles.com/packages/lf20_nqsajshj.json"
     )
 
-    // 🎨 WORKING FALLBACK - These are verified to load!
+    // 🎨 SECONDARY FALLBACK - Alternative working animations
     private val fallbackAnimalUrls = listOf(
-        // Super simple, always-working animations from LottieFiles
+        // Simple, reliable fallback animations
         "https://assets5.lottiefiles.com/packages/lf20_xyuzkxqq.json",  // Happy emoji
-        "https://assets3.lottiefiles.com/packages/lf20_qwlffmjy.json",  // Star
+        "https://assets3.lottiefiles.com/packages/lf20_qwlffmjy.json",  // Star  
         "https://assets7.lottiefiles.com/packages/lf20_rxzddrsk.json",  // Heart
         "https://assets1.lottiefiles.com/packages/lf20_tms4pjta.json",  // Loading
         "https://assets8.lottiefiles.com/packages/lf20_bq2jwtqg.json"   // Check
@@ -108,34 +108,54 @@ class OnboardingAdapter(
                 // Keep white if color parsing fails
             }
 
-            // Setup Lottie animation based on page
-            setupLottieAnimation(position)
+            // Setup Lottie animation based on page with crash protection
+            try {
+                setupLottieAnimation(position)
+            } catch (e: Exception) {
+                android.util.Log.e(
+                    "OnboardingAdapter",
+                    "Critical error in setupLottieAnimation for position $position: ${e.message}",
+                    e
+                )
+                // Show placeholder as last resort
+                showColoredPlaceholder(position)
+            }
 
             // Start all animations
-            startAllAnimations()
+            try {
+                startAllAnimations()
+            } catch (e: Exception) {
+                android.util.Log.e(
+                    "OnboardingAdapter",
+                    "Error in startAllAnimations: ${e.message}",
+                    e
+                )
+            }
         }
 
         private fun setupLottieAnimation(position: Int) {
             val context = binding.root.context
-            val assetFile = animalAssetFiles.getOrElse(position) { animalAssetFiles[0] }
-            val primaryUrl = animalLottieUrls.getOrElse(position) { animalLottieUrls[0] }
+            val rawResourceId = animalRawResources.getOrElse(position) { animalRawResources[0] }
             val fallbackUrl = fallbackAnimalUrls.getOrElse(position) { fallbackAnimalUrls[0] }
 
             binding.lottieAnimation.apply {
                 var animationLoaded = false
-                var attemptCount = 0
 
-                // Enhanced failure listener with multiple fallbacks
+                // Enhanced failure listener with fallback to URL
                 setFailureListener { throwable ->
                     android.util.Log.e(
                         "OnboardingAdapter",
-                        "Lottie failed (attempt $attemptCount): ${throwable.message}"
+                        "Lottie failed for position $position: ${throwable.message}",
+                        throwable
                     )
 
-                    if (!animationLoaded && attemptCount < 2) {
-                        attemptCount++
-                        // Try ultimate fallback on failure
+                    if (!animationLoaded) {
+                        // Try fallback URL if raw resource fails
                         try {
+                            android.util.Log.w(
+                                "OnboardingAdapter",
+                                "Trying fallback URL for position $position: $fallbackUrl"
+                            )
                             setAnimationFromUrl(fallbackUrl)
                             repeatCount = LottieDrawable.INFINITE
                             speed = 0.8f
@@ -143,58 +163,49 @@ class OnboardingAdapter(
                             animationLoaded = true
                             android.util.Log.i(
                                 "OnboardingAdapter",
-                                "Fallback animation loaded successfully"
+                                "Fallback URL animation loaded for position $position"
                             )
                         } catch (e: Exception) {
                             android.util.Log.e(
                                 "OnboardingAdapter",
-                                "All animations failed: ${e.message}"
+                                "All animations failed for position $position: ${e.message}",
+                                e
                             )
-                            // Show a simple colored circle as ultimate fallback
+                            // Show colored placeholder as last resort
                             showColoredPlaceholder(position)
                         }
                     }
                 }
 
-                // Strategy 1: Try loading from LOCAL ASSETS first (fastest & most reliable)
+                // PRIMARY STRATEGY: Load from LOCAL RAW RESOURCES (FAST & OFFLINE!)
                 try {
-                    val assetManager = context.assets
-                    assetManager.open(assetFile).close() // Check if file exists
+                    android.util.Log.i(
+                        "OnboardingAdapter",
+                        "Loading animation from raw resource for position $position"
+                    )
 
-                    // File exists! Load it
-                    setAnimation(assetFile)
+                    setAnimation(rawResourceId)
                     repeatCount = LottieDrawable.INFINITE
                     speed = 0.8f
                     animationLoaded = true
-                    android.util.Log.i("OnboardingAdapter", "Loaded from assets: $assetFile")
+
+                    android.util.Log.i(
+                        "OnboardingAdapter",
+                        "✅ Successfully loaded from raw resource for position $position"
+                    )
 
                     // Add entrance animation
                     addEntranceAnimation()
                     playAnimation()
-                } catch (e: Exception) {
-                    // Strategy 2: Assets not found, try PRIMARY URL
-                    android.util.Log.w(
-                        "OnboardingAdapter",
-                        "Assets not found, trying URL: $primaryUrl"
-                    )
-                    try {
-                        setAnimationFromUrl(primaryUrl)
-                        repeatCount = LottieDrawable.INFINITE
-                        speed = 0.8f
-                        animationLoaded = true
-                        android.util.Log.i("OnboardingAdapter", "Loaded from URL: $primaryUrl")
 
-                        // Add entrance animation
-                        addEntranceAnimation()
-                        playAnimation()
-                    } catch (urlError: Exception) {
-                        // Strategy 3: Try FALLBACK URL (handled by failure listener)
-                        android.util.Log.w(
-                            "OnboardingAdapter",
-                            "Primary URL failed, trying fallback..."
-                        )
-                        attemptCount++
-                    }
+                } catch (e: Exception) {
+                    android.util.Log.e(
+                        "OnboardingAdapter",
+                        "Failed to load raw resource for position $position: ${e.message}",
+                        e
+                    )
+                    // Failure listener will handle fallback to URL
+                    showColoredPlaceholder(position)
                 }
             }
         }
@@ -214,38 +225,53 @@ class OnboardingAdapter(
         }
 
         private fun showColoredPlaceholder(position: Int) {
-            // Show a cute emoji as ultimate fallback
-            val emojis = listOf("🦁", "🐸", "🐱", "🐠", "🦋")
-            val emoji = emojis.getOrElse(position) { "🎨" }
+            try {
+                // Show a cute emoji as ultimate fallback
+                val emojis = listOf("🦁", "🦍", "🐱", "🐠", "🦋")
+                val emoji = emojis.getOrElse(position) { "🎨" }
 
-            android.util.Log.i("OnboardingAdapter", "Showing placeholder: $emoji")
+                android.util.Log.i(
+                    "OnboardingAdapter",
+                    "Showing placeholder for position $position: $emoji"
+                )
 
-            // Hide Lottie view and show a simple ImageView with drawable
-            binding.lottieAnimation.visibility = android.view.View.GONE
+                // Try to use existing drawables or create a simple colored circle
+                val colors = listOf(
+                    android.graphics.Color.parseColor("#FFB74D"), // Orange for lion
+                    android.graphics.Color.parseColor("#81C784"), // Green for gorilla
+                    android.graphics.Color.parseColor("#F48FB1"), // Pink for cat
+                    android.graphics.Color.parseColor("#4FC3F7"), // Cyan for fish
+                    android.graphics.Color.parseColor("#BA68C8")  // Purple for butterfly
+                )
 
-            // Try to use existing drawables or create a simple colored circle
-            val colors = listOf(
-                android.graphics.Color.parseColor("#FFB74D"), // Orange for lion
-                android.graphics.Color.parseColor("#81C784"), // Green for frog
-                android.graphics.Color.parseColor("#F48FB1"), // Pink for cat
-                android.graphics.Color.parseColor("#4FC3F7"), // Cyan for fish
-                android.graphics.Color.parseColor("#BA68C8")  // Purple for butterfly
-            )
+                // Create a simple colored drawable
+                val drawable = android.graphics.drawable.GradientDrawable().apply {
+                    shape = android.graphics.drawable.GradientDrawable.OVAL
+                    setColor(colors.getOrElse(position) { colors[0] })
+                }
 
-            // Create a simple colored drawable
-            val drawable = android.graphics.drawable.GradientDrawable().apply {
-                shape = android.graphics.drawable.GradientDrawable.OVAL
-                setColor(colors.getOrElse(position) { colors[0] })
+                // Set as Lottie view background (visible placeholder)
+                binding.lottieAnimation.apply {
+                    visibility = android.view.View.VISIBLE
+                    cancelAnimation()
+                    background = drawable
+                    alpha = 1f
+                }
+
+                // Keep card background with original color
+                android.util.Log.i(
+                    "OnboardingAdapter",
+                    "Placeholder displayed successfully for position $position"
+                )
+            } catch (e: Exception) {
+                android.util.Log.e(
+                    "OnboardingAdapter",
+                    "Error showing placeholder: ${e.message}",
+                    e
+                )
+                // Last resort - just make lottie view visible
+                binding.lottieAnimation.visibility = android.view.View.VISIBLE
             }
-
-            // Set as Lottie view background (visible placeholder)
-            binding.lottieAnimation.visibility = android.view.View.VISIBLE
-            binding.lottieAnimation.background = drawable
-
-            // Also change card background
-            binding.animationCard.setCardBackgroundColor(
-                android.graphics.Color.parseColor("#FFFFFF")
-            )
         }
 
         private fun startAllAnimations() {

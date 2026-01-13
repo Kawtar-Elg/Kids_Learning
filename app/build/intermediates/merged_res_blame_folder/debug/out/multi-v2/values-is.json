@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.kidslearning.app-mergeDebugResources-42:/values-is/values-is.xml",
+            "outputFile": "com.alphapals.app-mergeDebugResources-42:/values-is/values-is.xml",
             "map": [
                 {
                     "source": "C:\\Users\\pc\\.gradle\\caches\\transforms-3\\a07384119c0ca0261e4b5941f6aa1c36\\transformed\\media3-exoplayer-1.2.0\\res\\values-is\\values-is.xml",

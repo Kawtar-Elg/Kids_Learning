@@ -1,11 +1,11 @@
-package com.kidslearning.app.data.database
+package com.alphapals.app.data.database
 
 import android.content.Context
 import androidx.room.Database
 import androidx.room.Room
 import androidx.room.RoomDatabase
-import com.kidslearning.app.data.model.Letter
-import com.kidslearning.app.data.model.UserProgress
+import com.alphapals.app.data.model.Letter
+import com.alphapals.app.data.model.UserProgress
 
 /**
  * Base de données Room pour l'application

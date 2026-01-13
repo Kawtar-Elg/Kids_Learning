@@ -1,7 +1,7 @@
-package com.kidslearning.app.data.database
+package com.alphapals.app.data.database
 
 import androidx.room.*
-import com.kidslearning.app.data.model.UserProgress
+import com.alphapals.app.data.model.UserProgress
 import kotlinx.coroutines.flow.Flow
 
 /**

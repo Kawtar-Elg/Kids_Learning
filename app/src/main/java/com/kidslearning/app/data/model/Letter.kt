@@ -1,4 +1,4 @@
-package com.kidslearning.app.data.model
+package com.alphapals.app.data.model
 
 import androidx.room.Entity
 import androidx.room.PrimaryKey
